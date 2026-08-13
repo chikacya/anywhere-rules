@@ -1,13 +1,14 @@
 # NAME: AI
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 常见 AI 服务
-# RULES: 51
+# RULES: 58
 # SKIPPED: 1
 # SKIPPED-TYPES: URL-REGEX=1
 # SOURCES:
 # - https://ruleset.skk.moe/List/non_ip/ai.conf
 # - https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list
 # - https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/AI.list
+# - local:common/sources/AI.synara-usage.list
 
 name = AI
 2, 7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe
@@ -61,3 +62,10 @@ name = AI
 3, openai
 3, alkalimakersuite-pa.clients6.google.com
 2, file.oaiusercontent.com
+2, auth.openai.com
+2, openai.com
+2, api.anthropic.com
+2, cursor.sh
+2, cursor.com
+2, cursorapi.com
+2, cursor-cdn.com

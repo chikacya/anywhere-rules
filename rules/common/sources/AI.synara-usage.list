@@ -1,0 +1,11 @@
+# Synara Usage & limits — provider quota endpoints
+# Codex: https://chatgpt.com/backend-api/wham/usage , https://auth.openai.com/oauth/token
+# Claude: https://api.anthropic.com/api/oauth/usage
+# Cursor: https://api2.cursor.sh/aiserver.v1.DashboardService/*
+DOMAIN,auth.openai.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN,api.anthropic.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com

@@ -47,6 +47,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
             "https://ruleset.skk.moe/List/non_ip/ai.conf",
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/xAI.list",
             "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/AI.list",
+            "local:common/sources/AI.synara-usage.list",
         ],
     },
     {
@@ -450,8 +451,12 @@ def convert_lines(lines: Iterable[str]) -> tuple[list[tuple[int, str]], dict[str
     return rules, unsupported
 
 
-def fetch_source_lines(url: str) -> list[str]:
-    return fetch_bytes(url, token=None).decode("utf-8-sig", errors="replace").splitlines()
+def fetch_source_lines(source: str) -> list[str]:
+    if source.startswith("local:"):
+        relative = source.removeprefix("local:")
+        path = Path(__file__).resolve().parent.parent / "rules" / relative
+        return path.read_text(encoding="utf-8-sig").splitlines()
+    return fetch_bytes(source, token=None).decode("utf-8-sig", errors="replace").splitlines()
 
 
 def write_rule_set_file(
