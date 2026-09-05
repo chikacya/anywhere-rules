@@ -5,8 +5,8 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 100000
 # SKIPPED: 31
-# SOURCE-RULES: 110927
-# UPSTREAM-UPDATED: 2026-09-04 04:25:33
+# SOURCE-RULES: 110947
+# UPSTREAM-UPDATED: 2026-09-06 03:53:35
 # SKIPPED-TYPES: USER-AGENT=31
 
 name = ChinaTest_01
@@ -4308,7 +4308,6 @@ name = ChinaTest_01
 2, 0574bbs.com
 2, 0574nbjg.com
 2, 0575.host
-2, 057555.com
 2, 0575bbs.com
 2, 0575jb.com
 2, 0575life.com
@@ -4656,6 +4655,7 @@ name = ChinaTest_01
 2, 09e12x16370.xin
 2, 09ea354bd9542ba7.com
 2, 09game.com
+2, 09izf.com
 2, 09lc5d12399.xin
 2, 09pzq024240.xin
 2, 09shijue.com
@@ -5400,6 +5400,7 @@ name = ChinaTest_01
 2, 13726936178.com
 2, 137365.com
 2, 1374.com
+2, 137542.club
 2, 1377.com
 2, 13793085458.com
 2, 13793277711.com
@@ -5946,6 +5947,7 @@ name = ChinaTest_01
 2, 18023.com
 2, 18095.com
 2, 180disk.com
+2, 180k.com
 2, 180qt.com
 2, 180yy.com
 2, 1811d2af81022.beer
@@ -6319,6 +6321,7 @@ name = ChinaTest_01
 2, 1zhao.org
 2, 1zhengji.com
 2, 1zhixue.com
+2, 1zidc.com
 2, 1zj.com
 2, 1zjob.com
 2, 1zu.com
@@ -7761,7 +7764,6 @@ name = ChinaTest_01
 2, 393.com
 2, 3937.com
 2, 3939339.com
-2, 394394.com
 2, 3949006e510272.beer
 2, 394afb34a1020.beer
 2, 39507037133f.icu
@@ -8506,6 +8508,7 @@ name = ChinaTest_01
 2, 5066.com
 2, 506u5nf5j5.com
 2, 507c7d240b2eae97.com
+2, 508.im
 2, 5087.com
 2, 508hdsys.com
 2, 508mallsys.com
@@ -14704,6 +14707,7 @@ name = ChinaTest_01
 2, alictf.com
 2, aliddmall.com
 2, alidns.net
+2, alidnsv122.com
 2, alidnsv4.com
 2, alidnsv5.com
 2, aliedge.com
@@ -16212,6 +16216,7 @@ name = ChinaTest_01
 2, ata-test.net
 2, atacchina.com
 2, atanyu.com
+2, ataokeji.com
 2, atats.shop
 2, atb.so
 2, atbug.com
@@ -18186,6 +18191,7 @@ name = ChinaTest_01
 2, beimeihongfeng.com
 2, beimeizhijia.com
 2, beimeizhiying.com
+2, beimokj.com
 2, beinglab.com
 2, beingmate.com
 2, beipenggroup.com
@@ -19782,6 +19788,7 @@ name = ChinaTest_01
 2, bktsj.com
 2, bkvps.com
 2, bkweek.com
+2, bkwsq.com
 2, bkzhibo.com
 2, bkzzy.com
 2, bl.com
@@ -20003,6 +20010,7 @@ name = ChinaTest_01
 2, bmrtech.com
 2, bmrtjt.com
 2, bms16.com
+2, bms28.xyz
 2, bmser.com
 2, bmshow.com
 2, bmtrip.com
@@ -20941,6 +20949,7 @@ name = ChinaTest_01
 2, byf.com
 2, byfen.com
 2, byfen.net
+2, byfscl.xyz
 2, byfunds.com
 2, bygamesdk.com
 2, bygpu.com
@@ -21616,6 +21625,7 @@ name = ChinaTest_01
 2, cangzhouhd.com
 2, canhighcenter.com
 2, canhot.net
+2, canhui.xyz
 2, caniculab.com
 2, canidc.com
 2, canjio.com
@@ -25688,7 +25698,6 @@ name = ChinaTest_01
 2, ck921.com
 2, ckair.com
 2, ckan.tv
-2, ckbv165.org
 2, ckd-mbd.com
 2, ckd.im
 2, ckd.so
@@ -28972,6 +28981,7 @@ name = ChinaTest_01
 2, cumtenn.com
 2, cumulon.com
 2, cunan.com
+2, cuncc.cc
 2, cuncunle.com
 2, cunfang.com
 2, cunhao.net
@@ -31582,6 +31592,7 @@ name = ChinaTest_01
 2, displink.com
 2, distantmeaning.com
 2, distinctclinic.com
+2, distinctech.com
 2, ditai.fun
 2, ditan.com
 2, ditan360.com
@@ -36040,7 +36051,6 @@ name = ChinaTest_01
 2, fapiao.com
 2, fapiao365.com
 2, fapiaobang.com
-2, faq-whtasapp.com
 2, faqianjia.com
 2, faqiren.com
 2, far-china.com
@@ -41126,7 +41136,6 @@ name = ChinaTest_01
 2, greatwuyi.com
 2, gredmedic.com
 2, gree-jd.com
-2, greebox.com
 2, greedc.com
 2, greedongaohotel.com
 2, greefinance.com
@@ -52838,6 +52847,7 @@ name = ChinaTest_01
 2, intmes.com
 2, intohard.com
 2, intomod.com
+2, intonead.com
 2, intopet.com
 2, intostarry.com
 2, intovfx.com
@@ -59437,6 +59447,7 @@ name = ChinaTest_01
 2, kklxj.com
 2, kkmar.com
 2, kkmicro.com
+2, kkmm.com
 2, kkmop.com
 2, kkong.vip
 2, kkrb.net
@@ -60556,7 +60567,6 @@ name = ChinaTest_01
 2, laijuba.com
 2, laikan.com
 2, laikanxia.com
-2, laikanxing.com
 2, laikanxs.com
 2, laike.net
 2, laiketui.com
@@ -61430,7 +61440,6 @@ name = ChinaTest_01
 2, leiyunge.com
 2, leiyunge.net
 2, leji.com
-2, lejiachao.com
 2, lejian.com
 2, lejiao.tv
 2, lejiaolexue.com
@@ -62487,7 +62496,6 @@ name = ChinaTest_01
 2, linuottc.com
 2, linux-code.com
 2, linux-ren.org
-2, linux.sb
 2, linux.zone
 2, linux178.com
 2, linux265.com
@@ -65132,7 +65140,6 @@ name = ChinaTest_01
 2, maproelec.com
 2, maptalks.com
 2, mapvq.com
-2, maqingbo.com
 2, maqinnews.com
 2, mararun.com
 2, marathonbm.com
@@ -73710,6 +73717,7 @@ name = ChinaTest_01
 2, pova-elc.com
 2, power-rail.com
 2, power-sprayer.com
+2, power-z.com
 2, power86.com
 2, power8t.com
 2, powerbeijing-ec.com
@@ -77306,6 +77314,7 @@ name = ChinaTest_01
 2, redisfans.com
 2, redmagic.com
 2, redmart.com
+2, redmid.com
 2, redmou.com
 2, rednetdns.com
 2, rednote.com
@@ -87588,6 +87597,7 @@ name = ChinaTest_01
 2, tbsandbox.com
 2, tbsite.net
 2, tbt168.com
+2, tbtk.asia
 2, tbtopc.com
 2, tbxsw.com
 2, tbyfsoft.com
@@ -87975,6 +87985,7 @@ name = ChinaTest_01
 2, tencentapis.com
 2, tencentapp.com
 2, tencentbh.com
+2, tencentbuddy.com
 2, tencentcc.com
 2, tencentcds.com
 2, tencentcfs.com
@@ -90360,6 +90371,7 @@ name = ChinaTest_01
 2, tssyjt.com
 2, tstvxmt.com
 2, tsubakichina.com
+2, tsuiyuan.com
 2, tsukistar.fun
 2, tsunbull.com
 2, tswjs.net
@@ -93258,6 +93270,7 @@ name = ChinaTest_01
 2, vxiaocheng.com
 2, vxinyou.com
 2, vxixi.com
+2, vxni.ink
 2, vxocok3197.vip
 2, vxsnk.com
 2, vxuepin.com
@@ -96169,6 +96182,7 @@ name = ChinaTest_01
 2, wordscheck.com
 2, wordstorming.com
 2, wordsunny.com
+2, workbuddy.link
 2, workchat.com
 2, workec.com
 2, workehr.com
@@ -97316,6 +97330,7 @@ name = ChinaTest_01
 2, x-abt.com
 2, x-bull.com
 2, x-cmd.com
+2, x-dao.io
 2, x-droners.com
 2, x-gpu.com
 2, x-imagine.com
@@ -97641,6 +97656,7 @@ name = ChinaTest_01
 2, xcurrency.com
 2, xcvec.com
 2, xcvmbyte.com
+2, xcvpn.app
 2, xcvpn.com
 2, xcvvs.com
 2, xcx-x.com
@@ -98971,6 +98987,7 @@ name = ChinaTest_01
 2, xingbangfl.com
 2, xingbo.tv
 2, xingchao1.com
+2, xingcheclub.com
 2, xingchenjia.com
 2, xingcheshixian.com
 2, xingchiauto.com
@@ -99993,20 +100010,3 @@ name = ChinaTest_01
 2, xmtcm.com
 2, xmtyy.net
 2, xmuli.tech
-2, xmwan.com
-2, xmwes.com
-2, xmwsrc.com
-2, xmx023.com
-2, xmxc.com
-2, xmxdev.com
-2, xmxfxh.com
-2, xmxgame.com
-2, xmxsapp.com
-2, xmxwl.net
-2, xmxwz.com
-2, xmyeditor.com
-2, xmylhy.com
-2, xmyouma.com
-2, xmyzm.com
-2, xmzangao.com
-2, xmzdls.com

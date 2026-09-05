@@ -3,12 +3,29 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/ChinaTest/ChinaTest_All.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 10927
+# RULES: 10947
 # SKIPPED: 0
-# SOURCE-RULES: 110927
-# UPSTREAM-UPDATED: 2026-09-04 04:25:33
+# SOURCE-RULES: 110947
+# UPSTREAM-UPDATED: 2026-09-06 03:53:35
 
 name = ChinaTest_02
+2, xmwan.com
+2, xmwes.com
+2, xmwsrc.com
+2, xmx023.com
+2, xmxc.com
+2, xmxdev.com
+2, xmxfxh.com
+2, xmxgame.com
+2, xmxsapp.com
+2, xmxwl.net
+2, xmxwz.com
+2, xmyeditor.com
+2, xmylhy.com
+2, xmyouma.com
+2, xmyzm.com
+2, xmzangao.com
+2, xmzdls.com
 2, xmzgxcl.com
 2, xmzhdz.com
 2, xmzhkt.com
@@ -3130,6 +3147,7 @@ name = ChinaTest_02
 2, yinjiabio.com
 2, yinjispace.com
 2, yinka.co
+2, yinkead.com
 2, yinlimedia.com
 2, yinlingshuyuan.com
 2, yinlvaa.com
@@ -6549,6 +6567,7 @@ name = ChinaTest_02
 2, zcosz.com
 2, zcowh.com
 2, zcpc.net
+2, zcpin.com
 2, zcpm.net
 2, zcpzj.com
 2, zcqh.com
@@ -10770,6 +10789,7 @@ name = ChinaTest_02
 2, zzhybz.com
 2, zzicpa.com
 2, zzidc.com
+2, zzimti.com
 2, zzjdgcxx.com
 2, zzjianyun.com
 2, zzjidi.com

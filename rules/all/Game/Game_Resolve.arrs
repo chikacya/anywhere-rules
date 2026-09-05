@@ -5,7 +5,7 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 597
 # SKIPPED: 0
-# UPSTREAM-UPDATED: 2026-09-04 04:23:31
+# UPSTREAM-UPDATED: 2026-09-06 03:51:23
 
 name = Game
 2, eaasserts-a.akamaihd.net
@@ -431,16 +431,13 @@ name = Game
 2, lpl.com.cn
 2, molesports.com
 2, playvalorant.com
-2, pvp.net
 2, pvp.tv
 2, rgpub.io
 2, riot-games.com
 2, riot.com
 2, riot.net
-2, riotcdn.net
 2, riotforgegames.com
 2, riotgames.co.kr
-2, riotgames.com
 2, riotgames.info
 2, riotgames.jp
 2, riotgames.net
@@ -517,6 +514,9 @@ name = Game
 2, ubisoft-uplay-savegames.s3.amazonaws.com
 2, ubisoft.com
 2, uplay.com
+2, pvp.net
+2, riotcdn.net
+2, riotgames.com
 2, beth.games
 2, bethesda.net
 2, bethesdagamestudios.com
@@ -559,26 +559,26 @@ name = Game
 3, steambroadcast
 3, steamstore
 3, steamuserimages
-0, 103.4.115.248/32
 0, 182.162.135.1/32
-0, 185.60.112.157/32
-0, 185.60.112.158/32
 0, 210.242.235.6/32
-0, 24.105.30.129/32
 0, 54.94.196.47/32
 0, 182.162.132.1/32
-0, 103.4.114.233/32
 0, 182.162.116.1/32
 0, 202.9.67.59/32
 0, 203.69.111.4/32
-0, 24.105.62.129/32
 0, 54.207.104.145/32
 0, 35.192.0.0/12
 0, 203.66.81.98/32
 0, 211.234.110.1/32
 0, 54.207.107.12/32
+0, 103.4.114.233/32
+0, 185.60.112.157/32
+0, 185.60.112.158/32
+0, 185.60.114.159/32
 0, 202.9.67.254/32
 0, 222.231.22.1/32
+0, 24.105.30.129/32
+0, 24.105.62.129/32
 0, 13.210.25.233/32
 0, 13.212.170.102/32
 0, 13.212.171.212/32
@@ -601,7 +601,7 @@ name = Game
 0, 52.50.131.212/32
 0, 54.207.168.84/32
 0, 54.248.64.192/32
+0, 103.4.115.248/32
 0, 137.221.105.2/32
-0, 185.60.114.159/32
 0, 210.71.148.11/32
 0, 211.115.104.1/32

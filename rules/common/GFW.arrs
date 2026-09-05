@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4388
+# RULES: 4391
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -910,6 +910,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, csuchen.de
 2, csw.org.uk
 2, ct.org.tw
+2, ctee.com.tw
 2, ctinets.com
 2, ctinews.com
 2, ctinsider.com
@@ -1894,6 +1895,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, hkcoc.com
 2, hkcoc.weather.com.hk
 2, hkdc.us
+2, hkej.com
 2, hket.com
 2, hkfaa.com
 2, hkgalden.com
@@ -2316,6 +2318,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, linktr.ee
 2, linux.do
 2, linux.org.hk
+2, linux.sb
 2, liquiditytp.com
 2, liquidvpn.com
 2, listennotes.com

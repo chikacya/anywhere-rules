@@ -5,7 +5,7 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 767
 # SKIPPED: 15
-# UPSTREAM-UPDATED: 2026-09-04 04:20:49
+# UPSTREAM-UPDATED: 2026-09-06 03:48:27
 # SKIPPED-TYPES: AND=1, URL-REGEX=14
 
 name = Advertising

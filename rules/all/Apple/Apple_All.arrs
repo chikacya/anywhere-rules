@@ -5,7 +5,7 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 1580
 # SKIPPED: 36
-# UPSTREAM-UPDATED: 2026-09-04 04:23:34
+# UPSTREAM-UPDATED: 2026-09-06 03:51:26
 # SKIPPED-TYPES: PROCESS-NAME=13, USER-AGENT=23
 
 name = Apple
@@ -1201,7 +1201,6 @@ name = Apple
 2, applepaysupplies.tv
 2, applewallet.com
 2, applewallet.tv
-2, appsto.re
 2, appstore.co.id
 2, appstore.com
 2, appstore.hk
@@ -1524,11 +1523,9 @@ name = Apple
 2, wwwipodlounge.com
 2, wwwmacbookair.com
 2, apple.comscoreresearch.com
-2, apple.news
 2, appleenews.com
 2, applemusic.berlin
 2, applemusic.co
-2, applemusic.com
 2, applemusic.com.au
 2, applemusic.hamburg
 2, applemusic.wang
@@ -1561,12 +1558,15 @@ name = Apple
 2, iphoto.wang
 2, musickit.net
 2, wwwapplemusic.com
+2, applemusic.com
 2, apple-dns.net
+2, apple.news
+2, appsto.re
+2, cdn-apple.com
 2, digicert.com
 2, apple-cloudkit.com
 2, apple-livephotoskit.com
 2, apzones.com
-2, cdn-apple.com
 2, icloud-content.com.cn
 2, icloud.cn
 3, apple-support.akadns.net

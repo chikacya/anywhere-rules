@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Global/Global_All.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 35035
+# RULES: 35036
 # SKIPPED: 47
-# UPSTREAM-UPDATED: 2026-09-02 04:26:27
+# UPSTREAM-UPDATED: 2026-09-06 03:52:54
 # SKIPPED-TYPES: PROCESS-NAME=1, USER-AGENT=46
 
 name = Global
@@ -6596,7 +6596,6 @@ name = Global
 2, ctan.org
 2, ctc.ac.uk
 2, ctcrm.ac.uk
-2, ctee.com.tw
 2, ctfassets.net
 2, ctg.ac.uk
 2, ctk.ac.uk
@@ -29457,6 +29456,7 @@ name = Global
 2, csw.org.uk
 2, ct.org.tw
 2, ctao.org
+2, ctee.com.tw
 2, ctfriend.net
 2, ctinets.com
 2, ctinews.com
@@ -31498,6 +31498,7 @@ name = Global
 2, linpie.com
 2, linux.do
 2, linux.org.hk
+2, linux.sb
 2, linuxtoy.org
 2, lionsroar.com
 2, lipuman.com

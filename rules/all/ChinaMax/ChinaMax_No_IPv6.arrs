@@ -5,19 +5,20 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 8309
 # SKIPPED: 78
-# UPSTREAM-UPDATED: 2026-09-04 04:26:21
+# UPSTREAM-UPDATED: 2026-09-06 03:54:29
 # SKIPPED-TYPES: IP-ASN=1, PROCESS-NAME=12, USER-AGENT=65
 
 name = ChinaMax
-2, alipay
 2, alibaba
 2, taobao
 2, tmall
 2, cn
 2, ms
+2, alipay
 2, anquan
 2, baidu
 2, citic
+2, icbc
 2, shouji
 2, sina
 2, sohu
@@ -59,7 +60,6 @@ name = ChinaMax
 2, xn--xhq521b
 2, xn--zfr164b
 2, yun
-2, icbc
 3, .tmall.com
 3, alicdn
 3, alipay
@@ -69,10 +69,10 @@ name = ChinaMax
 3, officecdn
 3, taobao
 3, bilibili
-3, qiyi
 3, hnagroup
 3, stripe
 3, weibo
+3, qiyi
 0, 0.0.0.0/32
 0, 1.0.1.0/24
 0, 1.0.2.0/23
@@ -4043,6 +4043,7 @@ name = ChinaMax
 0, 163.228.0.0/16
 0, 163.244.246.0/24
 0, 163.47.4.0/22
+0, 163.52.108.0/23
 0, 163.52.28.0/23
 0, 163.52.76.0/23
 0, 163.53.0.0/20
@@ -4883,7 +4884,9 @@ name = ChinaMax
 0, 202.55.0.0/23
 0, 202.55.18.0/23
 0, 202.55.20.0/22
-0, 202.55.24.0/21
+0, 202.55.24.0/22
+0, 202.55.28.0/23
+0, 202.55.31.0/24
 0, 202.55.4.0/24
 0, 202.57.192.0/20
 0, 202.57.212.0/22
@@ -5963,7 +5966,6 @@ name = ChinaMax
 0, 203.8.220.0/24
 0, 203.8.23.0/24
 0, 203.8.25.0/24
-0, 203.8.30.0/24
 0, 203.8.70.0/24
 0, 203.8.8.0/24
 0, 203.8.82.0/24
@@ -6092,8 +6094,6 @@ name = ChinaMax
 0, 210.26.0.0/15
 0, 210.28.0.0/14
 0, 210.32.0.0/12
-0, 210.48.140.0/23
-0, 210.48.142.0/24
 0, 210.5.0.0/19
 0, 210.5.128.0/19
 0, 210.5.56.0/21
