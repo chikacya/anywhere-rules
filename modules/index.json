@@ -584,11 +584,11 @@
       "primary": "mitm/YouTubeEnhanceDualSubsFull.amrs",
       "name": "YouTube Enhance 与 DualSubs",
       "description": "来源：@gholts · @VirgilClyne · @chikacya ｜ 净化 YouTube 广告，增强播放体验，提供双语字幕与 Music 歌词翻译。 可选 Google、DeepL 等翻译引擎，配置字幕模式、顺序与播放增强。 ｜ 补齐预览广告清理与 Music 歌词翻译，修复歌曲信息，减少重复翻译和无效播放处理。",
-      "sha256": "afd5cc07d03952c14e738fbf49066c99101ce88681d1c4ac0a9df0b3fe98c99a",
+      "sha256": "a6948ff2bc6ada116285dd15eb00c9a41ad22992a3a052785a0bdf4fd3dad813",
       "sources": [
         "mitm/YouTubeEnhanceDualSubsFull.amrs"
       ],
-      "encodedBytes": 874744
+      "encodedBytes": 877165
     },
     "zhihu": {
       "path": "modules/ZhihuBlockAD.amod",
