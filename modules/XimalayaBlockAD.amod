@@ -1,0 +1,49 @@
+[Module]
+name = 喜马拉雅去广告
+description = 来源：@fmz200 ｜ 净化喜马拉雅广告及部分页面推广。
+icon-light = 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
+
+[MITM]
+# 喜马拉雅去广告 - Anywhere MITM RuleSet
+# 上游: fmz200/wool_scripts。
+
+name = 喜马拉雅去广告
+hostname = gslbali.ximalaya.com, search.ximalaya.com, searchwsa.ximalaya.com, mobile.ximalaya.com, mobilehera.ximalaya.com, mobwsa.ximalaya.com, m.ximalaya.com, mwsa.ximalaya.com, live.ximalaya.com, livewsa.ximalaya.com
+
+0, 0, ^https://[^/]+/hub/(?:guideWord|hotWord)V\d/, 2, {}
+0, 0, ^https://[^/]+/discovery-feed/v\d/scene/listen/refresh(?:\?|$), 2, {}
+0, 0, ^https://[^/]+/x-web-activity/signIn/getHomePageSignInInfo/, 2, {}
+0, 0, ^https://[^/]+/subscribe/v\d/subscribe/tagAlbumList$, 2, {}
+0, 0, ^https://[^/]+/track-feed/v\d/chase/recommend/, 2, {}
+0, 0, ^https://[^/]+/social-web/follow-stream/category/\d+$, 2, {}
+0, 0, ^https://[^/]+/mobile-playpage/playpage/recommendContentV\d/, 2, {}
+0, 0, ^https://[^/]+/mobile-playpage/playpage/recommend/resource/allocation/, 2, {}
+0, 0, ^https://[^/]+/firework-portal/v\d+/sync(?:\?|$), 2, {}
+0, 0, ^https://[^/]+/business-sale-promotion-guide-mobile-web/popup/, 2, {}
+0, 0, ^https://[^/]+/app-skin-service/skin/setting/info/, 2, {}
+0, 0, ^https://[^/]+/lamia/v1/subscribe/status$, 2, {}
+0, 0, ^https://[^/]+/subscribe/v\d/subscribe/recommend(?:\?|$), 2, {}
+0, 0, ^https://[^/]+/mobile-user/v\d/purchased/recommend/, 2, {}
+0, 0, ^https://[^/]+/community/square/v\d/stream(?:\?|$), 2, "{""data"":{""cards"":[{""content"":{},""type"":""RECOMMENDS""}]},""ret"":0}"
+1, 5, ^https://[^/]+/football-portal/diff2/batch(?:\?|$), delete, $.json.ad
+1, 5, ^https://[^/]+/football-portal/diff2/batch(?:\?|$), delete, $.json.toc
+1, 5, ^https://[^/]+/mobile-playpage/playpage/tabs/v2/, delete, $.data.playpage.resourceMap.defaultResource
+1, 5, ^https://[^/]+/mobile-playpage/playpage/tabs/v2/, delete, $.data.playpage.resourceMap.playPageTip
+1, 5, ^https://[^/]+/mobile-user/v\d/homePage/, delete, $.data.freeListenV2
+1, 100, ^https://[^/]+/(?:discovery-feed/v\d/mix/|discovery-category/customCategories/|nexus-web/v\d/tabs/customTabs(?:\?|$)|mobile-user/v\d/homePage/), ZnVuY3Rpb24gcHJvY2VzcyhjdHgpIHsKICBpZiAoY3R4LnBoYXNlICE9PSAicmVzcG9uc2UiIHx8ICFjdHgudXJsIHx8ICFjdHguYm9keSkgcmV0dXJuOwogIHZhciB1cmwgPSBjdHgudXJsOwogIHZhciB0ZXh0ID0gQW55d2hlcmUuY29kZWMudXRmOC5kZWNvZGUoY3R4LmJvZHkpOwogIGlmICh0ZXh0LmluZGV4T2YoIlNjZW5lTGlzdGVuQ2FyZCIpID09PSAtMSAmJiB0ZXh0LmluZGV4T2YoIuebtOaSrSIpID09PSAtMSAmJiB0ZXh0LmluZGV4T2YoIjEyM+eLguasouiKgiIpID09PSAtMSAmJiB0ZXh0LmluZGV4T2YoIlNWSVAiKSA9PT0gLTEgJiYgdGV4dC5pbmRleE9mKCLlpKfotZsiKSA9PT0gLTEgJiYgdGV4dC5pbmRleE9mKCLlhajpg6jmnI3liqEiKSA9PT0gLTEpIHJldHVybjsKICB2YXIgb2JqOwogIHRyeSB7IG9iaiA9IEpTT04ucGFyc2UodGV4dCk7IH0gY2F0Y2ggKF8pIHsgcmV0dXJuOyB9CiAgdmFyIGNoYW5nZWQgPSBmYWxzZTsKICBmdW5jdGlvbiB0aXRsZUJsb2NrZWQoaXRlbSkgewogICAgcmV0dXJuIC/nm7Tmkq18MTIz54uC5qyi6IqCfFNWSVAvaS50ZXN0KFN0cmluZyhpdGVtICYmIGl0ZW0udGl0bGUgfHwgIiIpKTsKICB9CgogIGlmICgvXC9kaXNjb3ZlcnktZmVlZFwvdlxkXC9taXhcLy8udGVzdCh1cmwpICYmIEFycmF5LmlzQXJyYXkob2JqLmhlRGF0YSkpIHsKICAgIHZhciBiZWZvcmUgPSBvYmouaGVEYXRhLmxlbmd0aDsKICAgIG9iai5oZURhdGEgPSBvYmouaGVEYXRhLmZpbHRlcihmdW5jdGlvbiAoY2FyZCkgewogICAgICB2YXIgbGlzdCA9IGNhcmQgJiYgY2FyZC5pdGVtICYmIEFycmF5LmlzQXJyYXkoY2FyZC5pdGVtLmxpc3QpID8gY2FyZC5pdGVtLmxpc3QgOiBbXTsKICAgICAgcmV0dXJuICFsaXN0LnNvbWUoZnVuY3Rpb24gKGl0ZW0pIHsgcmV0dXJuIGl0ZW0gJiYgaXRlbS5iaXpUeXBlID09PSAiU2NlbmVMaXN0ZW5DYXJkIjsgfSk7CiAgICB9KTsKICAgIGNoYW5nZWQgPSBjaGFuZ2VkIHx8IG9iai5oZURhdGEubGVuZ3RoICE9PSBiZWZvcmU7CiAgfQogIGlmICgvXC9kaXNjb3ZlcnktY2F0ZWdvcnlcL2N1c3RvbUNhdGVnb3JpZXNcLy8udGVzdCh1cmwpKSB7CiAgICBpZiAoQXJyYXkuaXNBcnJheShvYmouY2F0ZWdvcnlMaXN0KSkgewogICAgICBvYmouY2F0ZWdvcnlMaXN0LmZvckVhY2goZnVuY3Rpb24gKGNhdGVnb3J5KSB7CiAgICAgICAgaWYgKEFycmF5LmlzQXJyYXkoY2F0ZWdvcnkuaXRlbUxpc3QpKSB7CiAgICAgICAgICB2YXIgYmVmb3JlID0gY2F0ZWdvcnkuaXRlbUxpc3QubGVuZ3RoOwogICAgICAgICAgY2F0ZWdvcnkuaXRlbUxpc3QgPSBjYXRlZ29yeS5pdGVtTGlzdC5maWx0ZXIoZnVuY3Rpb24gKGl0ZW0pIHsgcmV0dXJuICF0aXRsZUJsb2NrZWQoaXRlbSk7IH0pOwogICAgICAgICAgY2hhbmdlZCA9IGNoYW5nZWQgfHwgY2F0ZWdvcnkuaXRlbUxpc3QubGVuZ3RoICE9PSBiZWZvcmU7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0KICAgIGlmIChBcnJheS5pc0FycmF5KG9iai5jdXN0b21DYXRlZ29yeUxpc3QpKSB7CiAgICAgIHZhciBiZWZvcmVDdXN0b20gPSBvYmouY3VzdG9tQ2F0ZWdvcnlMaXN0Lmxlbmd0aDsKICAgICAgb2JqLmN1c3RvbUNhdGVnb3J5TGlzdCA9IG9iai5jdXN0b21DYXRlZ29yeUxpc3QuZmlsdGVyKGZ1bmN0aW9uIChpdGVtKSB7IHJldHVybiAhdGl0bGVCbG9ja2VkKGl0ZW0pOyB9KTsKICAgICAgY2hhbmdlZCA9IGNoYW5nZWQgfHwgb2JqLmN1c3RvbUNhdGVnb3J5TGlzdC5sZW5ndGggIT09IGJlZm9yZUN1c3RvbTsKICAgIH0KICB9CiAgaWYgKC9cL25leHVzLXdlYlwvdlxkXC90YWJzXC9jdXN0b21UYWJzKD86XD98JCkvLnRlc3QodXJsKSAmJiBBcnJheS5pc0FycmF5KG9iai5kYXRhICYmIG9iai5kYXRhLmZlZWRUYWJzKSkgewogICAgdmFyIGJlZm9yZVRhYnMgPSBvYmouZGF0YS5mZWVkVGFicy5sZW5ndGg7CiAgICBvYmouZGF0YS5mZWVkVGFicyA9IG9iai5kYXRhLmZlZWRUYWJzLmZpbHRlcihmdW5jdGlvbiAodGFiKSB7IHJldHVybiB0YWIgJiYgdGFiLm5hbWUgIT09ICLlpKfotZsiOyB9KTsKICAgIGNoYW5nZWQgPSBjaGFuZ2VkIHx8IG9iai5kYXRhLmZlZWRUYWJzLmxlbmd0aCAhPT0gYmVmb3JlVGFiczsKICB9CiAgaWYgKC9cL21vYmlsZS11c2VyXC92XGRcL2hvbWVQYWdlXC8vLnRlc3QodXJsKSkgewogICAgdmFyIGVudHJhbmNlcyA9IG9iai5kYXRhICYmIG9iai5kYXRhLnNlcnZpY2VNb2R1bGUgJiYgb2JqLmRhdGEuc2VydmljZU1vZHVsZS5lbnRyYW5jZXM7CiAgICBpZiAoQXJyYXkuaXNBcnJheShlbnRyYW5jZXMpKSB7CiAgICAgIHZhciBiZWZvcmVFbnRyYW5jZXMgPSBlbnRyYW5jZXMubGVuZ3RoOwogICAgICBvYmouZGF0YS5zZXJ2aWNlTW9kdWxlLmVudHJhbmNlcyA9IGVudHJhbmNlcy5maWx0ZXIoZnVuY3Rpb24gKGVudHJ5KSB7IHJldHVybiBlbnRyeSAmJiBlbnRyeS5uYW1lID09PSAi5YWo6YOo5pyN5YqhIjsgfSk7CiAgICAgIGNoYW5nZWQgPSBjaGFuZ2VkIHx8IG9iai5kYXRhLnNlcnZpY2VNb2R1bGUuZW50cmFuY2VzLmxlbmd0aCAhPT0gYmVmb3JlRW50cmFuY2VzOwogICAgfQogIH0KICBpZiAoIWNoYW5nZWQpIHJldHVybjsKICBjdHguYm9keSA9IEFueXdoZXJlLmNvZGVjLnV0ZjguZW5jb2RlKEpTT04uc3RyaW5naWZ5KG9iaikpOwogIEFueXdoZXJlLmRvbmUoKTsKfQ==
+
+[Routing]
+# 喜马拉雅去广告 - Anywhere Routing RuleSet
+# 上游: fmz200/wool_scripts。
+
+name = Ximalaya Reject
+routing = 2
+2, adsehera.ximalaya.com
+2, adse.wsa.ximalaya.com
+2, adbehavior.ximalaya.com
+2, adbehavior.wsa.ximalaya.com
+2, ad.ximalaya.com
+2, adse.ximalaya.com
+2, adse-v2.ximalaya.com
+2, open.ximalaya.com
+2, upos-app.ximalaya.com

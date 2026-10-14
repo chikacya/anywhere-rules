@@ -1,0 +1,617 @@
+{
+  "schemaVersion": 1,
+  "modules": {
+    "aliyun-drive": {
+      "path": "modules/AliyunDriveBlockAD.amod",
+      "primary": "mitm/AliyunDriveBlockAD.amrs",
+      "name": "阿里云盘去广告",
+      "description": "来源：@fmz200 ｜ 精简阿里云盘开屏及页面推广内容。",
+      "sha256": "93d48ecdc8524dcf6e56c42e9c081c8f0cb445bb8b88b4991e69ba8dde93f6de",
+      "sources": [
+        "mitm/AliyunDriveBlockAD.amrs"
+      ],
+      "encodedBytes": 20102
+    },
+    "amap": {
+      "path": "modules/AmapBlockAD.amod",
+      "primary": "mitm/AmapBlockAD.amrs",
+      "name": "高德地图去广告",
+      "description": "来源：@RuCu6 · @ddgksf2013 ｜ 净化高德地图广告、推广入口及部分页面内容。",
+      "sha256": "36fa4e0ed7b21a53665377ab721829b747526ec3ea10f5132a4cbb0cbac8f657",
+      "sources": [
+        "mitm/AmapBlockAD.amrs",
+        "mitm/AmapReject.arrs"
+      ],
+      "encodedBytes": 45935
+    },
+    "baidu-map": {
+      "path": "modules/BaiduMapBlockAD.amod",
+      "primary": "mitm/BaiduMapBlockAD.amrs",
+      "name": "百度地图去广告",
+      "description": "来源：@ddgksf2013 ｜ 净化百度地图开屏及页面推广内容。",
+      "sha256": "65f077c8f4dc23195993da1aa4c666a0abaa6724b55ba5918490ec9604c3f76e",
+      "sources": [
+        "mitm/BaiduMapBlockAD.amrs"
+      ],
+      "encodedBytes": 12696
+    },
+    "baidu-netdisk": {
+      "path": "modules/BaiduNetdiskBlockAD.amod",
+      "primary": "mitm/BaiduNetdiskBlockAD.amrs",
+      "name": "百度网盘去广告",
+      "description": "来源：@fmz200 ｜ 净化百度网盘广告及部分推广入口。",
+      "sha256": "d174aea5dccc8f7ed715c806717a1d4227ae98f21d94c42185767febc96aae83",
+      "sources": [
+        "mitm/BaiduNetdiskBlockAD.amrs"
+      ],
+      "encodedBytes": 11955
+    },
+    "baidu-tieba": {
+      "path": "modules/BaiduTiebaBlockAD.amod",
+      "primary": "mitm/BaiduTiebaBlockAD.amrs",
+      "name": "百度贴吧去广告",
+      "description": "来源：@fmz200 · @app2smile ｜ 净化百度贴吧信息流、帖子及页面广告。",
+      "sha256": "6aeb73761690bc2d5e8688e521fee48292a93b4f4766caf63bddfb9a0b4137e7",
+      "sources": [
+        "mitm/BaiduTiebaBlockAD.amrs",
+        "mitm/BaiduTiebaReject.arrs"
+      ],
+      "encodedBytes": 33732
+    },
+    "bilibili": {
+      "path": "modules/BilibiliBlockAD.amod",
+      "primary": "mitm/BilibiliBlockAD.amrs",
+      "name": "哔哩哔哩去广告",
+      "description": "来源：@kokoryh · @chikacya ｜ 净化哔哩哔哩推荐、动态、评论及播放相关推广。 可配置动态 UP 列表、评论净化及 SponsorBlock 空降助手。 ｜ 减少重复编译开销，改善脚本收尾与异常响应处理。",
+      "sha256": "aa8212ff422903bc2dff299b80e7ba333fd806aaccdf9c73e1c40ac164ac295a",
+      "sources": [
+        "mitm/BilibiliBlockAD.amrs",
+        "mitm/BilibiliReject.arrs"
+      ],
+      "encodedBytes": 306444
+    },
+    "cainiao": {
+      "path": "modules/CainiaoBlockAD.amod",
+      "primary": "mitm/CainiaoBlockAD.amrs",
+      "name": "菜鸟去广告",
+      "description": "来源：@chikacya ｜ 净化菜鸟开屏、首页及页面推广内容。",
+      "sha256": "cfed1f01e2dee43910572452e936df6459de2fed01e2dc1ca2695e316c777222",
+      "sources": [
+        "mitm/CainiaoBlockAD.amrs",
+        "mitm/CainiaoReject.arrs"
+      ],
+      "encodedBytes": 14026
+    },
+    "caiyun-weather": {
+      "path": "modules/CaiYunWeatherBlockAD.amod",
+      "primary": "mitm/CaiYunWeatherBlockAD.amrs",
+      "name": "彩云天气去广告",
+      "description": "来源：@fmz200 · @Keywos · @ddgksf2013 ｜ 净化彩云天气广告及部分推广内容。",
+      "sha256": "f3e545c1ab4e0180fdf4bec377543bb875d9e72bf082b764ffbfa363545e14bd",
+      "sources": [
+        "mitm/CaiYunWeatherBlockAD.amrs"
+      ],
+      "encodedBytes": 20170
+    },
+    "chelaile": {
+      "path": "modules/CheLaiLeBlockAD.amod",
+      "primary": "mitm/CheLaiLeBlockAD.amrs",
+      "name": "车来了去广告",
+      "description": "来源：@ddgksf2013 · @chikacya ｜ 净化车来了小程序广告，清理 App 发现页与“正在发生”推广。 ｜ 补齐 App 发现页、“正在发生”及部分推广模块的清理。",
+      "sha256": "ea61c3f2275cb7f95b82326f4a57baa330c4d589dc973824be7cd9a788a1dd90",
+      "sources": [
+        "mitm/CheLaiLeBlockAD.amrs"
+      ],
+      "encodedBytes": 15834
+    },
+    "china-unicom": {
+      "path": "modules/ChinaUnicomBlockAD.amod",
+      "primary": "mitm/ChinaUnicomBlockAD.amrs",
+      "name": "中国联通去广告",
+      "description": "来源：@fmz200 · @ddgksf2013 ｜ 净化中国联通广告、弹窗及部分页面推广。",
+      "sha256": "18372d211ec3a3141a210f0de86ba10ab9a9ca1787be34fb160a2c2a600b584b",
+      "sources": [
+        "mitm/ChinaUnicomBlockAD.amrs",
+        "mitm/ChinaUnicomReject.arrs"
+      ],
+      "encodedBytes": 14049
+    },
+    "coolapk": {
+      "path": "modules/KuanBlockAD.amod",
+      "primary": "mitm/KuanBlockAD.amrs",
+      "name": "酷安去广告",
+      "description": "来源：@fmz200 · @VenenoSix24 · @chikacya ｜ 净化酷安信息流与页面广告，处理下载跳转。 ｜ 修正请求匹配范围，补齐原有去广告规则的覆盖。",
+      "sha256": "c3f09b36022d0ce62084a1356ad6713cfd85c675262e12ba11838961f2c4e633",
+      "sources": [
+        "mitm/KuanBlockAD.amrs"
+      ],
+      "encodedBytes": 12542
+    },
+    "didi": {
+      "path": "modules/DidiBlockAD.amod",
+      "primary": "mitm/DidiBlockAD.amrs",
+      "name": "滴滴出行去广告轻量版",
+      "description": "来源：@fmz200 ｜ 拦截滴滴出行部分广告请求，精简页面推广。",
+      "sha256": "0e7e59848197826e1744089d00f1e24b9bd6502b15f6bd133f4cdade18d43cee",
+      "sources": [
+        "mitm/DidiBlockAD.amrs",
+        "mitm/DidiReject.arrs"
+      ],
+      "encodedBytes": 10340
+    },
+    "enhanced-search": {
+      "path": "modules/EnhancedSearch.amod",
+      "primary": "mitm/EnhancedSearch.amrs",
+      "name": "强化搜索",
+      "description": "来源：@chikacya ｜ 在百度搜索框输入搜索指令，跳转对应站点；默认转向 Google。",
+      "sha256": "f630d16a9f350c2b25451e67fa751fa367ceeb0d50db065357f130acd999e70b",
+      "sources": [
+        "mitm/EnhancedSearch.amrs"
+      ],
+      "encodedBytes": 25553
+    },
+    "fanqienovel": {
+      "path": "modules/FanQieNovelBlockAD.amod",
+      "primary": "mitm/FanQieNovelBlockAD.amrs",
+      "name": "番茄小说去广告",
+      "description": "来源：@fmz200 ｜ 净化番茄小说广告及部分页面推广。",
+      "sha256": "87c546cfbe21bae9091049e77ec52024d5e4d43a402f9b5866e4ad4b238b1bc1",
+      "sources": [
+        "mitm/FanQieNovelBlockAD.amrs",
+        "mitm/FanQieNovelReject.arrs"
+      ],
+      "encodedBytes": 21399
+    },
+    "goodbility": {
+      "path": "modules/GoodbilityUnlock.amod",
+      "primary": "mitm/GoodbilityUnlock.amrs",
+      "name": "Goodbility",
+      "description": "来源：@ddgksf2013 ｜ 调整 Goodbility 的会员相关功能与显示。",
+      "sha256": "8df8045718d9bada9b7d61a3ee699b58cbdc6876c566aa5d9ed895ec1244727e",
+      "sources": [
+        "mitm/GoodbilityUnlock.amrs"
+      ],
+      "encodedBytes": 10767
+    },
+    "google-cn-redirect": {
+      "path": "modules/GoogleCNRedirect.amod",
+      "primary": "mitm/GoogleCNRedirect.amrs",
+      "name": "Google CN 跳转",
+      "description": "来源：@chikacya ｜ 将 Google 中国域名的请求跳转至国际版搜索。",
+      "sha256": "50b5fb10d5299b5dabc7e36f9f56f99e225d96f5c297b49668bbd6f2087c62d4",
+      "sources": [
+        "mitm/GoogleCNRedirect.amrs"
+      ],
+      "encodedBytes": 7572
+    },
+    "hupu": {
+      "path": "modules/HupuBlockAD.amod",
+      "primary": "mitm/HupuBlockAD.amrs",
+      "name": "虎扑去广告",
+      "description": "来源：@fmz200 ｜ 净化虎扑开屏、信息流及页面广告。",
+      "sha256": "0849aadcdb531956a6d8b7e95bfab9215360f92810640a6ebb9be6261a616972",
+      "sources": [
+        "mitm/HupuBlockAD.amrs",
+        "mitm/HupuReject.arrs"
+      ],
+      "encodedBytes": 13392
+    },
+    "iqiyi": {
+      "path": "modules/iQIYIBlockAD.amod",
+      "primary": "mitm/iQIYIBlockAD.amrs",
+      "name": "爱奇艺去广告",
+      "description": "来源：@fmz200 ｜ 拦截爱奇艺部分广告请求，净化页面推广。",
+      "sha256": "ab8cd41fcf60f07dc99e2a79fe2b65c13fb94e4a22e84f7adf80c67b0b9a9d4b",
+      "sources": [
+        "mitm/iQIYIBlockAD.amrs",
+        "mitm/iQIYIReject.arrs"
+      ],
+      "encodedBytes": 39661
+    },
+    "iringo-maps": {
+      "path": "modules/iRingoMapsArg.amod",
+      "primary": "mitm/iRingoMapsArg.amrs",
+      "name": "iRingo Maps",
+      "description": "来源：@VirgilClyne · @chikacya ｜ 自定义 Apple 地图服务与数据来源，调整地区功能。 可配置服务地区、导航、评分照片、定位漂移及地图数据集。 ｜ 减少地图配置处理中的无关代码和重复编译开销。",
+      "sha256": "03e88a17e39b7a8d795c42212da49cf066d9c944cbca8660b4e6f5236ebb679f",
+      "sources": [
+        "mitm/iRingoMapsArg.amrs",
+        "mitm/iRingoMapsDirect.arrs"
+      ],
+      "encodedBytes": 280916
+    },
+    "iringo-weatherkit": {
+      "path": "modules/iRingoWeatherKitArg.amod",
+      "primary": "mitm/iRingoWeatherKitArg.amrs",
+      "name": "iRingo WeatherKit",
+      "description": "来源：@VirgilClyne · @WordlessEcho · @001ProMax · @hhh2210 · @chikacya ｜ 调整 Apple 天气数据，补充预警、空气质量及短时降水。 可配置天气与预警数据源、空气质量算法及服务商令牌。 ｜ 按功能拆分处理，减少本地天气查询加载的无关代码。",
+      "sha256": "e1788ea1a61178c838e767c72f8976c850e1a3f3b4668d869c0b5c1ece718364",
+      "sources": [
+        "mitm/iRingoWeatherKitArg.amrs",
+        "mitm/iRingoWeatherKitReject.arrs"
+      ],
+      "encodedBytes": 653783
+    },
+    "ithome": {
+      "path": "modules/ITHomeBlockAD.amod",
+      "primary": "mitm/ITHomeBlockAD.amrs",
+      "name": "IT之家去广告",
+      "description": "来源：@fmz200 ｜ 净化 IT 之家开屏、列表及页面推广。",
+      "sha256": "1b700970a6112008e21e8a857d62d8dea8aacbbf6063f893054132532074ee13",
+      "sources": [
+        "mitm/ITHomeBlockAD.amrs"
+      ],
+      "encodedBytes": 4683
+    },
+    "jd-price": {
+      "path": "modules/JDPriceUnlock.amod",
+      "primary": "mitm/JDPriceUnlock.amrs",
+      "name": "京东比价",
+      "description": "来源：@wf021325 · @mw418 · @githubdulong ｜ 在京东商品页面展示价格历史与比价信息。",
+      "sha256": "e42eea71be8d3c9fc5d34e58bd00b486418bebd11d6b442a74639e9d5f2ee982",
+      "sources": [
+        "mitm/JDPriceUnlock.amrs",
+        "mitm/JDReject.arrs"
+      ],
+      "encodedBytes": 24398
+    },
+    "keep": {
+      "path": "modules/KeepBlockAD.amod",
+      "primary": "mitm/KeepBlockAD.amrs",
+      "name": "Keep去广告",
+      "description": "来源：@fmz200 · @ddgksf2013 ｜ 净化 Keep 开屏、推荐及页面推广内容。",
+      "sha256": "83d412e7ab17076529c2de98b9089d24897b47560ae42264c096c1d791a26a5a",
+      "sources": [
+        "mitm/KeepBlockAD.amrs",
+        "mitm/KeepReject.arrs"
+      ],
+      "encodedBytes": 25197
+    },
+    "mango-tv": {
+      "path": "modules/MangoTVBlockAD.amod",
+      "primary": "mitm/MangoTVBlockAD.amrs",
+      "name": "芒果TV去广告",
+      "description": "来源：@fmz200 ｜ 拦截芒果 TV 部分广告请求，净化页面推广。",
+      "sha256": "dfcd8fdbbc2ff06e8a5fd468e8fe1cc3b646e61ce98b452d1881fb734738424f",
+      "sources": [
+        "mitm/MangoTVBlockAD.amrs",
+        "mitm/MangoTVReject.arrs"
+      ],
+      "encodedBytes": 21760
+    },
+    "meituan": {
+      "path": "modules/MeituanBlockAD.amod",
+      "primary": "mitm/MeituanBlockAD.amrs",
+      "name": "美团与美团外卖去广告",
+      "description": "来源：@fmz200 ｜ 净化美团及美团外卖的广告与页面推广。",
+      "sha256": "5fd07a9659c07d6c14f2ab951bce7dea9dc7588874e42aeb65eda70e60d5649a",
+      "sources": [
+        "mitm/MeituanBlockAD.amrs"
+      ],
+      "encodedBytes": 8850
+    },
+    "moji-weather": {
+      "path": "modules/MojiWeatherBlockAD.amod",
+      "primary": "mitm/MojiWeatherBlockAD.amrs",
+      "name": "墨迹天气去广告",
+      "description": "来源：@ddgksf2013 · @fmz200 ｜ 净化墨迹天气开屏及页面推广内容。",
+      "sha256": "e950a3abdb7fae92e882cb5f203e1e2004dd818fb8be953d6de142cf4537b231",
+      "sources": [
+        "mitm/MojiWeatherBlockAD.amrs",
+        "mitm/MojiWeatherReject.arrs"
+      ],
+      "encodedBytes": 10032
+    },
+    "netease-cloudmusic": {
+      "path": "modules/WangyiyunBlockADArg.amod",
+      "primary": "mitm/WangyiyunBlockADArg.amrs",
+      "name": "网易云音乐去广告",
+      "description": "来源：@ios151 ｜ 净化网易云音乐广告与推广，自定义首页及标签栏。 可配置标签显隐与名称，以及首页卡片和顶部入口。",
+      "sha256": "2ac1bb6a6933395e201e2c4aec085d51dcc5ad3e4742a5ab70147c9233c3712b",
+      "sources": [
+        "mitm/WangyiyunBlockADArg.amrs",
+        "mitm/WangyiyunReject.arrs"
+      ],
+      "encodedBytes": 46513
+    },
+    "pinduoduo": {
+      "path": "modules/PinduoduoBlockAD.amod",
+      "primary": "mitm/PinduoduoBlockAD.amrs",
+      "name": "拼多多去广告",
+      "description": "来源：@fmz200 ｜ 净化拼多多开屏、弹窗及页面推广。",
+      "sha256": "4c60dad11e4013581def3c1fdc22a4f8722491382a3f09b21f9b47c867c9bc23",
+      "sources": [
+        "mitm/PinduoduoBlockAD.amrs"
+      ],
+      "encodedBytes": 17317
+    },
+    "pixiv": {
+      "path": "modules/PixivBlockAD.amod",
+      "primary": "mitm/PixivBlockAD.amrs",
+      "name": "Pixiv 去广告",
+      "description": "来源：@chaoscard ｜ 净化 Pixiv 广告，配套处理相关域名路由。",
+      "sha256": "4726e72101bd307b4b96fc5a1fd16b6061af25c10bc00568207c577a908eda7f",
+      "sources": [
+        "mitm/PixivBlockAD.amrs",
+        "mitm/PixivReject.arrs",
+        "mitm/PixivProxy.arrs"
+      ],
+      "encodedBytes": 6969
+    },
+    "qidian": {
+      "path": "modules/QidianBlockAD.amod",
+      "primary": "mitm/QidianBlockAD.amrs",
+      "name": "起点读书去广告",
+      "description": "来源：@fmz200 · @app2smile ｜ 净化起点读书开屏及页面推广内容。",
+      "sha256": "c98ba0a400b7978eeb40ff84b8c67806793127eaf8d8e8df4e9e702adc13f94a",
+      "sources": [
+        "mitm/QidianBlockAD.amrs"
+      ],
+      "encodedBytes": 10695
+    },
+    "qishui-music": {
+      "path": "modules/QiShuiMusicBlockAD.amod",
+      "primary": "mitm/QiShuiMusicBlockAD.amrs",
+      "name": "汽水音乐去广告",
+      "description": "来源：@fmz200 ｜ 精简汽水音乐直播推荐、会员弹窗及播放器推广。",
+      "sha256": "60bfcaaf9615cdc31382cae5ee2f1fa198c0a75485fce84272ed810e3c45caf4",
+      "sources": [
+        "mitm/QiShuiMusicBlockAD.amrs",
+        "mitm/QiShuiMusicReject.arrs"
+      ],
+      "encodedBytes": 11616
+    },
+    "qq-music": {
+      "path": "modules/QQMusicBlockAD.amod",
+      "primary": "mitm/QQMusicBlockAD.amrs",
+      "name": "QQ音乐去广告",
+      "description": "来源：@fmz200 ｜ 净化 QQ 音乐广告及部分页面推广。",
+      "sha256": "91bad090edb54596b54c426b6e82ad1cbc3e07608df99a7b09a07ac27c87081c",
+      "sources": [
+        "mitm/QQMusicBlockAD.amrs",
+        "mitm/QQMusicReject.arrs"
+      ],
+      "encodedBytes": 12472
+    },
+    "quark": {
+      "path": "modules/QuarkBlockAD.amod",
+      "primary": "mitm/QuarkBlockAD.amrs",
+      "name": "夸克去广告",
+      "description": "来源：@fmz200 ｜ 净化夸克开屏及页面推广内容。",
+      "sha256": "59d5ded618ad37b9a6cae9caaeb52fe3a2901c44db0954a676c04503918a36cb",
+      "sources": [
+        "mitm/QuarkBlockAD.amrs"
+      ],
+      "encodedBytes": 17585
+    },
+    "railway-12306": {
+      "path": "modules/Railway12306BlockAD.amod",
+      "primary": "mitm/Railway12306BlockAD.amrs",
+      "name": "铁路12306去广告",
+      "description": "来源：@fmz200 · @kokoryh ｜ 净化铁路 12306 广告及部分推广内容。",
+      "sha256": "9fed62bc2da54f8c5957c18539c6d4e8ebcd133c5111c9f08026dd4a2bb96bc1",
+      "sources": [
+        "mitm/Railway12306BlockAD.amrs",
+        "mitm/Railway12306Direct.arrs"
+      ],
+      "encodedBytes": 15089
+    },
+    "reddit": {
+      "path": "modules/Reddit_AD_Anywhere.amod",
+      "primary": "mitm/Reddit_AD_Anywhere.amrs",
+      "name": "Reddit去广告",
+      "description": "来源：@chikacya ｜ 净化 Reddit 广告及推广内容。 可选择是否关闭 NSFW 敏感内容提示。",
+      "sha256": "335f735288ae67561091530efbb4f80d3413052e0972648939466b92be3c166a",
+      "sources": [
+        "mitm/Reddit_AD_Anywhere.amrs"
+      ],
+      "encodedBytes": 18518
+    },
+    "sf-express": {
+      "path": "modules/SFExpressBlockAD.amod",
+      "primary": "mitm/SFExpressBlockAD.amrs",
+      "name": "顺丰快递去广告",
+      "description": "来源：@fmz200 ｜ 净化顺丰快递广告及页面推广内容。",
+      "sha256": "f3168e08b76af11ee32b3aa0b44ee7cda6e11a94bd55407a4ee459ecbb0962bf",
+      "sources": [
+        "mitm/SFExpressBlockAD.amrs"
+      ],
+      "encodedBytes": 8848
+    },
+    "smzdm": {
+      "path": "modules/SMZDMBlockAD.amod",
+      "primary": "mitm/SMZDMBlockAD.amrs",
+      "name": "什么值得买去广告",
+      "description": "来源：@fmz200 ｜ 净化什么值得买信息流及页面推广内容。",
+      "sha256": "c66997b2afd176a204b168b61770e3f09eced7a8c4bd34e1920f87d31530ee00",
+      "sources": [
+        "mitm/SMZDMBlockAD.amrs",
+        "mitm/SMZDMReject.arrs"
+      ],
+      "encodedBytes": 28156
+    },
+    "soul": {
+      "path": "modules/SoulBlockAD.amod",
+      "primary": "mitm/SoulBlockAD.amrs",
+      "name": "Soul去广告",
+      "description": "来源：@fmz200 ｜ 净化 Soul 广告及页面推广内容。",
+      "sha256": "316f7018d095ab0999c8fdecab77332dc76f39f6482565f90ed04301a58cca10",
+      "sources": [
+        "mitm/SoulBlockAD.amrs",
+        "mitm/SoulReject.arrs"
+      ],
+      "encodedBytes": 42394
+    },
+    "spotify": {
+      "path": "modules/SpotifyUnlock.amod",
+      "primary": "mitm/SpotifyUnlock.amrs",
+      "name": "Spotify 解锁与去广告",
+      "description": "来源：@app2smile ｜ 净化 Spotify 广告，调整账户功能与首页内容。",
+      "sha256": "7f7226cd8f5aa11d86721e9edf71914d402837344151011843adda75557c982c",
+      "sources": [
+        "mitm/SpotifyUnlock.amrs"
+      ],
+      "encodedBytes": 22963
+    },
+    "startup-ads": {
+      "path": "modules/StartupAds.amod",
+      "primary": "mitm/StartupAds.amrs",
+      "name": "应用开屏去广告",
+      "description": "来源：@ddgksf2013 · @chikacya ｜ 净化多款应用的开屏广告。 可按应用自由选择组合，或导入全部应用。 ｜ 支持按应用自由组合、全选导入及订阅更新。",
+      "sha256": "f95cfd355088fb17c1e7c32c322b7d0042065172dcdf62d824c68084a25dfc5f",
+      "sources": [
+        "mitm/StartupAds.amrs",
+        "mitm/StartupAdsDirect.arrs",
+        "mitm/StartupAdsReject.arrs"
+      ],
+      "encodedBytes": 228280
+    },
+    "telegram-swiftgram": {
+      "path": "modules/TelegramToSwiftgram.amod",
+      "primary": "mitm/TelegramToSwiftgram.amrs",
+      "name": "Telegram 跳转 Swiftgram",
+      "description": "来源：@chikacya ｜ 将 Telegram 链接跳转至 Swiftgram。",
+      "sha256": "f0200866a54f040c10597845d8de9391a2655d68ee8bfec51f09035038b5d1ab",
+      "sources": [
+        "mitm/TelegramToSwiftgram.amrs"
+      ],
+      "encodedBytes": 11991
+    },
+    "telegram-turrit": {
+      "path": "modules/TelegramToTurrit.amod",
+      "primary": "mitm/TelegramToTurrit.amrs",
+      "name": "Telegram 跳转 Turrit",
+      "description": "来源：@chikacya ｜ 将 Telegram 链接跳转至 Turrit。",
+      "sha256": "1ae8cca5787f2d6178b5ba796a66a7d09b39c24dbdd04d06c70a636df28f0810",
+      "sources": [
+        "mitm/TelegramToTurrit.amrs"
+      ],
+      "encodedBytes": 11978
+    },
+    "umetrip": {
+      "path": "modules/Umetrip_AD_Anywhere.amod",
+      "primary": "mitm/Umetrip_AD_Anywhere.amrs",
+      "name": "航旅纵横去广告",
+      "description": "来源：@ddgksf2013 ｜ 净化航旅纵横开屏、首页运营位及其他推广内容。",
+      "sha256": "432a0afaa6bb8d60ecab946721e0f9b384052b2d420ba1928c2b76b80da4c428",
+      "sources": [
+        "mitm/Umetrip_AD_Anywhere.amrs"
+      ],
+      "encodedBytes": 22041
+    },
+    "weibo": {
+      "path": "modules/WeiboBlockAD.amod",
+      "primary": "mitm/WeiboBlockAD.amrs",
+      "name": "微博与 VVebo 去广告净化",
+      "description": "来源：@fmz200 · @zmqcherish · @suiyuran · @chikacya ｜ 净化微博与 VVebo 的动态、信息流及页面推广。 可配置首页分组清理。 ｜ 补齐动态广告清理，恢复首页分组清理并减少无效处理。",
+      "sha256": "5923e86b4f168cacf28b1a4c186dca755dec99033266b3d1ebd24e611efddf11",
+      "sources": [
+        "mitm/WeiboBlockAD.amrs",
+        "mitm/WeiboReject.arrs"
+      ],
+      "encodedBytes": 136235
+    },
+    "wloc": {
+      "path": "modules/AppleWLOCArg.amod",
+      "primary": "mitm/AppleWLOCArg.amrs",
+      "name": "Apple WLOC 定位修改",
+      "description": "来源：@ios151 ｜ 修改 Apple 网络定位返回的位置，支持在线选点。 可配置经纬度、定位精度及随机扰动半径。",
+      "sha256": "ecdcbfb838542ad8ef8e7529a0e060cc0dc46c92d997e108cd9bcf196ff7fe23",
+      "sources": [
+        "mitm/AppleWLOCArg.amrs"
+      ],
+      "encodedBytes": 61065
+    },
+    "x-web": {
+      "path": "modules/XwebBlockAD.amod",
+      "primary": "mitm/XwebBlockAD.amrs",
+      "name": "X 网页版去广告",
+      "description": "来源：@fmz200 ｜ 净化 X 网页版的信息流广告。",
+      "sha256": "23ce502833892a63dfe1c7b2d336410ad7dbcb3730c38329b8c1ceb83d7de60b",
+      "sources": [
+        "mitm/XwebBlockAD.amrs"
+      ],
+      "encodedBytes": 26301
+    },
+    "xiaohongshu": {
+      "path": "modules/XiaohongshuBlockAD.amod",
+      "primary": "mitm/XiaohongshuBlockAD.amrs",
+      "name": "小红书去广告与去水印",
+      "description": "来源：@fmz200 · @chikacya ｜ 净化小红书广告与推广，移除图片及视频水印。 ｜ 修正广告清理范围，保留正常笔记、Live 动图及视频内容。",
+      "sha256": "6638b955d090f72bd9ec9b2b1bea184495ac90e62a698a2b97a0bbe7ba869885",
+      "sources": [
+        "mitm/XiaohongshuBlockAD.amrs",
+        "mitm/XiaohongshuReject.arrs"
+      ],
+      "encodedBytes": 43039
+    },
+    "xiaoyuzhou": {
+      "path": "modules/XiaoYuZhouBlockAD.amod",
+      "primary": "mitm/XiaoYuZhouBlockAD.amrs",
+      "name": "小宇宙FM去广告",
+      "description": "来源：@fmz200 · @ddgksf2013 ｜ 精简小宇宙 FM 的推广内容与冗余入口。",
+      "sha256": "bbfa0a1cd89c150e518d7f5d8f1d9a8525f5984c42126045b0983756da2f141a",
+      "sources": [
+        "mitm/XiaoYuZhouBlockAD.amrs"
+      ],
+      "encodedBytes": 20607
+    },
+    "ximalaya": {
+      "path": "modules/XimalayaBlockAD.amod",
+      "primary": "mitm/XimalayaBlockAD.amrs",
+      "name": "喜马拉雅去广告",
+      "description": "来源：@fmz200 ｜ 净化喜马拉雅广告及部分页面推广。",
+      "sha256": "52a64edde29544ec9b320b48523cc487c1560c5a0e10d6ae94178f39b6aeba45",
+      "sources": [
+        "mitm/XimalayaBlockAD.amrs",
+        "mitm/XimalayaReject.arrs"
+      ],
+      "encodedBytes": 12664
+    },
+    "youdao-dictionary": {
+      "path": "modules/YoudaoDictionaryBlockAD.amod",
+      "primary": "mitm/YoudaoDictionaryBlockAD.amrs",
+      "name": "网易有道词典去广告",
+      "description": "来源：@fmz200 ｜ 净化网易有道词典开屏及页面推广。",
+      "sha256": "a19ad2497f401aaa77946a50a8a16178f97e162abb8b99765d9e356d4dfd2bb3",
+      "sources": [
+        "mitm/YoudaoDictionaryBlockAD.amrs"
+      ],
+      "encodedBytes": 14389
+    },
+    "youtube-enhance-full": {
+      "path": "modules/YouTubeEnhanceDualSubsFull.amod",
+      "primary": "mitm/YouTubeEnhanceDualSubsFull.amrs",
+      "name": "YouTube Enhance 与 DualSubs",
+      "description": "来源：@gholts · @VirgilClyne · @chikacya ｜ 净化 YouTube 广告，增强播放体验，提供双语字幕与 Music 歌词翻译。 可选 Google、DeepL 等翻译引擎，配置字幕模式、顺序与播放增强。 ｜ 补齐预览广告清理与 Music 歌词翻译，修复歌曲信息，减少重复翻译和无效播放处理。",
+      "sha256": "afd5cc07d03952c14e738fbf49066c99101ce88681d1c4ac0a9df0b3fe98c99a",
+      "sources": [
+        "mitm/YouTubeEnhanceDualSubsFull.amrs"
+      ],
+      "encodedBytes": 874744
+    },
+    "zhihu": {
+      "path": "modules/ZhihuBlockAD.amod",
+      "primary": "mitm/ZhihuBlockAD.amrs",
+      "name": "知乎去广告",
+      "description": "来源：@ddgksf2013 · @fmz200 ｜ 净化知乎开屏、信息流及页面推广。",
+      "sha256": "a98f6f30c2bb96cddf50589b778d821f0da9e3dda9151421daed6af4071f66c5",
+      "sources": [
+        "mitm/ZhihuBlockAD.amrs",
+        "mitm/ZhihuReject.arrs"
+      ],
+      "encodedBytes": 31164
+    },
+    "zhuanzhuan": {
+      "path": "modules/ZhuanZhuanBlockAD.amod",
+      "primary": "mitm/ZhuanZhuanBlockAD.amrs",
+      "name": "转转去广告",
+      "description": "来源：@fmz200 ｜ 净化转转开屏、弹窗及页面推广。",
+      "sha256": "739060aa814736f3c99a8300275c7667fae3dcf72fafa7a4049958d036b4c9f0",
+      "sources": [
+        "mitm/ZhuanZhuanBlockAD.amrs"
+      ],
+      "encodedBytes": 11695
+    }
+  }
+}

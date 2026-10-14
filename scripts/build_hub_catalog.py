@@ -56,6 +56,9 @@ def reject_for(path, rejects):
 
 def main():
     dates, dirty = last_commit_dates()
+    modules_path = ROOT / "modules/index.json"
+    modules = json.loads(modules_path.read_text()).get("modules", {}) if modules_path.exists() else {}
+    modules_by_primary = {m["primary"]: m for m in modules.values()}
     common = sorted((ROOT / "rules/common").glob("*.arrs"))
     mitm = sorted((ROOT / "mitm").glob("*.amrs"))
     rejects = {path.name.casefold(): path.relative_to(ROOT) for path in (ROOT / "mitm").glob("*.arrs")}
@@ -68,6 +71,9 @@ def main():
             entry = resource_entry(path, dates, dirty)
             if kind == "mitm":
                 entry["reject"] = reject_for(path, rejects)
+                module = modules_by_primary.get(path.as_posix())
+                if module:
+                    entry.update(module=module["path"], moduleVersion=module["sha256"], description=module["description"])
             resources[path.as_posix()] = entry
         (output / f"{kind}.json").write_text(
             json.dumps({"resources": resources}, ensure_ascii=False, separators=(",", ":")) + "\n",

@@ -118,3 +118,7 @@ Thanks to the upstream projects and authors who maintain public rules and script
 - VirgilClyne/iRingo
 - app2smile/rules
 - and more
+
+## Modules
+
+`modules/*.amod` combine each plugin’s MITM rules and associated routing sets, including a module description. Standalone `.amrs` and `.arrs` remain available during the App Store transition. Disable the old standalone copies after importing a module to avoid duplicate host/routing matches.
