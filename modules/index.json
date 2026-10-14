@@ -612,6 +612,17 @@
         "mitm/ZhuanZhuanBlockAD.amrs"
       ],
       "encodedBytes": 11695
+    },
+    "spotify-dualsubs": {
+      "path": "modules/SpotifyDualSubs.amod",
+      "primary": "mitm/SpotifyDualSubs.amrs",
+      "name": "Spotify 与 DualSubs",
+      "description": "来源：@app2smile · @VirgilClyne · @chikacya ｜ Spotify去广告、部分Premium功能解锁与歌词翻译；参数选择语言及四种翻译引擎，与旧Spotify插件二选一。 ｜ 清理首页及歌曲下方广告；复用原歌词响应，减少额外请求并保留同步时间。",
+      "sha256": "50fc3845d1d9d379685274343aac4d514aa32643dd3217835d39bef48a29c477",
+      "sources": [
+        "mitm/SpotifyDualSubs.amrs"
+      ],
+      "encodedBytes": 68186
     }
   }
 }
