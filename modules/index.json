@@ -458,13 +458,13 @@
       "primary": "mitm/StartupAds.amrs",
       "name": "应用开屏去广告",
       "description": "来源：@ddgksf2013 · @chikacya ｜ 净化多款应用的开屏广告。 可按应用自由选择组合，或导入全部应用。 ｜ 支持按应用自由组合、全选导入及订阅更新。",
-      "sha256": "f95cfd355088fb17c1e7c32c322b7d0042065172dcdf62d824c68084a25dfc5f",
+      "sha256": "2b5bb57f062c1212365143bdd0d7e21cea8d19621f1c0122af3fb42e2c09e7ae",
       "sources": [
         "mitm/StartupAds.amrs",
         "mitm/StartupAdsDirect.arrs",
         "mitm/StartupAdsReject.arrs"
       ],
-      "encodedBytes": 228280
+      "encodedBytes": 228288
     },
     "telegram-swiftgram": {
       "path": "modules/TelegramToSwiftgram.amod",
