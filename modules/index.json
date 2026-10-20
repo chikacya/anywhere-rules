@@ -538,12 +538,12 @@
       "primary": "mitm/XiaohongshuBlockAD.amrs",
       "name": "小红书去广告与去水印",
       "description": "来源：@fmz200 · @chikacya ｜ 净化小红书广告与推广，移除图片及视频水印。 ｜ 修正广告清理范围，保留正常笔记、Live 动图及视频内容。",
-      "sha256": "6638b955d090f72bd9ec9b2b1bea184495ac90e62a698a2b97a0bbe7ba869885",
+      "sha256": "a78c30dc3074fcc9e8c6813f3e08f171d8d1c60fbcf0e0b68b6dea64445dbe24",
       "sources": [
         "mitm/XiaohongshuBlockAD.amrs",
         "mitm/XiaohongshuReject.arrs"
       ],
-      "encodedBytes": 43039
+      "encodedBytes": 40668
     },
     "xiaoyuzhou": {
       "path": "modules/XiaoYuZhouBlockAD.amod",
