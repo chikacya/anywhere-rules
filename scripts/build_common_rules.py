@@ -72,7 +72,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
         "description": "常用代理域名集合",
         "sources": [
             "https://ruleset.skk.moe/List/non_ip/global.conf",
-            "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Proxy.list",
+            "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Proxy+.list",
         ],
     },
     {
