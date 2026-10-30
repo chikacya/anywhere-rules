@@ -1,6 +1,6 @@
 {
   "total_files": 41,
-  "total_rules": 154145,
+  "total_rules": 154155,
   "total_skipped": 75,
   "files": [
     {
@@ -64,7 +64,7 @@
       "name": "Proxy",
       "description": "常用代理域名集合",
       "output_path": "common/Proxy.arrs",
-      "rule_count": 1364,
+      "rule_count": 1365,
       "skipped_count": 2,
       "unsupported_types": {
         "USER-AGENT": 2
@@ -78,7 +78,7 @@
       "name": "ProxyGFW",
       "description": "GFW 代理集合",
       "output_path": "common/ProxyGFW.arrs",
-      "rule_count": 7610,
+      "rule_count": 7611,
       "skipped_count": 1,
       "unsupported_types": {
         "USER-AGENT": 1
@@ -92,7 +92,7 @@
       "name": "GFW",
       "description": "GFW 域名列表",
       "output_path": "common/GFW.arrs",
-      "rule_count": 4443,
+      "rule_count": 4448,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -501,7 +501,7 @@
       "name": "Geosite_CN",
       "description": "Geosite 中国大陆域名规则",
       "output_path": "common/Geosite_CN.arrs",
-      "rule_count": 5407,
+      "rule_count": 5410,
       "skipped_count": 3,
       "unsupported_types": {
         "Regex": 3

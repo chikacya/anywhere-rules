@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4443
+# RULES: 4448
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -214,6 +214,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, anonfiles.com
 2, anonymouse.org
 2, anthonycalzadilla.com
+2, anthropic.auth0.com
 2, anthropic.com
 2, antiwave.net
 2, antpool.com
@@ -583,6 +584,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, brookings.edu
 2, brutaltgp.com
 2, bsky.app
+2, bsky.chat
 2, bsky.network
 2, bsky.social
 2, bt4g.org
@@ -808,7 +810,10 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, clashyun.com
 2, classicalguitarblog.net
 2, claude.ai
+2, claude.app
 2, claude.com
+2, claudemcpcontent.com
+2, claudeusercontent.com
 2, cldr.unicode.org
 2, clearsurance.com
 2, clementine-player.org

@@ -2,8 +2,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Geosite 中国大陆域名规则
 # GEOSITE-CODE: GEOLOCATION-CN
-# RULES: 5407
-# SOURCE-RULES: 5410
+# RULES: 5410
+# SOURCE-RULES: 5413
 # SKIPPED: 3
 # SKIPPED-TYPES: Regex=3
 # SOURCES:
@@ -1721,6 +1721,9 @@ routing = 1
 2, fastcdn.com
 2, fastcdn.com.cn
 2, fastcom.com.cn
+2, favonis.cloud
+2, favonis.com
+2, favonis.space
 2, faxingbao.com
 2, fbank.com
 2, fbstatic.cn

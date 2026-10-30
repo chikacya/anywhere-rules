@@ -1,7 +1,7 @@
 # NAME: Proxy
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 常用代理域名集合
-# RULES: 1364
+# RULES: 1365
 # SKIPPED: 2
 # SKIPPED-TYPES: USER-AGENT=2
 # SOURCES:
@@ -279,6 +279,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, njav.com
 2, noip.com
 2, note.com
+2, npmx.dev
 2, okex.com
 2, ping0.cc
 2, pomf.cat

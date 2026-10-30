@@ -1,7 +1,7 @@
 # NAME: ProxyGFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 代理集合
-# RULES: 7610
+# RULES: 7611
 # SKIPPED: 1
 # SKIPPED-TYPES: USER-AGENT=1
 # SOURCES:
@@ -7064,6 +7064,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, njav.com
 2, noip.com
 2, note.com
+2, npmx.dev
 2, ping0.cc
 2, pomf.cat
 2, ripe.net
