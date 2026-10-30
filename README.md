@@ -90,7 +90,7 @@ Suggested targets are only a starting point. Pick the policy that matches your o
 
 ## Update
 
-GitHub Actions updates regular generated rules daily. `CN_Accelerated` is updated by a separate weekly workflow, so CN DNS verification does not block the daily rule update.
+GitHub Actions runs the regular rule generation workflow daily. Scheduled updates for `CN_Accelerated` are paused because the latest Anywhere built-in rules database is currently unavailable; the existing rules remain available.
 
 ## Notes
 

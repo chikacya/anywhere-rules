@@ -90,7 +90,7 @@ MITM 规则为实验性内容，仅供学习交流。
 
 ## 更新
 
-GitHub Actions 每天自动更新常规生成规则。`CN_Accelerated` 由单独的每周 workflow 更新，因此 CN DNS 验证不会影响日常规则更新。
+GitHub Actions 每天定时运行常规规则生成任务。由于目前无法取得最新版 Anywhere 内置规则数据库，`CN_Accelerated` 已暂停定期更新；现有规则仍可使用。
 
 ## 说明
 

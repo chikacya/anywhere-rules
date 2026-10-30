@@ -2,9 +2,6 @@ name: Update CN accelerated rules
 
 on:
   workflow_dispatch:
-  schedule:
-    # Weekly at 05:38 Asia/Shanghai.
-    - cron: "38 21 * * 3"
 
 permissions:
   contents: write
