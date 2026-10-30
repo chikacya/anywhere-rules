@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Proxy/Proxy_All.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 6962
+# RULES: 6985
 # SKIPPED: 8
-# UPSTREAM-UPDATED: 2026-10-08 06:31:59
+# UPSTREAM-UPDATED: 2026-10-26 04:16:32
 # SKIPPED-TYPES: USER-AGENT=8
 
 name = Proxy
@@ -31,6 +31,7 @@ name = Proxy
 2, 111666.best
 2, 123av.com
 2, 123av.me
+2, 123av.org
 2, 123rf.com
 2, 12bet.com
 2, 12vpn.com
@@ -148,6 +149,7 @@ name = Proxy
 2, 7capture.com
 2, 7cow.com
 2, 7mmtv.tv
+2, 7x24hrs.com
 2, 8-d.com
 2, 85cc.net
 2, 85cc.us
@@ -658,6 +660,7 @@ name = Proxy
 2, bibliocommons.com
 2, bibox.com
 2, bic2011.org
+2, bidobido.xyz
 2, biedian.me
 2, big.one
 2, bigfools.com
@@ -667,6 +670,8 @@ name = Proxy
 2, bignews.org
 2, bigone.com
 2, bigsound.org
+2, bikaios.xyz
+2, bikawebapp.com
 2, bild.de
 2, bilinovel.com
 2, biliworld.com
@@ -1262,6 +1267,7 @@ name = Proxy
 2, compose-spec.io
 2, compress.to
 2, conoha.jp
+2, console.typesafe.ai
 2, constitutionalism.solutions
 2, contactmagazine.net
 2, content.office.net
@@ -1502,6 +1508,7 @@ name = Proxy
 2, disquscdn.com
 2, dit-inc.us
 2, divdyn.com
+2, diwodiwo.xyz
 2, diyin.org
 2, dizhidizhi.com
 2, dizhuzhishang.com
@@ -2202,6 +2209,7 @@ name = Proxy
 2, g.kfd.me
 2, g0v.social
 2, g6hentai.com
+2, ga.jspm.io
 2, gab.com
 2, gabia.net
 2, gabocorp.com
@@ -2753,6 +2761,7 @@ name = Proxy
 2, htx.com
 2, hua-yue.net
 2, huaglad.com
+2, huakacomic.com
 2, huanghuagang.org
 2, huangyiyu.com
 2, huaren.us
@@ -3225,6 +3234,7 @@ name = Proxy
 2, kichiku-doujinko.com
 2, kik.com
 2, killwall.com
+2, kimootoko.net
 2, kindle4rss.com
 2, kindleren.com
 2, kingdomsalvation.org
@@ -3524,6 +3534,7 @@ name = Proxy
 2, mangafox.me
 2, mangaup.jp
 2, mangmang.run
+2, manhuabika.com
 2, manhuaren.com
 2, maniash.com
 2, manicur4ik.ru
@@ -3627,7 +3638,9 @@ name = Proxy
 2, meshrep.com
 2, mesotw.com
 2, messenger.com
+2, meta.ai
 2, meta.com
+2, metaaivm.com
 2, metacafe.com
 2, metacubex.one
 2, metafilter.com
@@ -3690,6 +3703,7 @@ name = Proxy
 2, miniforum.org
 2, miningpoolhub.com
 2, ministrybooks.org
+2, minkch.com
 2, minzhuhua.net
 2, minzhuzhanxian.com
 2, minzhuzhongguo.org
@@ -3782,6 +3796,7 @@ name = Proxy
 2, mousebreaker.com
 2, movements.org
 2, moves-export.com
+2, movie.eroterest.net
 2, moviefap.com
 2, mozilla.org
 2, moztw.org
@@ -4051,6 +4066,9 @@ name = Proxy
 2, niu.moe
 2, niusnews.com
 2, njactb.org
+2, njav.com
+2, njav.tv
+2, njavtv.com
 2, njuice.com
 2, nlfreevpn.com
 2, nmsl.website
@@ -4410,6 +4428,7 @@ name = Proxy
 2, phuquocservices.com
 2, piaotia.com
 2, piaotian.net
+2, pica-id.com
 2, picacomic.com
 2, picacomiccn.com
 2, picasaweb.com
@@ -4487,6 +4506,7 @@ name = Proxy
 2, plusbb.com
 2, pmatehunter.com
 2, pmates.com
+2, po-kaki-to.com
 2, po2b.com
 2, pobieramy.top
 2, podbean.com
@@ -5707,6 +5727,7 @@ name = Proxy
 2, tinypic.com
 2, tinyurl.com
 2, tipas.net
+2, tipatipa.xyz
 2, tistory.com
 2, tkcs-collins.com
 2, tl.gd
@@ -6405,6 +6426,7 @@ name = Proxy
 2, whyx.org
 2, widevine.com
 2, wikaba.com
+2, wikawika.xyz
 2, wiki.esu.im
 2, wiki.kfd.me
 2, wikia.com
@@ -6831,6 +6853,7 @@ name = Proxy
 2, zophar.net
 2, zorrovpn.com
 2, zozotown.com
+2, zozovideo.com
 2, zpn.im
 2, zsdxzk.com
 2, zspeeder.me

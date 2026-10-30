@@ -5,7 +5,7 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 20
 # SKIPPED: 36
-# UPSTREAM-UPDATED: 2026-10-04 04:27:39
+# UPSTREAM-UPDATED: 2026-10-26 04:15:00
 # SKIPPED-TYPES: PROCESS-NAME=13, USER-AGENT=23
 
 name = Apple

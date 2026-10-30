@@ -5,7 +5,7 @@
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 2262
 # SKIPPED: 73
-# UPSTREAM-UPDATED: 2026-10-08 06:32:00
+# UPSTREAM-UPDATED: 2026-10-12 05:22:09
 # SKIPPED-TYPES: PROCESS-NAME=3, URL-REGEX=1, USER-AGENT=69
 
 name = GlobalMedia

@@ -3,14 +3,16 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Lan/Lan_Resolve.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 140
+# RULES: 142
 # SKIPPED: 0
-# UPSTREAM-UPDATED: 2026-04-14 02:28:00
+# UPSTREAM-UPDATED: 2026-10-20 05:59:47
 
 name = Lan
 2, asusrouter.com
 2, instant.arubanetworks.com
 2, local.adguard.org
+2, localhost.weixin.qq.com
+2, localhost.work.weixin.qq.com
 2, oasisauth.h3c.com
 2, router.asus.com
 2, setmeup.arubanetworks.com

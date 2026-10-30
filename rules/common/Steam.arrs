@@ -1,7 +1,7 @@
 # NAME: Steam
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Steam
-# RULES: 54
+# RULES: 69
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list
@@ -14,6 +14,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAIAAABoJHXvAAAAAXNSR0IArs4c6QAAAAl
 2, csgo.wmsj.cn
 2, dl.steam.clngaa.com
 2, dl.steam.ksyna.com
+2, dota2.com
 2, dota2.wmsj.cn
 2, edge.steam-dns.top.comcast.net
 2, f3b7q2p3.ssl.hwcdn.net
@@ -39,6 +40,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAIAAABoJHXvAAAAAXNSR0IArs4c6QAAAAl
 2, steamcdn-a.akamaihd.net
 2, steamcommunity-a.akamaihd.net
 2, steamcommunity.com
+2, steamconnecttest.com
 2, steamcontent.tnkjmec.com
 2, steamdeck.com
 2, steamgames.com
@@ -57,8 +59,21 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAIAAABoJHXvAAAAAXNSR0IArs4c6QAAAAl
 2, steamuserimages-a.akamaihd.net
 2, steamvideo-a.akamaihd.net
 2, underlords.com
+2, valve.net
 2, valvesoftware.com
 2, wmsjsteam.com
 3, steambroadcast
 3, steamstore
 3, steamuserimages
+0, 103.10.124.0/23
+0, 103.28.54.0/24
+0, 146.66.152.0/24
+0, 146.66.155.0/24
+0, 155.133.224.0/19
+0, 162.254.192.0/21
+0, 185.25.180.0/22
+0, 192.69.96.0/22
+0, 205.196.6.0/24
+0, 208.64.200.0/22
+0, 208.78.164.0/22
+0, 45.121.184.0/24

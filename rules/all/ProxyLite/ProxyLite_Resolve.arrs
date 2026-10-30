@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/ProxyLite/ProxyLite_Resolve.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 987
+# RULES: 998
 # SKIPPED: 6
-# UPSTREAM-UPDATED: 2026-10-04 04:30:29
+# UPSTREAM-UPDATED: 2026-10-26 04:17:17
 # SKIPPED-TYPES: USER-AGENT=6
 
 name = ProxyLite
@@ -111,7 +111,10 @@ name = ProxyLite
 2, bet365.com
 2, betvictor.com
 2, bibox.com
+2, bidobido.xyz
 2, bigsound.org
+2, bikaios.xyz
+2, bikawebapp.com
 2, binance.cc
 2, binance.com
 2, binance.me
@@ -217,6 +220,7 @@ name = ProxyLite
 2, disq.us
 2, disqus.com
 2, disquscdn.com
+2, diwodiwo.xyz
 2, dler.io
 2, dlive.tv
 2, dmm.co.jp
@@ -232,6 +236,7 @@ name = ProxyLite
 2, duckduckgo.com
 2, dueapp.com
 2, dw.com
+2, e-hentai.org
 2, earthcam.com
 2, easybib.com
 2, economist.com
@@ -246,6 +251,7 @@ name = ProxyLite
 2, etherscan.io
 2, eurekavpt.com
 2, evernote.com
+2, exhentai.org
 2, extmatrix.com
 2, eyny.com
 2, f8.com
@@ -327,6 +333,7 @@ name = ProxyLite
 2, howtoforge.com
 2, hoyolab.com
 2, hoyoverse.com
+2, huakacomic.com
 2, huffpost.com
 2, hulu.com
 2, humblebundle.com
@@ -410,6 +417,7 @@ name = ProxyLite
 2, macrumors.com
 2, mailchimp.com
 2, mangaup.jp
+2, manhuabika.com
 2, manhuaren.com
 2, marketwatch.com
 2, mashable.com
@@ -509,6 +517,7 @@ name = ProxyLite
 2, phncdn.com
 2, phprcdn.com
 2, piaotian.net
+2, pica-id.com
 2, picacomic.com
 2, picjs.xyz
 2, pinboard.in
@@ -686,6 +695,7 @@ name = ProxyLite
 2, tiny.cc
 2, tinychat.com
 2, tinypic.com
+2, tipatipa.xyz
 2, tmagazine.com
 2, tmblr.co
 2, todoist.com
@@ -805,6 +815,7 @@ name = ProxyLite
 2, westca.com
 2, westpoint.edu
 2, whoer.net
+2, wikawika.xyz
 2, wikibooks.org
 2, wikidata.org
 2, wikifunctions.org

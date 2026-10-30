@@ -2,8 +2,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Geosite 中国大陆域名规则
 # GEOSITE-CODE: GEOLOCATION-CN
-# RULES: 5385
-# SOURCE-RULES: 5388
+# RULES: 5407
+# SOURCE-RULES: 5410
 # SKIPPED: 3
 # SKIPPED-TYPES: Regex=3
 # SOURCES:
@@ -406,6 +406,7 @@ routing = 1
 2, 9xu.com
 2, a2z.org.cn
 2, a9vg.com
+2, aaej.cn
 2, aaic.com.cn
 2, aamgame.com
 2, aamgame.mobi
@@ -564,6 +565,7 @@ routing = 1
 2, apk8.com
 2, aplaybox.com
 2, apollo.auto
+2, app.moegirl.org.cn
 2, appchina.com
 2, appeeres.com
 2, appinn.com
@@ -744,6 +746,7 @@ routing = 1
 2, bibaodao.com
 2, bidchance.com
 2, biddingx.com
+2, bigdatacq.com
 2, bigmodel.cn
 2, bihu.com
 2, biji.com
@@ -782,6 +785,7 @@ routing = 1
 2, bmac.com.cn
 2, bobbns.com
 2, bobo.com
+2, bocd.com.cn
 2, boce.com
 2, bochaai.com
 2, boe.com
@@ -894,6 +898,8 @@ routing = 1
 2, cdndo.com
 2, cdnmama.com
 2, cdnmg.com
+2, cdrcb.com
+2, cdrcbank.com
 2, cdut.top
 2, ce.cn
 2, ceair.com
@@ -1087,6 +1093,7 @@ routing = 1
 2, ckxx.net
 2, clangcn.com
 2, clawhub-mirror.com
+2, cldisk.com
 2, cleargrass.com
 2, clewm.net
 2, cli.im
@@ -1214,13 +1221,17 @@ routing = 1
 2, cqcb.com
 2, cqccn.com
 2, cqctyiptv.cn
+2, cqdcg.com
+2, cqge.com.cn
 2, cqhlw.cn
 2, cqliving.com
 2, cqn.com.cn
 2, cqnews.net
+2, cqsdlys.cn
 2, cqsjb.com
 2, cqtk.com.cn
 2, cqvip.com
+2, cqyyxc.com
 2, cr-cts.com
 2, cr173.com
 2, cravatar.cn
@@ -1432,6 +1443,7 @@ routing = 1
 2, dida365.com
 2, didachuxing.com
 2, didapinche.com
+2, digitalcnzz.com
 2, digitaling.com
 2, diiing.cn
 2, dili360.com
@@ -1587,6 +1599,7 @@ routing = 1
 2, e0n.cn
 2, eagsen.com
 2, easec.com.cn
+2, easemob.com
 2, easesale.com
 2, easiu.com
 2, eastday.com
@@ -1746,6 +1759,7 @@ routing = 1
 2, fhldns.com
 2, fhyx.com
 2, filez.com
+2, filmorigin.com
 2, fimmu.com
 2, finchina.com
 2, finclip.com
@@ -1913,7 +1927,6 @@ routing = 1
 2, gdjdxy.com
 2, gdliontech.com
 2, gdrc.com
-2, gdtimg.com
 2, geekbang.org
 2, geekpark.net
 2, geektool.top
@@ -2015,6 +2028,7 @@ routing = 1
 2, gowinamc.com
 2, gpall.cn
 2, gpall.net
+2, gpzshq.cn
 2, gracg.com
 2, greatwallwine.com.cn
 2, gree.cn
@@ -2363,6 +2377,7 @@ routing = 1
 2, i8tq.com
 2, iachina.cn
 2, iask.com
+2, ibangbank.com
 2, ibaotu.com
 2, ibcet.org
 2, ibidian.com
@@ -2471,6 +2486,7 @@ routing = 1
 2, intsig.com
 2, intsig.net
 2, iotronic.tech
+2, ip.cn
 2, ip138.com
 2, ipanda.cn
 2, ipanda.com
@@ -2498,6 +2514,8 @@ routing = 1
 2, ishijue.com
 2, ishumei.com
 2, ishuqi.com
+2, isigning.cn
+2, isigning.com
 2, istoreos.com
 2, istv.cn
 2, isxtv.com
@@ -2576,7 +2594,6 @@ routing = 1
 2, jikecdn.com
 2, jikeiot.cloud
 2, jikexueyuan.com
-2, jikipedia.com
 2, jin10.com
 2, jinantimes.com.cn
 2, jinchutou.com
@@ -2744,6 +2761,7 @@ routing = 1
 2, kaipuyun.net
 2, kaixin001.com
 2, kajicam.com
+2, kakaxing.com
 2, kameng98.com
 2, kancloud.cn
 2, kanimg.com
@@ -3300,8 +3318,6 @@ routing = 1
 2, modelers.cn
 2, modex.com.cn
 2, moedu.com
-2, moegirl.org
-2, moegirl.org.cn
 2, moer.cn
 2, mofang.com
 2, mofazhu.com
@@ -3399,6 +3415,7 @@ routing = 1
 2, nalrer.cn
 2, namiso.com
 2, nanhaicorp.com
+2, nanocorechip.com
 2, nanyuenews.com
 2, narwal.com
 2, narwaltech.com
@@ -4171,6 +4188,7 @@ routing = 1
 2, stocke.com.cn
 2, stockstar.com
 2, stointl.com
+2, storage.moegirl.org.cn
 2, stosolution.com
 2, study.163.com
 2, study360.com.cn
@@ -4230,6 +4248,8 @@ routing = 1
 2, sznews.com
 2, szpgm.com
 2, szse.cn
+2, szu.app
+2, szu.moe
 2, szzfgjj.com
 2, t00ls.cc
 2, t00ls.net
@@ -4859,6 +4879,7 @@ routing = 1
 2, xiaoluyouxuan.com
 2, xiaoluzhidian.com
 2, xiaomaicn.com
+2, xiaomaigui.com
 2, xiaomengai.com
 2, xiaomimimo.com
 2, xiaomingtaiji.com
@@ -4945,6 +4966,7 @@ routing = 1
 2, xuexi365.com.cn
 2, xuexi365.net
 2, xuexicha.com
+2, xuexitong.com
 2, xundupdf.com
 2, xunfei.cn
 2, xunfeixxj.com

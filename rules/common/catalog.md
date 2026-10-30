@@ -5,12 +5,12 @@
 | Name | Rules | Skipped | Description | File |
 | --- | ---: | ---: | --- | --- |
 | Reject | 6197 | 1 | 广告、恶意站点和跟踪拦截基础集合 | [common/Reject.arrs](./Reject.arrs) |
-| Ads_AWAvenue | 958 | 0 | 秋风广告规则 AWAvenue | [common/Ads_AWAvenue.arrs](./Ads_AWAvenue.arrs) |
+| Ads_AWAvenue | 969 | 0 | 秋风广告规则 AWAvenue | [common/Ads_AWAvenue.arrs](./Ads_AWAvenue.arrs) |
 | PCDN | 37 | 7 | PCDN 拦截 | [common/PCDN.arrs](./PCDN.arrs) |
-| AI | 56 | 1 | 常见 AI 服务 | [common/AI.arrs](./AI.arrs) |
-| Proxy | 1571 | 2 | 常用代理域名集合 | [common/Proxy.arrs](./Proxy.arrs) |
-| ProxyGFW | 7609 | 1 | GFW 代理集合 | [common/ProxyGFW.arrs](./ProxyGFW.arrs) |
-| GFW | 4429 | 0 | GFW 域名列表 | [common/GFW.arrs](./GFW.arrs) |
+| AI | 59 | 1 | 常见 AI 服务 | [common/AI.arrs](./AI.arrs) |
+| Proxy | 1364 | 2 | 常用代理域名集合 | [common/Proxy.arrs](./Proxy.arrs) |
+| ProxyGFW | 7610 | 1 | GFW 代理集合 | [common/ProxyGFW.arrs](./ProxyGFW.arrs) |
+| GFW | 4443 | 0 | GFW 域名列表 | [common/GFW.arrs](./GFW.arrs) |
 | Direct | 35 | 1 | 常用直连补充 | [common/Direct.arrs](./Direct.arrs) |
 | AppleCN | 10 | 0 | 苹果中国和苹果 CDN 直连 | [common/AppleCN.arrs](./AppleCN.arrs) |
 | AppleProxy | 39 | 6 | 需要代理的苹果服务 | [common/AppleProxy.arrs](./AppleProxy.arrs) |
@@ -33,15 +33,15 @@
 | TikTok | 81 | 2 | TikTok | [common/TikTok.arrs](./TikTok.arrs) |
 | Bilibili | 20 | 0 | Bilibili | [common/Bilibili.arrs](./Bilibili.arrs) |
 | WeChat | 339 | 2 | WeChat | [common/WeChat.arrs](./WeChat.arrs) |
-| ChinaDomain | 868 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
+| ChinaDomain | 869 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
 | CN_Additional | 44546 | 0 | 中国大陆域名补充 | [common/CN_Additional.arrs](./CN_Additional.arrs) |
-| ChinaIP | 9609 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
+| ChinaIP | 10012 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
 | Lan | 14 | 0 | 局域网和私有地址 | [common/Lan.arrs](./Lan.arrs) |
-| Game | 597 | 0 | 游戏平台集合 | [common/Game.arrs](./Game.arrs) |
-| Steam | 54 | 0 | Steam | [common/Steam.arrs](./Steam.arrs) |
+| Game | 612 | 0 | 游戏平台集合 | [common/Game.arrs](./Game.arrs) |
+| Steam | 69 | 0 | Steam | [common/Steam.arrs](./Steam.arrs) |
 | PayPal | 247 | 1 | PayPal | [common/PayPal.arrs](./PayPal.arrs) |
 | Cloudflare | 65 | 0 | Cloudflare | [common/Cloudflare.arrs](./Cloudflare.arrs) |
 | Emby | 51 | 1 | Emby | [common/Emby.arrs](./Emby.arrs) |
 | CN_Accelerated | 60275 | 0 | 中国大陆 DNS 加速域名补充 | [common/CN_Accelerated.arrs](./CN_Accelerated.arrs) |
-| GeoIP_CN | 9808 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |
-| Geosite_CN | 5385 | 3 | Geosite 中国大陆域名规则 | [common/Geosite_CN.arrs](./Geosite_CN.arrs) |
+| GeoIP_CN | 10211 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |
+| Geosite_CN | 5407 | 3 | Geosite 中国大陆域名规则 | [common/Geosite_CN.arrs](./Geosite_CN.arrs) |

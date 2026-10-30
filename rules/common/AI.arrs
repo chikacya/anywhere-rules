@@ -1,7 +1,7 @@
 # NAME: AI
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 常见 AI 服务
-# RULES: 56
+# RULES: 59
 # SKIPPED: 1
 # SKIPPED-TYPES: URL-REGEX=1
 # SOURCES:
@@ -47,9 +47,11 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, gemini.google.com
 2, notebooklm.google
 2, antigravity.google
+2, server.codeium.com
 2, aida.googleapis.com
 2, aistudio.google.com
 2, generativeai.google
+2, inference.codeium.com
 2, makersuite.google.com
 2, notebooklm.google.com
 2, antigravity-unleash.goog
@@ -57,6 +59,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, gateway.ai.cloudflare.com
 2, aisandbox-pa.googleapis.com
 2, cloudcode-pa.googleapis.com
+2, server.self-serve.windsurf.com
 2, robinfrontend-pa.googleapis.com
 2, alkalicore-pa.clients6.google.com
 2, daily-cloudcode-pa.googleapis.com

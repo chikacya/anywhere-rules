@@ -1,7 +1,7 @@
 # NAME: ChinaDomain
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 中国大陆常见域名直连
-# RULES: 868
+# RULES: 869
 # SKIPPED: 4
 # SKIPPED-TYPES: DOMAIN-WILDCARD=1, USER-AGENT=3
 # SOURCES:
@@ -209,6 +209,7 @@ routing = 1
 2, 95588.com
 2, aicdn.com
 2, alipay.cn
+2, amemv.com
 2, awtmt.com
 2, baidu.com
 2, baike.com

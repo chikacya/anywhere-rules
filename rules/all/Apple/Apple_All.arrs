@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Apple/Apple_All.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 1580
+# RULES: 1579
 # SKIPPED: 36
-# UPSTREAM-UPDATED: 2026-10-08 06:30:44
+# UPSTREAM-UPDATED: 2026-10-28 05:41:06
 # SKIPPED-TYPES: PROCESS-NAME=13, USER-AGENT=23
 
 name = Apple
@@ -1145,6 +1145,7 @@ name = Apple
 2, app-store.wang
 2, appe-store.com
 2, apple-appstore.cn
+2, apple-icloud.cn
 2, apple-itunes.cn
 2, apple-pay.com
 2, apple-pay.rs
@@ -1155,6 +1156,7 @@ name = Apple
 2, appleappstore.tv
 2, appledarwin.com
 2, appledarwin.net
+2, appleicloud.cn
 2, appleid-applemx.com
 2, appleid-applemx.us
 2, appleid-iclou.com
@@ -1163,6 +1165,7 @@ name = Apple
 2, appleid.com
 2, appleid.hamburg
 2, appleid.hk
+2, applemx-icloud.com
 2, appleone.audio
 2, appleone.blog
 2, appleone.chat
@@ -1209,7 +1212,50 @@ name = Apple
 2, darwinsource.com
 2, darwinsource.org
 2, darwinsourcecode.com
+2, icloud-apple.cn
+2, icloud-content.com
+2, icloud-isupport.com
+2, icloud-sandbox.com
+2, icloud.ch
+2, icloud.com
+2, icloud.com.cn
+2, icloud.de
+2, icloud.ee
+2, icloud.fi
+2, icloud.fr
+2, icloud.hu
+2, icloud.ie
+2, icloud.is
+2, icloud.jp
+2, icloud.lv
+2, icloud.net.cn
+2, icloud.om
+2, icloud.org
+2, icloud.pt
+2, icloud.ro
+2, icloud.se
+2, icloud.si
+2, icloud.sk
+2, icloud.vn
+2, icloudads.net
+2, icloudapple.cn
+2, icloudbox.net
+2, icloudbrowser.net
+2, icloude.com
+2, icloudhome.com
+2, icloudmail.net
+2, icloudmusic.net
+2, icloudnet.net
+2, icloudo.com
+2, icloudo.de
+2, icloudo.net
+2, icloudos.de
+2, icloudos.net
+2, icloudpay.net
+2, icloudsecure.net
+2, icloudsetup.com
 2, ids-apple.com
+2, ios-icloud.com
 2, itun.es
 2, itunbes.com
 2, ituneas.com
@@ -1243,8 +1289,12 @@ name = Apple
 2, itunesu.com
 2, itunesu.net
 2, iutunes.com
+2, me.com
 2, myappleid.com
+2, myicloud.net
+2, mylcloud.net
 2, tvappstore.net
+2, wwwicloud.com
 2, wwwitunes.com
 2, aplestore.com
 2, aplleipods.com
@@ -1473,11 +1523,9 @@ name = Apple
 2, wwwipodlounge.com
 2, wwwmacbookair.com
 2, apple.comscoreresearch.com
-2, apple.news
 2, appleenews.com
 2, applemusic.berlin
 2, applemusic.co
-2, applemusic.com
 2, applemusic.com.au
 2, applemusic.hamburg
 2, applemusic.wang
@@ -1510,65 +1558,16 @@ name = Apple
 2, iphoto.wang
 2, musickit.net
 2, wwwapplemusic.com
+2, applemusic.com
 2, apple-dns.net
+2, apple.news
 2, appsto.re
 2, cdn-apple.com
 2, digicert.com
 2, apple-cloudkit.com
-2, apple-icloud.cn
 2, apple-livephotoskit.com
-2, appleicloud.cn
-2, applemx-icloud.com
 2, apzones.com
-2, icloud-apple.cn
-2, icloud-content.com
 2, icloud-content.com.cn
-2, icloud-isupport.com
-2, icloud-sandbox.com
-2, icloud.ch
-2, icloud.cn
-2, icloud.com
-2, icloud.com.cn
-2, icloud.de
-2, icloud.ee
-2, icloud.fi
-2, icloud.fr
-2, icloud.hu
-2, icloud.ie
-2, icloud.is
-2, icloud.jp
-2, icloud.lv
-2, icloud.net.cn
-2, icloud.om
-2, icloud.org
-2, icloud.pt
-2, icloud.ro
-2, icloud.se
-2, icloud.si
-2, icloud.sk
-2, icloud.vn
-2, icloudads.net
-2, icloudapple.cn
-2, icloudbox.net
-2, icloudbrowser.net
-2, icloude.com
-2, icloudhome.com
-2, icloudmail.net
-2, icloudmusic.net
-2, icloudnet.net
-2, icloudo.com
-2, icloudo.de
-2, icloudo.net
-2, icloudos.de
-2, icloudos.net
-2, icloudpay.net
-2, icloudsecure.net
-2, icloudsetup.com
-2, ios-icloud.com
-2, me.com
-2, myicloud.net
-2, mylcloud.net
-2, wwwicloud.com
 3, apple-support.akadns.net
 3, apple.com.akadns.net
 3, apple.com.edgekey.net

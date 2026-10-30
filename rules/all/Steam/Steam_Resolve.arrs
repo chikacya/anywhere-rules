@@ -1,0 +1,79 @@
+# NAME: Steam
+# AUTHOR: blackmatrix7
+# SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Steam/Steam_Resolve.list
+# GENERATED-FOR: Anywhere Routing Rule Set
+# NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
+# RULES: 69
+# SKIPPED: 0
+# UPSTREAM-UPDATED: 2026-10-24 04:55:18
+
+name = Steam
+2, cdn-ali.content.steamchina.com
+2, cdn-qc.content.steamchina.com
+2, cdn-ws.content.steamchina.com
+2, csgo.wmsj.cn
+2, dl.steam.clngaa.com
+2, dl.steam.ksyna.com
+2, dota2.com
+2, dota2.wmsj.cn
+2, edge.steam-dns.top.comcast.net
+2, f3b7q2p3.ssl.hwcdn.net
+2, fanatical.com
+2, humblebundle.com
+2, playartifact.com
+2, s.team
+2, st.dl.bscstorage.net
+2, st.dl.eccdnx.com
+2, st.dl.pinyuncloud.com
+2, steam-api.com
+2, steam-chat.com
+2, steam.apac.qtlglb.com
+2, steam.cdn.on.net
+2, steam.cdn.orcon.net.nz
+2, steam.cdn.slingshot.co.nz
+2, steam.cdn.webra.ru
+2, steam.eca.qtlglb.com
+2, steam.naeu.qtlglb.com
+2, steam.ru.qtlglb.com
+2, steam.tv
+2, steambroadcast.akamaized.net
+2, steamcdn-a.akamaihd.net
+2, steamcommunity-a.akamaihd.net
+2, steamcommunity.com
+2, steamconnecttest.com
+2, steamcontent.tnkjmec.com
+2, steamdeck.com
+2, steamgames.com
+2, steammobile.akamaized.net
+2, steampipe-kr.akamaized.net
+2, steampipe-partner.akamaized.net
+2, steampipe.akamaized.net
+2, steampowered.com
+2, steampowered.com.8686c.com
+2, steamstat.us
+2, steamstatic.com
+2, steamstatic.com.8686c.com
+2, steamstore-a.akamaihd.net
+2, steamunlocked.net
+2, steamusercontent-a.akamaihd.net
+2, steamuserimages-a.akamaihd.net
+2, steamvideo-a.akamaihd.net
+2, underlords.com
+2, valve.net
+2, valvesoftware.com
+2, wmsjsteam.com
+3, steambroadcast
+3, steamstore
+3, steamuserimages
+0, 103.10.124.0/23
+0, 103.28.54.0/24
+0, 146.66.152.0/24
+0, 146.66.155.0/24
+0, 155.133.224.0/19
+0, 162.254.192.0/21
+0, 185.25.180.0/22
+0, 192.69.96.0/22
+0, 205.196.6.0/24
+0, 208.64.200.0/22
+0, 208.78.164.0/22
+0, 45.121.184.0/24

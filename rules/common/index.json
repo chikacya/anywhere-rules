@@ -1,6 +1,6 @@
 {
   "total_files": 41,
-  "total_rules": 153464,
+  "total_rules": 154145,
   "total_skipped": 75,
   "files": [
     {
@@ -24,7 +24,7 @@
       "name": "Ads_AWAvenue",
       "description": "秋风广告规则 AWAvenue",
       "output_path": "common/Ads_AWAvenue.arrs",
-      "rule_count": 958,
+      "rule_count": 969,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -48,7 +48,7 @@
       "name": "AI",
       "description": "常见 AI 服务",
       "output_path": "common/AI.arrs",
-      "rule_count": 56,
+      "rule_count": 59,
       "skipped_count": 1,
       "unsupported_types": {
         "URL-REGEX": 1
@@ -64,21 +64,21 @@
       "name": "Proxy",
       "description": "常用代理域名集合",
       "output_path": "common/Proxy.arrs",
-      "rule_count": 1571,
+      "rule_count": 1364,
       "skipped_count": 2,
       "unsupported_types": {
         "USER-AGENT": 2
       },
       "sources": [
         "https://ruleset.skk.moe/List/non_ip/global.conf",
-        "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Proxy.list"
+        "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Proxy+.list"
       ]
     },
     {
       "name": "ProxyGFW",
       "description": "GFW 代理集合",
       "output_path": "common/ProxyGFW.arrs",
-      "rule_count": 7609,
+      "rule_count": 7610,
       "skipped_count": 1,
       "unsupported_types": {
         "USER-AGENT": 1
@@ -92,7 +92,7 @@
       "name": "GFW",
       "description": "GFW 域名列表",
       "output_path": "common/GFW.arrs",
-      "rule_count": 4429,
+      "rule_count": 4443,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -370,7 +370,7 @@
       "name": "ChinaDomain",
       "description": "中国大陆常见域名直连",
       "output_path": "common/ChinaDomain.arrs",
-      "rule_count": 868,
+      "rule_count": 869,
       "skipped_count": 4,
       "unsupported_types": {
         "DOMAIN-WILDCARD": 1,
@@ -395,7 +395,7 @@
       "name": "ChinaIP",
       "description": "中国大陆 IP CIDR",
       "output_path": "common/ChinaIP.arrs",
-      "rule_count": 9609,
+      "rule_count": 10012,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -417,7 +417,7 @@
       "name": "Game",
       "description": "游戏平台集合",
       "output_path": "common/Game.arrs",
-      "rule_count": 597,
+      "rule_count": 612,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -428,7 +428,7 @@
       "name": "Steam",
       "description": "Steam",
       "output_path": "common/Steam.arrs",
-      "rule_count": 54,
+      "rule_count": 69,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -490,7 +490,7 @@
       "name": "GeoIP_CN",
       "description": "GeoIP 中国大陆 IP CIDR",
       "output_path": "common/GeoIP_CN.arrs",
-      "rule_count": 9808,
+      "rule_count": 10211,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -501,7 +501,7 @@
       "name": "Geosite_CN",
       "description": "Geosite 中国大陆域名规则",
       "output_path": "common/Geosite_CN.arrs",
-      "rule_count": 5385,
+      "rule_count": 5407,
       "skipped_count": 3,
       "unsupported_types": {
         "Regex": 3

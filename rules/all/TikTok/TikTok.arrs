@@ -3,9 +3,9 @@
 # SOURCE: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/TikTok/TikTok.list
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
-# RULES: 31
+# RULES: 34
 # SKIPPED: 2
-# UPSTREAM-UPDATED: 2025-08-10 02:08:00
+# UPSTREAM-UPDATED: 2026-10-16 04:51:01
 # SKIPPED-TYPES: PROCESS-NAME=1, USER-AGENT=1
 
 name = TikTok
@@ -18,6 +18,9 @@ name = TikTok
 2, byteintlapi.com
 2, byteoversea.com
 2, capcut.com
+2, capcutapi.com
+2, capcutapi.us
+2, capcutstatic.com
 2, ibytedtos.com
 2, ibyteimg.com
 2, ipstatp.com

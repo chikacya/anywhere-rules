@@ -4,8 +4,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 0
-# SKIPPED: 1560
-# UPSTREAM-UPDATED: 2026-03-06 02:37:19
-# SKIPPED-TYPES: UNKNOWN=1560
+# SKIPPED: 1559
+# UPSTREAM-UPDATED: 2026-10-26 04:15:00
+# SKIPPED-TYPES: UNKNOWN=1559
 
 name = Apple

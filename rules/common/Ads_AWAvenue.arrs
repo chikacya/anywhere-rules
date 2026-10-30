@@ -1,7 +1,7 @@
 # NAME: Ads_AWAvenue
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 秋风广告规则 AWAvenue
-# RULES: 958
+# RULES: 969
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list
@@ -19,6 +19,8 @@ routing = 2
 2, abtest-ch.snssdk.com
 2, ad-api.4pyun.com
 2, ad-cdn.qingting.fm
+2, ad-cmp.hismarttv.com
+2, ad-download.hismarttv.com
 2, ad-files.4pyun.com
 2, ad-scope.com
 2, ad-scope.com.cn
@@ -298,6 +300,7 @@ routing = 2
 2, bj-td-menta-01-callback.advlion.com
 2, bj.ad.track.66mobi.com
 2, books-analytics-events.apple.com
+2, boost-cmp.hismarttv.com
 2, bootpreload.uve.weibo.com
 2, brandadsstatic.vivo.com.cn
 2, browser.events.data.msn.cn
@@ -403,6 +406,7 @@ routing = 2
 2, fxgate.baidu.com
 2, g-adnet.hiaiabc.com
 2, g-staic.ganjingworld.com
+2, g.cn.miaozhen.com
 2, g.dtv.cn.miaozhen.com
 2, g.fancyapi.com
 2, g2.ganjing.world
@@ -478,6 +482,7 @@ routing = 2
 2, img-x.jd.com
 2, img.adnyg.com.w.kunlungr.com
 2, img2.360buyimg.com
+2, imp-cmp.hismarttv.com
 2, impression-asia.chinaliftoff.io
 2, impression-asia.liftoff.io
 2, impression.appsflyer.com
@@ -524,6 +529,7 @@ routing = 2
 2, lives.l.ott.video.qq.com
 2, livewebbs2pcdn.msstatic.com
 2, lm10111.jtrincc.cn
+2, loading-cmp.hismarttv.com
 2, log-api-mn.huxiu.com
 2, log-api.huxiu.com
 2, log-api.pangolin-sdk-toutiao-b.com
@@ -613,6 +619,7 @@ routing = 2
 2, ms4.applovin.com
 2, ms4.applvn.com
 2, msdk.voiceads.cn
+2, msg-cmp.hismarttv.com
 2, mssdk.volces.com
 2, mssdk.zijieapi.com
 2, mtj.baidu.com
@@ -662,6 +669,7 @@ routing = 2
 2, pagead2.googleadservices.com
 2, pagead2.googlesyndication.com
 2, pangolin-sdk-toutiao-b.com
+2, paster-cmp.hismarttv.com
 2, pay.sboot.cn
 2, pcdn.xmcdn.com
 2, pcdn.yximgs.com
@@ -691,6 +699,7 @@ routing = 2
 2, qn-cdnfile1pcdn.msstatic.com
 2, qqdata.ab.qq.com
 2, qzs.gdtimg.com
+2, recmd-cmp.hismarttv.com
 2, recommend-drcn.hms.dbankcloud.cn
 2, report.dxunion.cn
 2, report.tencentmusic.com
@@ -701,6 +710,7 @@ routing = 2
 2, res2.hubcloud.com.cn
 2, res3.hubcloud.com.cn
 2, resolve.umeng.com
+2, resource-cmp.hismarttv.com
 2, review.gdtimg.com
 2, rlog.popin.cc
 2, rms-drcn.platform.dbankcloud.cn
@@ -895,6 +905,7 @@ routing = 2
 2, v2-ad.video.yximgs.com
 2, v2-api-channel-launcher.hismarttv.com
 2, v2.gdt.qq.com
+2, v2.reachmax.cn
 2, v2mi.gdt.qq.com
 2, v3-ad.video.yximgs.com
 2, v3.gdt.qq.com

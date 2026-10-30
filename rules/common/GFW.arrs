@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4429
+# RULES: 4443
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -16,6 +16,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, 10musume.com
 2, 123av.com
 2, 123av.me
+2, 123av.org
 2, 12bet.com
 2, 12vpn.com
 2, 12vpn.net
@@ -68,6 +69,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, 6parker.com
 2, 6parknews.com
 2, 7capture.com
+2, 7x24hrs.com
 2, 8-d.com
 2, 85cc.us
 2, 881903.com
@@ -868,6 +870,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, compileheart.com
 2, connect.facebook.net
 2, conoha.jp
+2, console.typesafe.ai
 2, contests.twilio.com
 2, cool18.com
 2, coolaler.com
@@ -1423,6 +1426,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, g.co
 2, g0v.social
 2, g6hentai.com
+2, ga.jspm.io
 2, gab.com
 2, gabocorp.com
 2, gagaoolala.com
@@ -2230,6 +2234,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, kichiku-doujinko.com
 2, kik.com
 2, killwall.com
+2, kimootoko.net
 2, kindle4rss.com
 2, kindleren.com
 2, kingdomsalvation.org
@@ -2470,7 +2475,9 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, meripet.com
 2, merit-times.com.tw
 2, messenger.com
+2, meta.ai
 2, meta.com
+2, metaaivm.com
 2, metafilter.com
 2, metamask.io
 2, metart.com
@@ -2510,6 +2517,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, minhhue.net
 2, miningpoolhub.com
 2, ministrybooks.org
+2, minkch.com
 2, minzhuzhongguo.org
 2, miraheze.org
 2, mirdc.org.tw
@@ -2571,6 +2579,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, mosavi.io
 2, motherless.com
 2, movements.org
+2, movie.eroterest.net
 2, moviefap.com
 2, mpettis.com
 2, mpfinance.com
@@ -2704,6 +2713,9 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, niu.moe
 2, niusnews.com
 2, njactb.org
+2, njav.com
+2, njav.tv
+2, njavtv.com
 2, nlfreevpn.com
 2, nmsl.website
 2, nnews.eu
@@ -2957,6 +2969,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, plurk.com
 2, plus.codes
 2, pmatehunter.com
+2, po-kaki-to.com
 2, po2b.com
 2, podbean.com
 2, podcast.co
@@ -4428,6 +4441,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, zophar.net
 2, zorrovpn.com
 2, zozotown.com
+2, zozovideo.com
 2, zpn.im
 2, zspeeder.me
 2, zuo.la

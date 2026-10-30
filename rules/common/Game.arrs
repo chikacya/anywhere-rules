@@ -1,7 +1,7 @@
 # NAME: Game
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 游戏平台集合
-# RULES: 597
+# RULES: 612
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list
@@ -431,13 +431,16 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, lpl.com.cn
 2, molesports.com
 2, playvalorant.com
+2, pvp.net
 2, pvp.tv
 2, rgpub.io
 2, riot-games.com
 2, riot.com
 2, riot.net
+2, riotcdn.net
 2, riotforgegames.com
 2, riotgames.co.kr
+2, riotgames.com
 2, riotgames.info
 2, riotgames.jp
 2, riotgames.net
@@ -458,6 +461,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, csgo.wmsj.cn
 2, dl.steam.clngaa.com
 2, dl.steam.ksyna.com
+2, dota2.com
 2, dota2.wmsj.cn
 2, edge.steam-dns.top.comcast.net
 2, f3b7q2p3.ssl.hwcdn.net
@@ -483,6 +487,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, steamcdn-a.akamaihd.net
 2, steamcommunity-a.akamaihd.net
 2, steamcommunity.com
+2, steamconnecttest.com
 2, steamcontent.tnkjmec.com
 2, steamdeck.com
 2, steamgames.com
@@ -501,6 +506,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, steamuserimages-a.akamaihd.net
 2, steamvideo-a.akamaihd.net
 2, underlords.com
+2, valve.net
 2, valvesoftware.com
 2, wmsjsteam.com
 2, steamchina.com
@@ -514,9 +520,6 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, ubisoft-uplay-savegames.s3.amazonaws.com
 2, ubisoft.com
 2, uplay.com
-2, pvp.net
-2, riotcdn.net
-2, riotgames.com
 2, beth.games
 2, bethesda.net
 2, bethesdagamestudios.com
@@ -559,24 +562,39 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 3, steambroadcast
 3, steamstore
 3, steamuserimages
+0, 103.4.115.248/32
 0, 182.162.135.1/32
-0, 210.242.235.6/32
-0, 54.94.196.47/32
-0, 182.162.132.1/32
 0, 185.60.112.157/32
 0, 185.60.112.158/32
+0, 210.242.235.6/32
 0, 24.105.30.129/32
+0, 54.94.196.47/32
+0, 182.162.132.1/32
 0, 103.4.114.233/32
 0, 182.162.116.1/32
 0, 202.9.67.59/32
 0, 203.69.111.4/32
 0, 54.207.104.145/32
 0, 35.192.0.0/12
+0, 185.60.114.159/32
 0, 203.66.81.98/32
 0, 211.234.110.1/32
+0, 24.105.62.129/32
 0, 54.207.107.12/32
 0, 202.9.67.254/32
 0, 222.231.22.1/32
+0, 103.10.124.0/23
+0, 103.28.54.0/24
+0, 146.66.152.0/24
+0, 146.66.155.0/24
+0, 155.133.224.0/19
+0, 162.254.192.0/21
+0, 185.25.180.0/22
+0, 192.69.96.0/22
+0, 205.196.6.0/24
+0, 208.64.200.0/22
+0, 208.78.164.0/22
+0, 45.121.184.0/24
 0, 13.210.25.233/32
 0, 13.212.170.102/32
 0, 13.212.171.212/32
@@ -599,9 +617,6 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 0, 52.50.131.212/32
 0, 54.207.168.84/32
 0, 54.248.64.192/32
-0, 103.4.115.248/32
 0, 137.221.105.2/32
-0, 185.60.114.159/32
 0, 210.71.148.11/32
 0, 211.115.104.1/32
-0, 24.105.62.129/32

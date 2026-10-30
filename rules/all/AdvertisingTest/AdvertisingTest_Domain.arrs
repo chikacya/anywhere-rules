@@ -4,8 +4,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # NOTE: DOMAIN rules are mapped to Anywhere domain suffix rules.
 # RULES: 0
-# SKIPPED: 307591
-# UPSTREAM-UPDATED: 2026-10-08 06:30:20
-# SKIPPED-TYPES: UNKNOWN=307591
+# SKIPPED: 315057
+# UPSTREAM-UPDATED: 2026-10-28 05:40:42
+# SKIPPED-TYPES: UNKNOWN=315057
 
 name = AdvertisingTest
