@@ -1,6 +1,6 @@
 {
   "total_files": 41,
-  "total_rules": 154158,
+  "total_rules": 154169,
   "total_skipped": 75,
   "files": [
     {
@@ -501,7 +501,7 @@
       "name": "Geosite_CN",
       "description": "Geosite 中国大陆域名规则",
       "output_path": "common/Geosite_CN.arrs",
-      "rule_count": 5410,
+      "rule_count": 5421,
       "skipped_count": 3,
       "unsupported_types": {
         "Regex": 3

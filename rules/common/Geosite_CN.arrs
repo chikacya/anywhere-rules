@@ -2,8 +2,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Geosite 中国大陆域名规则
 # GEOSITE-CODE: GEOLOCATION-CN
-# RULES: 5410
-# SOURCE-RULES: 5413
+# RULES: 5421
+# SOURCE-RULES: 5424
 # SKIPPED: 3
 # SKIPPED-TYPES: Regex=3
 # SOURCES:
@@ -503,6 +503,7 @@ routing = 1
 2, allday.work
 2, allflow.cn
 2, allhistory.com
+2, allwinnertech.com
 2, allyes.com
 2, alookweb.com
 2, aloys233.top
@@ -825,6 +826,7 @@ routing = 1
 2, buke999.com
 2, burningvocabulary.cn
 2, burningvocabulary.com
+2, busyming.com
 2, butterfly-static.cn
 2, butterflyai.cn
 2, bvmlt.top
@@ -848,6 +850,7 @@ routing = 1
 2, caiyunapp.com
 2, caiyuncdn.com
 2, calorietech.com
+2, cambricon.com
 2, camcard.com
 2, camscanner.com
 2, cang.com
@@ -1499,6 +1502,7 @@ routing = 1
 2, doubanio.com
 2, doubao-dev.com
 2, doubao.com
+2, doubaoapps.com
 2, doubaocdn.com
 2, doucang.cn
 2, doucang.com
@@ -2245,6 +2249,7 @@ routing = 1
 2, hnbntv.com
 2, hnchasing.com
 2, hndt.com
+2, hnlshm.com
 2, hnol.net
 2, hnr.cn
 2, hnrcsc.com
@@ -3313,6 +3318,7 @@ routing = 1
 2, mlzt.com.cn
 2, mmbang.com
 2, mmbang.info
+2, mnc015.mcc460.pub.3gppnetwork.org
 2, mndqlib.net
 2, mnw.cn
 2, mob.com
@@ -3369,6 +3375,7 @@ routing = 1
 2, mszdld.com
 2, mszdld.net
 2, mszq.com
+2, mthreads.com
 2, mti100.com
 2, mtime.cn
 2, mtime.com
@@ -3758,6 +3765,7 @@ routing = 1
 2, qianyierp.com
 2, qianzhan.com
 2, qiaobutang.com
+2, qiaqiafood.com
 2, qichacha.com
 2, qichamao.com
 2, qie.tv
@@ -4142,6 +4150,7 @@ routing = 1
 2, soulapp.cn
 2, soulteary.com
 2, souqian.com
+2, southchip.com
 2, southcn.com
 2, southmoney.com
 2, sparkletour.com
@@ -4254,6 +4263,7 @@ routing = 1
 2, szu.app
 2, szu.moe
 2, szzfgjj.com
+2, t-head.cn
 2, t00ls.cc
 2, t00ls.net
 2, t1tms.com
@@ -5414,6 +5424,7 @@ routing = 1
 2, zygbdszt.net.cn
 2, zyh365.com
 2, zyhe.com.cn
+2, zymls.com
 2, zysn.net
 2, zysou.com
 2, zyyct.com
