@@ -9,3 +9,4 @@ routing = 2
 2, api.biliapi.net
 2, app.biliapi.net
 2, chat.bilibili.com
+2, dns.google

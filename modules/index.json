@@ -63,12 +63,12 @@
       "primary": "mitm/BilibiliBlockAD.amrs",
       "name": "哔哩哔哩去广告",
       "description": "来源：@kokoryh · @chikacya ｜ 净化哔哩哔哩推荐、动态、评论及播放相关推广。 可配置动态 UP 列表、评论净化及 SponsorBlock 空降助手。 ｜ 减少重复编译开销，改善脚本收尾与异常响应处理。",
-      "sha256": "aa8212ff422903bc2dff299b80e7ba333fd806aaccdf9c73e1c40ac164ac295a",
+      "sha256": "c06fc9b6cf51b9da2debcaa9978cfb6bcdb7f3140c9173f817e44194d3dfa9f5",
       "sources": [
         "mitm/BilibiliBlockAD.amrs",
         "mitm/BilibiliReject.arrs"
       ],
-      "encodedBytes": 306444
+      "encodedBytes": 332759
     },
     "cainiao": {
       "path": "modules/CainiaoBlockAD.amod",
@@ -458,13 +458,13 @@
       "primary": "mitm/StartupAds.amrs",
       "name": "应用开屏去广告",
       "description": "来源：@ddgksf2013 · @chikacya ｜ 净化多款应用的开屏广告。 可按应用自由选择组合，或导入全部应用。 ｜ 支持按应用自由组合、全选导入及订阅更新。",
-      "sha256": "2b5bb57f062c1212365143bdd0d7e21cea8d19621f1c0122af3fb42e2c09e7ae",
+      "sha256": "64b2079f194c130800e2a31a554589338ede7d2b777eca3f817f9d056ec464e5",
       "sources": [
         "mitm/StartupAds.amrs",
         "mitm/StartupAdsDirect.arrs",
         "mitm/StartupAdsReject.arrs"
       ],
-      "encodedBytes": 228288
+      "encodedBytes": 227544
     },
     "telegram-swiftgram": {
       "path": "modules/TelegramToSwiftgram.amod",
@@ -584,11 +584,11 @@
       "primary": "mitm/YouTubeEnhanceDualSubsFull.amrs",
       "name": "YouTube Enhance 与 DualSubs",
       "description": "来源：@gholts · @VirgilClyne · @chikacya ｜ 净化 YouTube 广告，增强播放体验，提供双语字幕与 Music 歌词翻译。 可选 Google、DeepL 等翻译引擎，配置字幕模式、顺序与播放增强。 ｜ 补齐预览广告清理与 Music 歌词翻译，修复歌曲信息，减少重复翻译和无效播放处理。",
-      "sha256": "a6948ff2bc6ada116285dd15eb00c9a41ad22992a3a052785a0bdf4fd3dad813",
+      "sha256": "69f7b0a1722e25dd8337303dc8ef019528014326fc5bd31009ba64c773a1c69b",
       "sources": [
         "mitm/YouTubeEnhanceDualSubsFull.amrs"
       ],
-      "encodedBytes": 877165
+      "encodedBytes": 885623
     },
     "zhihu": {
       "path": "modules/ZhihuBlockAD.amod",
