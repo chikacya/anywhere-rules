@@ -623,6 +623,61 @@
         "mitm/SpotifyDualSubs.amrs"
       ],
       "encodedBytes": 68186
+    },
+    "cmb": {
+      "path": "modules/CMBBankBlockAD.amod",
+      "primary": "mitm/CMBBankBlockAD.amrs",
+      "name": "招商银行去广告",
+      "description": "来源：@fmz200 ｜ 清理开屏营销配置及首页横幅广告。",
+      "sha256": "86933b480f5e2259ac8dea2cb447a6159bb0c4b6095f0f2bd5049b9ab8528317",
+      "sources": [
+        "mitm/CMBBankBlockAD.amrs"
+      ],
+      "encodedBytes": 15723
+    },
+    "mcdonalds": {
+      "path": "modules/McDonaldsBlockAD.amod",
+      "primary": "mitm/McDonaldsBlockAD.amrs",
+      "name": "麦当劳去广告",
+      "description": "来源：@fmz200 ｜ 清理开屏广告接口。",
+      "sha256": "3e07785fb4847238fe0b520a6ef272d0525225061c8d02a9657ea616197bd049",
+      "sources": [
+        "mitm/McDonaldsBlockAD.amrs"
+      ],
+      "encodedBytes": 18105
+    },
+    "netease-mail": {
+      "path": "modules/NeteaseMailBlockAD.amod",
+      "primary": "mitm/NeteaseMailBlockAD.amrs",
+      "name": "网易邮箱大师去广告",
+      "description": "来源：@ddgksf2013 ｜ 清理任务推广、通用广告及我的页面推广内容。",
+      "sha256": "08162db408f43ff3682162e1d8854a7c0c5528a21fce3f195c10c8ff71c0cc99",
+      "sources": [
+        "mitm/NeteaseMailBlockAD.amrs"
+      ],
+      "encodedBytes": 33060
+    },
+    "netease-news": {
+      "path": "modules/NeteaseNewsBlockAD.amod",
+      "primary": "mitm/NeteaseNewsBlockAD.amrs",
+      "name": "网易新闻去广告",
+      "description": "来源：@fmz200 ｜ 清理启动广告相关请求。",
+      "sha256": "07d027597aacce75b57f58662f49d1370ce08f8173337250d488f9961515690f",
+      "sources": [
+        "mitm/NeteaseNewsBlockAD.amrs"
+      ],
+      "encodedBytes": 23885
+    },
+    "xianyu": {
+      "path": "modules/XianyuSplash.amod",
+      "primary": "mitm/XianyuSplash.amrs",
+      "name": "闲鱼开屏去广告",
+      "description": "来源：@ddgksf2013 ｜ 拦截闲鱼开屏广告及通用开屏广告请求。",
+      "sha256": "6733c1a4181596ac01fe64f3d288d1c4a65748202bbd0148fb8a7baa8d3b810c",
+      "sources": [
+        "mitm/XianyuSplash.amrs"
+      ],
+      "encodedBytes": 8529
     }
   }
 }
