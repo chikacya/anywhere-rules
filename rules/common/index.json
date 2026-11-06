@@ -1,6 +1,6 @@
 {
   "total_files": 41,
-  "total_rules": 153455,
+  "total_rules": 153441,
   "total_skipped": 75,
   "files": [
     {
@@ -370,7 +370,7 @@
       "name": "ChinaDomain",
       "description": "中国大陆常见域名直连",
       "output_path": "common/ChinaDomain.arrs",
-      "rule_count": 869,
+      "rule_count": 870,
       "skipped_count": 4,
       "unsupported_types": {
         "DOMAIN-WILDCARD": 1,
@@ -395,7 +395,7 @@
       "name": "ChinaIP",
       "description": "中国大陆 IP CIDR",
       "output_path": "common/ChinaIP.arrs",
-      "rule_count": 9662,
+      "rule_count": 9647,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [

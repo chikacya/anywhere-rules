@@ -1,7 +1,7 @@
 # NAME: ChinaDomain
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 中国大陆常见域名直连
-# RULES: 869
+# RULES: 870
 # SKIPPED: 4
 # SKIPPED-TYPES: DOMAIN-WILDCARD=1, USER-AGENT=3
 # SOURCES:
@@ -625,6 +625,7 @@ routing = 1
 2, dcarlive.com
 2, dianping.com
 2, dingtalk.com
+2, dittocdn.com
 2, dizzylab.net
 2, doubanio.com
 2, douyucdn2.cn
