@@ -2,8 +2,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Geosite 中国大陆域名规则
 # GEOSITE-CODE: GEOLOCATION-CN
-# RULES: 5436
-# SOURCE-RULES: 5439
+# RULES: 5437
+# SOURCE-RULES: 5440
 # SKIPPED: 3
 # SKIPPED-TYPES: Regex=3
 # SOURCES:
@@ -3491,6 +3491,7 @@ routing = 1
 2, nga.cn
 2, ngabbs.com
 2, ngacn.cc
+2, nia-teams.com
 2, nicaifu.com
 2, nicezhuanye.com
 2, nihaoafrica.org
