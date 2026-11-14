@@ -1,6 +1,6 @@
 {
   "total_files": 41,
-  "total_rules": 153448,
+  "total_rules": 153451,
   "total_skipped": 75,
   "files": [
     {
@@ -92,7 +92,7 @@
       "name": "GFW",
       "description": "GFW 域名列表",
       "output_path": "common/GFW.arrs",
-      "rule_count": 4452,
+      "rule_count": 4453,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -370,7 +370,7 @@
       "name": "ChinaDomain",
       "description": "中国大陆常见域名直连",
       "output_path": "common/ChinaDomain.arrs",
-      "rule_count": 870,
+      "rule_count": 872,
       "skipped_count": 4,
       "unsupported_types": {
         "DOMAIN-WILDCARD": 1,

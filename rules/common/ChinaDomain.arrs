@@ -1,7 +1,7 @@
 # NAME: ChinaDomain
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 中国大陆常见域名直连
-# RULES: 870
+# RULES: 872
 # SKIPPED: 4
 # SKIPPED-TYPES: DOMAIN-WILDCARD=1, USER-AGENT=3
 # SOURCES:
@@ -860,6 +860,7 @@ routing = 1
 2, tencent-cloud.com
 2, tencent-cloud.net
 2, toutiaostatic.com
+2, app.jianguoyun.com
 2, chinanetcenter.com
 2, dl.pinyuncloud.com
 2, heytapdownload.com
@@ -872,6 +873,7 @@ routing = 1
 2, cm.steampowered.com
 2, luckincoffeecdn.com
 2, ocsp.globalsign.com
+2, comet.jianguoyun.com
 2, ocsp2.globalsign.com
 2, alibabausercontent.com
 2, cn.download.nvidia.com

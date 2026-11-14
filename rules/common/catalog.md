@@ -10,7 +10,7 @@
 | AI | 59 | 1 | 常见 AI 服务 | [common/AI.arrs](./AI.arrs) |
 | Proxy | 1365 | 2 | 常用代理域名集合 | [common/Proxy.arrs](./Proxy.arrs) |
 | ProxyGFW | 7611 | 1 | GFW 代理集合 | [common/ProxyGFW.arrs](./ProxyGFW.arrs) |
-| GFW | 4452 | 0 | GFW 域名列表 | [common/GFW.arrs](./GFW.arrs) |
+| GFW | 4453 | 0 | GFW 域名列表 | [common/GFW.arrs](./GFW.arrs) |
 | Direct | 35 | 1 | 常用直连补充 | [common/Direct.arrs](./Direct.arrs) |
 | AppleCN | 10 | 0 | 苹果中国和苹果 CDN 直连 | [common/AppleCN.arrs](./AppleCN.arrs) |
 | AppleProxy | 39 | 6 | 需要代理的苹果服务 | [common/AppleProxy.arrs](./AppleProxy.arrs) |
@@ -33,7 +33,7 @@
 | TikTok | 81 | 2 | TikTok | [common/TikTok.arrs](./TikTok.arrs) |
 | Bilibili | 20 | 0 | Bilibili | [common/Bilibili.arrs](./Bilibili.arrs) |
 | WeChat | 339 | 2 | WeChat | [common/WeChat.arrs](./WeChat.arrs) |
-| ChinaDomain | 870 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
+| ChinaDomain | 872 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
 | CN_Additional | 44546 | 0 | 中国大陆域名补充 | [common/CN_Additional.arrs](./CN_Additional.arrs) |
 | ChinaIP | 9640 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
 | Lan | 14 | 0 | 局域网和私有地址 | [common/Lan.arrs](./Lan.arrs) |
