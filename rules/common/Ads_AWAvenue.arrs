@@ -1,7 +1,7 @@
 # NAME: Ads_AWAvenue
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 秋风广告规则 AWAvenue
-# RULES: 969
+# RULES: 964
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list
@@ -90,17 +90,16 @@ routing = 2
 2, admobile.top
 2, adreq.vivo.com.cn
 2, ads-api-o.api.leiniao.com
-2, ads-api.tiktok.com
 2, ads-api.twitter.com
 2, ads-img-al.xhscdn.com
+2, ads-img-bak.xhscdn.com
 2, ads-img-qc.xhscdn.com
-2, ads-jp.tiktok.com
 2, ads-marketing-vivofs.vivo.com.cn
 2, ads-sdk-api.ranfenghd.com
-2, ads-sg.tiktok.com
 2, ads-shopping.shouqianba.com
 2, ads-video-al.xhscdn.com
 2, ads-video-qc.xhscdn.com
+2, ads-vp5.xhscdn.com
 2, ads.95516.com
 2, ads.adfunlink.com
 2, ads.auctions.yahoo.com
@@ -118,7 +117,6 @@ routing = 2
 2, ads.raidrive.com
 2, ads.servebom.com
 2, ads.service.kugou.com
-2, ads.tiktok.com
 2, ads.v3mh.com
 2, ads.youtube.com
 2, ads.zhinengxiyifang.cn
@@ -155,7 +153,6 @@ routing = 2
 2, adsmind.ugdtimg.com
 2, adsmoloco.com
 2, adsp.xunlei.com
-2, adspecs.yahoo.com
 2, adstat.izuiyou.com
 2, adstats.tencentmusic.com
 2, adstextview.qq.com
@@ -163,9 +160,7 @@ routing = 2
 2, adstore-index-1252524079.file.myqcloud.com
 2, adstrategy.biz.weibo.com
 2, adstudio-assets.scdn.co
-2, adstudio.spotify.com
 2, adtago.s3.amazonaws.com
-2, adtech.yahooinc.com
 2, adtrack.quark.cn
 2, adtracker.adfunlink.com
 2, adtracker.medproad.com
@@ -173,12 +168,6 @@ routing = 2
 2, adv-api.shenshiads.com
 2, adv.sec.intl.miui.com
 2, adv.sec.miui.com
-2, advertising-api-eu.amazon.com
-2, advertising-api-fe.amazon.com
-2, advertising-api.amazon.com
-2, advertising.apple.com
-2, advertising.yahoo.com
-2, advertising.yandex.ru
 2, advice-ads.s3.amazonaws.com
 2, adview.cn
 2, adx-ad.smart-tv.cn
@@ -266,6 +255,7 @@ routing = 2
 2, api.yfanads.com
 2, api5-normal-quic-lf.ixigua.com
 2, apiyd.my91app.com
+2, apmplus.volces.com
 2, app-measurement.com
 2, appcfg.v.qq.com
 2, applog-perf.uc.cn
@@ -295,7 +285,6 @@ routing = 2
 2, bes-mtj.baidu.com
 2, bgg.baidu.com
 2, bianxian.com
-2, bingads.microsoft.com
 2, biz.weibo.com
 2, bj-td-menta-01-callback.advlion.com
 2, bj.ad.track.66mobi.com
@@ -339,6 +328,7 @@ routing = 2
 2, click.liftoff.io
 2, click.oneplus.cn
 2, click4.chinaliftoff.io
+2, client-upload.cn-shanghai.log.aliyuncs.com
 2, clog.miguvideo.com
 2, cloooud.com
 2, cn-api.anythinktech.com
@@ -356,7 +346,6 @@ routing = 2
 2, cpro.baidustatic.com
 2, crash2.zhihu.com
 2, crashlyticsreports-pa.googleapis.com
-2, csjplatform.com
 2, d.applovin.com
 2, d.applvn.com
 2, da.anythinktech.com
@@ -380,6 +369,7 @@ routing = 2
 2, dsp-x.jd.com
 2, dsp.fcbox.com
 2, dsplog-adnet.vivo.com.cn
+2, du-app.cn-hangzhou.log.aliyuncs.com
 2, dualstack-logs.amap.com
 2, dxp.baidu.com
 2, dyp2p-ali.douyucdn.cn
@@ -390,6 +380,7 @@ routing = 2
 2, ef-dongfeng.tanx.com
 2, engine.dcad01.com
 2, entry.baidu.com
+2, errnewlog.umeng.com
 2, et-eus.w.inmobi.com
 2, event.tradplusad.com
 2, events-drcn.op.dbankcloud.cn
@@ -402,6 +393,7 @@ routing = 2
 2, file.daihuo.qq.com
 2, firebaselogging-pa.googleapis.com
 2, flurry.com
+2, fp-it.fengkongcloud.com
 2, frontend-perf-service.e.kuaishou.com
 2, fxgate.baidu.com
 2, g-adnet.hiaiabc.com
@@ -516,6 +508,7 @@ routing = 2
 2, l6.fancyapi.com
 2, launcher.smart-tv.cn
 2, launcherimg.smart-tv.cn
+2, lf-event-manager.oceanengine.com
 2, lf3-ad-union-sdk.pglstatp-toutiao.com
 2, lf6-ad-union-sdk.pglstatp-toutiao.com
 2, lftxali.fancyapi.com
@@ -534,6 +527,7 @@ routing = 2
 2, log-api.huxiu.com
 2, log-api.pangolin-sdk-toutiao-b.com
 2, log-api.pangolin-sdk-toutiao.com
+2, log-auth.zztfly.com
 2, log-report.com
 2, log-sdk.gifshow.com
 2, log-sdk.ksapisrv.com
@@ -773,6 +767,8 @@ routing = 2
 2, service.vmos.cn
 2, sf16-static.i18n-pglstatp.com
 2, sf3-fe-tos.pglstatp-toutiao.com
+2, shihuo-new.log.shihuocdn.cn
+2, shihuo.log.shihuocdn.cn
 2, shouji.sogou.com
 2, sigmob.com
 2, skdisplay.jd.com
@@ -887,9 +883,8 @@ routing = 2
 2, umini.shujupie.com
 2, union-mlog.bigda.com
 2, union-record.oss-cn-zhangjiakou.aliyuncs.com
-2, union.baidu.cn
-2, union.baidu.com
 2, unityads.unity3d.com
+2, upc.zztfly.com
 2, update.avlyun.sec.miui.com
 2, update.lejiao.tv
 2, update0.aiclk.com
