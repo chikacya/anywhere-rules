@@ -1,7 +1,7 @@
 {
   "total_files": 41,
-  "total_rules": 153446,
-  "total_skipped": 75,
+  "total_rules": 153513,
+  "total_skipped": 74,
   "files": [
     {
       "name": "Reject",
@@ -48,7 +48,7 @@
       "name": "AI",
       "description": "常见 AI 服务",
       "output_path": "common/AI.arrs",
-      "rule_count": 59,
+      "rule_count": 62,
       "skipped_count": 1,
       "unsupported_types": {
         "URL-REGEX": 1
@@ -103,11 +103,9 @@
       "name": "Direct",
       "description": "常用直连补充",
       "output_path": "common/Direct.arrs",
-      "rule_count": 35,
-      "skipped_count": 1,
-      "unsupported_types": {
-        "DEST-PORT": 1
-      },
+      "rule_count": 34,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "sources": [
         "https://raw.githubusercontent.com/Repcz/Tool/X/Surge/Custom/Direct.list"
       ]
@@ -384,7 +382,7 @@
       "name": "CN_Additional",
       "description": "中国大陆域名补充",
       "output_path": "common/CN_Additional.arrs",
-      "rule_count": 44546,
+      "rule_count": 44611,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [

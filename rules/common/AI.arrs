@@ -1,7 +1,7 @@
 # NAME: AI
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 常见 AI 服务
-# RULES: 59
+# RULES: 62
 # SKIPPED: 1
 # SKIPPED-TYPES: URL-REGEX=1
 # SOURCES:
@@ -35,6 +35,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, deepmind.com
 2, ai.google.dev
 2, anthropic.com
+2, cloud.zed.dev
 2, gemini.google
 2, oaistatic.com
 2, openrouter.ai
@@ -51,6 +52,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, aida.googleapis.com
 2, aistudio.google.com
 2, generativeai.google
+2, aicode.googleapis.com
 2, inference.codeium.com
 2, makersuite.google.com
 2, notebooklm.google.com
@@ -65,6 +67,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, daily-cloudcode-pa.googleapis.com
 2, generativelanguage.googleapis.com
 2, proactivebackend-pa.googleapis.com
+2, daily-cloudcode-pa.sandbox.googleapis.com
 3, openai
 3, alkalimakersuite-pa.clients6.google.com
 2, file.oaiusercontent.com
