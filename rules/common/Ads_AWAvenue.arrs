@@ -1,7 +1,7 @@
 # NAME: Ads_AWAvenue
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 秋风广告规则 AWAvenue
-# RULES: 964
+# RULES: 978
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge.list
@@ -183,6 +183,7 @@ routing = 2
 2, adx-strategy-api-cn.statisticslinks.com
 2, adx.ads.heytapmobi.com
 2, adx.ads.oppomobile.com
+2, adx.anythinktech.com
 2, adx.appsdk.com.cn
 2, adx.sogaha.cn
 2, adx.tuia.cn
@@ -201,6 +202,7 @@ routing = 2
 2, alicoccdnct-xn.inter.71edge.com
 2, alltbcsp2p.baidu.com
 2, alog.umeng.com
+2, alogsus.umeng.com
 2, alogus.umeng.com
 2, als.baidu.com
 2, amdcopen.m.taobao.com
@@ -219,6 +221,7 @@ routing = 2
 2, analytics.woozooo.com
 2, analyticsengine.s3.amazonaws.com
 2, analyze.lemurbrowser.com
+2, android.bugly.qq.com
 2, andrqd.play.aiseet.atianqi.com
 2, ap.dongdianqiu.com
 2, ap.dongqiudi.com
@@ -285,6 +288,7 @@ routing = 2
 2, bes-mtj.baidu.com
 2, bgg.baidu.com
 2, bianxian.com
+2, bid.shanghailingye.cn
 2, biz.weibo.com
 2, bj-td-menta-01-callback.advlion.com
 2, bj.ad.track.66mobi.com
@@ -331,7 +335,10 @@ routing = 2
 2, client-upload.cn-shanghai.log.aliyuncs.com
 2, clog.miguvideo.com
 2, cloooud.com
+2, cn-api-sec.anythinktech.com
 2, cn-api.anythinktech.com
+2, cn-da.anythinktech.com
+2, cn-tk.anythinktech.com
 2, cnlogs.umeng.com
 2, cnlogs.umengcloud.com
 2, cnzz.com
@@ -349,6 +356,7 @@ routing = 2
 2, d.applovin.com
 2, d.applvn.com
 2, da.anythinktech.com
+2, da.statisticslinks.com
 2, data-sdk-uuid-log.d.meituan.net
 2, data.ads.oppomobile.com
 2, data.chsmarttv.com
@@ -380,7 +388,10 @@ routing = 2
 2, ef-dongfeng.tanx.com
 2, engine.dcad01.com
 2, entry.baidu.com
+2, errlog.umeng.com
+2, errlogos.umeng.com
 2, errnewlog.umeng.com
+2, errnewlogos.umeng.com
 2, et-eus.w.inmobi.com
 2, event.tradplusad.com
 2, events-drcn.op.dbankcloud.cn
@@ -780,6 +791,7 @@ routing = 2
 2, sms.ads.oppomobile.com
 2, sngmta.qq.com
 2, snowflake.qq.com
+2, ssapi.anythinktech.com
 2, ssp.cloooud.com
 2, staging-notify.sec.miui.com
 2, stat.dongqiudi.com
@@ -825,6 +837,7 @@ routing = 2
 2, tj.b.qq.com
 2, tj.video.qq.com
 2, tk.anythinktech.com
+2, tk.statisticslinks.com
 2, tmead.y.qq.com
 2, tmeadcomm.y.qq.com
 2, tmfmazu-wangka.m.qq.com
@@ -842,6 +855,7 @@ routing = 2
 2, tnc3-bjlgy.bytedance.com
 2, tnc3-bjlgy.snssdk.com
 2, tnc3-bjlgy.toutiaoapi.com
+2, tobapplog.ctobsnssdk.com
 2, toblog.ctobsnssdk.com
 2, tpa-hcdn.iqiyi.com
 2, tpc.googlesyndication-cn.com
