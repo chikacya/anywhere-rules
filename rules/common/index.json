@@ -1,6 +1,6 @@
 {
   "total_files": 41,
-  "total_rules": 153527,
+  "total_rules": 153564,
   "total_skipped": 74,
   "files": [
     {
@@ -488,7 +488,7 @@
       "name": "GeoIP_CN",
       "description": "GeoIP 中国大陆 IP CIDR",
       "output_path": "common/GeoIP_CN.arrs",
-      "rule_count": 9844,
+      "rule_count": 9869,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
@@ -499,7 +499,7 @@
       "name": "Geosite_CN",
       "description": "Geosite 中国大陆域名规则",
       "output_path": "common/Geosite_CN.arrs",
-      "rule_count": 5437,
+      "rule_count": 5449,
       "skipped_count": 3,
       "unsupported_types": {
         "Regex": 3

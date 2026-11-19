@@ -2,8 +2,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Geosite 中国大陆域名规则
 # GEOSITE-CODE: GEOLOCATION-CN
-# RULES: 5437
-# SOURCE-RULES: 5440
+# RULES: 5449
+# SOURCE-RULES: 5452
 # SKIPPED: 3
 # SKIPPED-TYPES: Regex=3
 # SOURCES:
@@ -109,6 +109,8 @@ routing = 1
 2, 1ting.com
 2, 1tyy.cn
 2, 1xhh.cn
+2, 1y.com
+2, 1ycdn.com
 2, 1zhe.com
 2, 20130123.com
 2, 21cnjy.com
@@ -314,6 +316,7 @@ routing = 1
 2, 58pic.com
 2, 58uxd.com
 2, 58v5.cn
+2, 58wos.com.cn
 2, 58xinghuo.cn
 2, 58xinghuo.com
 2, 58xueche.com
@@ -488,6 +491,7 @@ routing = 1
 2, aiyunxiao.com
 2, aizgtc.com
 2, aizhan.com
+2, ajkimg.com
 2, ajzq.com
 2, akikocorp.cn
 2, akspeedy.com
@@ -648,6 +652,9 @@ routing = 1
 2, baikemy.com
 2, baimiao.tech
 2, baimiaoapp.com
+2, baishan.com
+2, baishancdnx.cn
+2, baishancloud.com
 2, baishinetwork.com
 2, baixing.com
 2, baixing.net
@@ -3014,6 +3021,7 @@ routing = 1
 2, leelen.com
 2, leetcode-cn.com
 2, leetcode.cn
+2, lefile.cn
 2, lehuipay.com
 2, leigod.cn
 2, leigod.com
@@ -3035,6 +3043,8 @@ routing = 1
 2, lenovocust.cn
 2, lenovoeservice.com
 2, lenovofile.com
+2, lenovofoundation.cn
+2, lenovofuturecenter.com
 2, lenovogame.com
 2, lenovoimage.cn
 2, lenovoimage.com
@@ -3138,13 +3148,10 @@ routing = 1
 2, ls66.cn
 2, lsbj365.com
 2, lsplayer.com
-2, lu.com
 2, lubiao.wiki
 2, luckincoffeecdn.com
 2, luckyair.net
 2, ludashi.com
-2, lufax.com
-2, lufaxcdn.com
 2, lufunds.com
 2, luhua.cn
 2, lulian.cn
@@ -3840,6 +3847,7 @@ routing = 1
 2, qms-report-t.api.leiniao.com
 2, qnsdk.com
 2, qnssl.com
+2, qpmcn.com
 2, qq.design
 2, qq163.com
 2, qq163.net
@@ -3959,6 +3967,7 @@ routing = 1
 2, saolife.com
 2, saraba1st.com
 2, sast.fun
+2, saxyit.com
 2, sbsjk.com
 2, sc96655.com
 2, scbaijia.com
@@ -4472,6 +4481,7 @@ routing = 1
 2, travelskymobile.cn
 2, tritoninfo.net
 2, trjcn.com
+2, trpcdn.com
 2, trpcdn.net
 2, trunktech.com
 2, trustasia.cn
@@ -5307,6 +5317,8 @@ routing = 1
 2, zhanzhang.net
 2, zhaodanji.com
 2, zhaokao.net
+2, zhaoliangji.com
+2, zhaoliangjipc.com
 2, zhaomi.cn
 2, zhaomishijie.com
 2, zhaopin.cn
