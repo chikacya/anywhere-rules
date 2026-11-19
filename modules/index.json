@@ -63,12 +63,12 @@
       "primary": "mitm/BilibiliBlockAD.amrs",
       "name": "哔哩哔哩去广告",
       "description": "来源：@kokoryh · @chikacya ｜ 净化哔哩哔哩推荐、动态、评论及播放相关推广。 可配置动态 UP 列表、评论净化及 SponsorBlock 空降助手。 ｜ 减少重复编译开销，改善脚本收尾与异常响应处理。",
-      "sha256": "c06fc9b6cf51b9da2debcaa9978cfb6bcdb7f3140c9173f817e44194d3dfa9f5",
+      "sha256": "e64ea3338fc35fe485f1e7938d0542a161b33236f4edceff81e59ebd48447aa8",
       "sources": [
         "mitm/BilibiliBlockAD.amrs",
         "mitm/BilibiliReject.arrs"
       ],
-      "encodedBytes": 332759
+      "encodedBytes": 330497
     },
     "cainiao": {
       "path": "modules/CainiaoBlockAD.amod",
@@ -225,12 +225,12 @@
       "primary": "mitm/iRingoWeatherKitArg.amrs",
       "name": "iRingo WeatherKit",
       "description": "来源：@VirgilClyne · @WordlessEcho · @001ProMax · @hhh2210 · @chikacya ｜ 调整 Apple 天气数据，补充预警、空气质量及短时降水。 可配置天气与预警数据源、空气质量算法及服务商令牌。 ｜ 按功能拆分处理，减少本地天气查询加载的无关代码。",
-      "sha256": "e1788ea1a61178c838e767c72f8976c850e1a3f3b4668d869c0b5c1ece718364",
+      "sha256": "4948fbe8a32694f1ed225e171e56a12d00cf39fa366da98c973b0e4cf28b9958",
       "sources": [
         "mitm/iRingoWeatherKitArg.amrs",
         "mitm/iRingoWeatherKitReject.arrs"
       ],
-      "encodedBytes": 653783
+      "encodedBytes": 824555
     },
     "ithome": {
       "path": "modules/ITHomeBlockAD.amod",
@@ -584,11 +584,11 @@
       "primary": "mitm/YouTubeEnhanceDualSubsFull.amrs",
       "name": "YouTube Enhance 与 DualSubs",
       "description": "来源：@gholts · @VirgilClyne · @chikacya ｜ 净化 YouTube 广告，增强播放体验，提供双语字幕与 Music 歌词翻译。 可选 Google、DeepL 等翻译引擎，配置字幕模式、顺序与播放增强。 ｜ 补齐预览广告清理与 Music 歌词翻译，修复歌曲信息，减少重复翻译和无效播放处理。",
-      "sha256": "69f7b0a1722e25dd8337303dc8ef019528014326fc5bd31009ba64c773a1c69b",
+      "sha256": "abbee9c5b0772d93315c8525806d238d8604063d22f0e4e74dd1a046ee263b0f",
       "sources": [
         "mitm/YouTubeEnhanceDualSubsFull.amrs"
       ],
-      "encodedBytes": 885623
+      "encodedBytes": 885651
     },
     "zhihu": {
       "path": "modules/ZhihuBlockAD.amod",
