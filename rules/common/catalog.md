@@ -7,7 +7,7 @@
 | Reject | 6197 | 1 | 广告、恶意站点和跟踪拦截基础集合 | [common/Reject.arrs](./Reject.arrs) |
 | Ads_AWAvenue | 978 | 0 | 秋风广告规则 AWAvenue | [common/Ads_AWAvenue.arrs](./Ads_AWAvenue.arrs) |
 | PCDN | 37 | 7 | PCDN 拦截 | [common/PCDN.arrs](./PCDN.arrs) |
-| AI | 62 | 1 | 常见 AI 服务 | [common/AI.arrs](./AI.arrs) |
+| AI | 64 | 1 | 常见 AI 服务 | [common/AI.arrs](./AI.arrs) |
 | Proxy | 1365 | 2 | 常用代理域名集合 | [common/Proxy.arrs](./Proxy.arrs) |
 | ProxyGFW | 7611 | 1 | GFW 代理集合 | [common/ProxyGFW.arrs](./ProxyGFW.arrs) |
 | GFW | 4453 | 0 | GFW 域名列表 | [common/GFW.arrs](./GFW.arrs) |
@@ -35,7 +35,7 @@
 | WeChat | 339 | 2 | WeChat | [common/WeChat.arrs](./WeChat.arrs) |
 | ChinaDomain | 872 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
 | CN_Additional | 44611 | 0 | 中国大陆域名补充 | [common/CN_Additional.arrs](./CN_Additional.arrs) |
-| ChinaIP | 9640 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
+| ChinaIP | 9665 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
 | Lan | 14 | 0 | 局域网和私有地址 | [common/Lan.arrs](./Lan.arrs) |
 | Game | 612 | 0 | 游戏平台集合 | [common/Game.arrs](./Game.arrs) |
 | Steam | 69 | 0 | Steam | [common/Steam.arrs](./Steam.arrs) |

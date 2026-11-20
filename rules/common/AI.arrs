@@ -1,7 +1,7 @@
 # NAME: AI
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 常见 AI 服务
-# RULES: 62
+# RULES: 64
 # SKIPPED: 1
 # SKIPPED-TYPES: URL-REGEX=1
 # SOURCES:
@@ -30,6 +30,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, claude.com
 2, openart.ai
 2, chatgpt.com
+2, claude.site
 2, clipdrop.co
 2, chatgpt.site
 2, deepmind.com
@@ -61,6 +62,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, gateway.ai.cloudflare.com
 2, aisandbox-pa.googleapis.com
 2, cloudcode-pa.googleapis.com
+2, bridge.claudeusercontent.com
 2, server.self-serve.windsurf.com
 2, robinfrontend-pa.googleapis.com
 2, alkalicore-pa.clients6.google.com

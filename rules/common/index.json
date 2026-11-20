@@ -1,6 +1,6 @@
 {
   "total_files": 41,
-  "total_rules": 153564,
+  "total_rules": 153591,
   "total_skipped": 74,
   "files": [
     {
@@ -48,7 +48,7 @@
       "name": "AI",
       "description": "常见 AI 服务",
       "output_path": "common/AI.arrs",
-      "rule_count": 62,
+      "rule_count": 64,
       "skipped_count": 1,
       "unsupported_types": {
         "URL-REGEX": 1
@@ -393,7 +393,7 @@
       "name": "ChinaIP",
       "description": "中国大陆 IP CIDR",
       "output_path": "common/ChinaIP.arrs",
-      "rule_count": 9640,
+      "rule_count": 9665,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [
