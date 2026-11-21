@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4453
+# RULES: 4481
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -834,6 +834,8 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, cmcn.org
 2, cmegroup.com
 2, cmi.org.tw
+2, cmmedia.com.tw
+2, cmoney.tw
 2, cms.gov
 2, cmule.com
 2, cmx.im
@@ -848,6 +850,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, cnd.org
 2, cnnews.chosun.com
 2, cnpolitics.org
+2, cnyes.com
 2, co.ng.mil
 2, coat.co.jp
 2, cobinhood.com
@@ -1090,6 +1093,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, dtiblog.com
 2, dtic.mil
 2, dubox.com
+2, duck.ai
 2, duck.com
 2, duckduckgo.com
 2, duckmylife.com
@@ -1115,6 +1119,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, e-gold.com
 2, e-hentai.org
 2, e-hentaidb.com
+2, e-info.org.tw
 2, e-zone.com.hk
 2, e123.hk
 2, e621.net
@@ -1439,9 +1444,9 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, gabocorp.com
 2, gagaoolala.com
 2, galenwu.com
-2, game735.com
 2, gamer.com.tw
 2, gamez.com.tw
+2, gamma.app
 2, ganjing.com
 2, ganjingworld.com
 2, gaoming.net
@@ -1814,6 +1819,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, greatfire.us7.list-manage.com
 2, greatfirevpn.com
 2, greatfirewallofchina.org
+2, greenbean.media
 2, greenpeace.org
 2, greenvpn.net
 2, grindr.com
@@ -1913,13 +1919,16 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, hkanews.wordpress.com
 2, hkbookcity.com
 2, hkchronicles.com
+2, hkcitycreation.com
 2, hkcnews.com
 2, hkcoc.com
 2, hkcoc.weather.com.hk
+2, hkcourtnews.com
 2, hkdc.us
 2, hkej.com
 2, hket.com
 2, hkfaa.com
+2, hkfeature.com
 2, hkgalden.com
 2, hkgolden.com
 2, hkgpao.com
@@ -2329,6 +2338,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, library.usc.cuhk.edu.hk
 2, libredd.it
 2, lifemiles.com
+2, lifesitenews.com
 2, lighten.org.tw
 2, lighti.me
 2, lightnovel.cn
@@ -2337,6 +2347,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, lihkg.com
 2, like.com
 2, lilaoshibushinilaoshi.com
+2, limedia.tw
 2, line-apps.com
 2, line-scdn.net
 2, line.me
@@ -2432,6 +2443,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, marxists.org
 2, mas.to
 2, mash.to
+2, master-insight.com
 2, mastodon.cloud
 2, mastodon.host
 2, mastodon.online
@@ -2447,6 +2459,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, matters.town
 2, matthewdgreen.wordpress.com
 2, mattwilcox.net
+2, mc.yandex.ru
 2, mcadforums.com
 2, mcaf.ee
 2, mceindex.com
@@ -2568,6 +2581,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, mondex.org
 2, money-link.com.tw
 2, moneydj.com
+2, moneynet.com.tw
 2, monica.im
 2, monitorchina.org
 2, monocloud.me
@@ -2607,6 +2621,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, muzi.net
 2, muzu.tv
 2, mvg.jp
+2, my-formosa.com.tw
 2, my-private-network.co.uk
 2, my.pcloud.com
 2, myaudiocast.com
@@ -2690,6 +2705,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, newthuhole.com
 2, newyorker.com
 2, nexon.com
+2, nextapple.com
 2, nextdigital.com.hk
 2, nexton-net.jp
 2, nexttv.com.tw
@@ -2885,6 +2901,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, parsevideo.com
 2, partnerstack.xyz
 2, passion.com
+2, passiontimes.hk
 2, paste.ee
 2, pastie.org
 2, patreon.com
@@ -3064,6 +3081,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, pubu.com.tw
 2, puffinbrowser.com
 2, pullfolio.co
+2, pulsehknews.com
 2, pure18.com
 2, pureconcepts.net
 2, pureinsight.org
@@ -3291,6 +3309,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, shadowsocks.com.hk
 2, shadowsocks.org
 2, shahit.biz
+2, shanghainationalparty.com
 2, share-videos.se
 2, share.america.gov
 2, sharecool.org
@@ -3330,6 +3349,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, sing-box.sagernet.org
 2, singaporepools.com.sg
 2, singlelogin.se
+2, singpao.com.hk
 2, singtao.com
 2, singtaousa.com
 2, sinoants.com
@@ -3396,6 +3416,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, sotwe.com
 2, soubory.com
 2, soulcaliburhentai.net
+2, soulogic.com
 2, soundcloud.com
 2, soundofhope.org
 2, soundon.fm
@@ -3537,6 +3558,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, taiwanjustice.net
 2, taiwanncf.org.tw
 2, taiwannews.com.tw
+2, taiwantoday.tw
 2, taiwantt.org.tw
 2, talkatone.com
 2, talkboxapp.com
@@ -3601,6 +3623,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, thecenter.mit.edu
 2, thechasernews.co.uk
 2, thechinacollection.org
+2, thecollectivehk.com
 2, theconversation.com
 2, thedalailamamovie.com
 2, thediplomat.com
@@ -3616,18 +3639,22 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, theinitium.com
 2, theintercept.com
 2, thenewslens.com
+2, theonlinecitizen.com
 2, thepiratebay.org
 2, theporndude.com
 2, theportalwiki.com
 2, theprint.in
 2, thesaturdaypaper.com.au
+2, thestandard.com.hk
 2, thestandnews.com
+2, thestar.com
 2, thetatoken.org
 2, thetibetpost.com
 2, thetvdb.com
 2, theweek.com
 2, thewgo.org
 2, thewirechina.com
+2, thewitnesshk.com
 2, theync.com
 2, thinkchina.sg
 2, thinkgeek.com
@@ -4200,6 +4227,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, woeser.com
 2, wokar.org
 2, wolfax.com
+2, womany.net
 2, wombo.ai
 2, woolyss.com
 2, woopie.jp

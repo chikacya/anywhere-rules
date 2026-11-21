@@ -2,8 +2,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Geosite 中国大陆域名规则
 # GEOSITE-CODE: GEOLOCATION-CN
-# RULES: 5449
-# SOURCE-RULES: 5452
+# RULES: 5453
+# SOURCE-RULES: 5456
 # SKIPPED: 3
 # SKIPPED-TYPES: Regex=3
 # SOURCES:
@@ -1659,6 +1659,7 @@ routing = 1
 2, ebtrust.com
 2, eceshi.com
 2, echargenet.com
+2, echooai.com
 2, ecjobhome.com
 2, eckwai.com
 2, ecloud-gdu.com
@@ -1762,8 +1763,10 @@ routing = 1
 2, favonis.cloud
 2, favonis.com
 2, favonis.space
+2, faw-vw.com
 2, faw.cn
 2, faxingbao.com
+2, fazhipro.com
 2, fbank.com
 2, fbstatic.cn
 2, fcbox.com
@@ -3949,6 +3952,7 @@ routing = 1
 2, rwkv.com
 2, rzrc114.com
 2, s0n.cn
+2, saasfz.com
 2, saasops.tech
 2, saayaa.com
 2, saduck.top
