@@ -63,12 +63,12 @@
       "primary": "mitm/BilibiliBlockAD.amrs",
       "name": "哔哩哔哩去广告",
       "description": "来源：@kokoryh · @chikacya ｜ 净化哔哩哔哩推荐、动态、评论及播放相关推广。 可配置动态 UP 列表、评论净化及 SponsorBlock 空降助手。 ｜ 减少重复编译开销，改善脚本收尾与异常响应处理。",
-      "sha256": "e64ea3338fc35fe485f1e7938d0542a161b33236f4edceff81e59ebd48447aa8",
+      "sha256": "6d60513ea46f2615c94d1ec295a76864a55ef9cd2f9de833ec5dd783b059e23c",
       "sources": [
         "mitm/BilibiliBlockAD.amrs",
         "mitm/BilibiliReject.arrs"
       ],
-      "encodedBytes": 330497
+      "encodedBytes": 330900
     },
     "cainiao": {
       "path": "modules/CainiaoBlockAD.amod",
@@ -538,12 +538,12 @@
       "primary": "mitm/XiaohongshuBlockAD.amrs",
       "name": "小红书去广告与去水印",
       "description": "来源：@fmz200 · @chikacya ｜ 净化小红书广告与推广，移除图片及视频水印。 ｜ 修正广告清理范围，保留正常笔记、Live 动图及视频内容。",
-      "sha256": "a78c30dc3074fcc9e8c6813f3e08f171d8d1c60fbcf0e0b68b6dea64445dbe24",
+      "sha256": "f277a8f854b93fe40c62f13936f7f1383be75394a297322eff2b87c201a8bb79",
       "sources": [
         "mitm/XiaohongshuBlockAD.amrs",
         "mitm/XiaohongshuReject.arrs"
       ],
-      "encodedBytes": 40668
+      "encodedBytes": 41183
     },
     "xiaoyuzhou": {
       "path": "modules/XiaoYuZhouBlockAD.amod",
@@ -584,11 +584,11 @@
       "primary": "mitm/YouTubeEnhanceDualSubsFull.amrs",
       "name": "YouTube Enhance 与 DualSubs",
       "description": "来源：@gholts · @VirgilClyne · @chikacya ｜ 净化 YouTube 广告，增强播放体验，提供双语字幕与 Music 歌词翻译。 可选 Google、DeepL 等翻译引擎，配置字幕模式、顺序与播放增强。 ｜ 补齐预览广告清理与 Music 歌词翻译，修复歌曲信息，减少重复翻译和无效播放处理。",
-      "sha256": "abbee9c5b0772d93315c8525806d238d8604063d22f0e4e74dd1a046ee263b0f",
+      "sha256": "05c4be0815e5589f1e14230d8f56eec5c5a10925e67c4c1feba9d1be29139fff",
       "sources": [
         "mitm/YouTubeEnhanceDualSubsFull.amrs"
       ],
-      "encodedBytes": 885651
+      "encodedBytes": 885568
     },
     "zhihu": {
       "path": "modules/ZhihuBlockAD.amod",
