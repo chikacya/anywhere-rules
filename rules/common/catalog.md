@@ -4,12 +4,12 @@
 
 | Name | Rules | Skipped | Description | File |
 | --- | ---: | ---: | --- | --- |
-| Reject | 6197 | 1 | 广告、恶意站点和跟踪拦截基础集合 | [common/Reject.arrs](./Reject.arrs) |
+| Reject | 6656 | 1 | 广告、恶意站点和跟踪拦截基础集合 | [common/Reject.arrs](./Reject.arrs) |
 | Ads_AWAvenue | 978 | 0 | 秋风广告规则 AWAvenue | [common/Ads_AWAvenue.arrs](./Ads_AWAvenue.arrs) |
 | PCDN | 37 | 7 | PCDN 拦截 | [common/PCDN.arrs](./PCDN.arrs) |
 | AI | 64 | 1 | 常见 AI 服务 | [common/AI.arrs](./AI.arrs) |
 | Proxy | 1365 | 2 | 常用代理域名集合 | [common/Proxy.arrs](./Proxy.arrs) |
-| ProxyGFW | 7611 | 1 | GFW 代理集合 | [common/ProxyGFW.arrs](./ProxyGFW.arrs) |
+| ProxyGFW | 7950 | 1 | GFW 代理集合 | [common/ProxyGFW.arrs](./ProxyGFW.arrs) |
 | GFW | 4481 | 0 | GFW 域名列表 | [common/GFW.arrs](./GFW.arrs) |
 | Direct | 34 | 0 | 常用直连补充 | [common/Direct.arrs](./Direct.arrs) |
 | AppleCN | 10 | 0 | 苹果中国和苹果 CDN 直连 | [common/AppleCN.arrs](./AppleCN.arrs) |
@@ -31,7 +31,7 @@
 | Disney | 172 | 2 | Disney+ | [common/Disney.arrs](./Disney.arrs) |
 | Spotify | 29 | 1 | Spotify | [common/Spotify.arrs](./Spotify.arrs) |
 | TikTok | 81 | 2 | TikTok | [common/TikTok.arrs](./TikTok.arrs) |
-| Bilibili | 20 | 0 | Bilibili | [common/Bilibili.arrs](./Bilibili.arrs) |
+| Bilibili | 21 | 0 | Bilibili | [common/Bilibili.arrs](./Bilibili.arrs) |
 | WeChat | 339 | 2 | WeChat | [common/WeChat.arrs](./WeChat.arrs) |
 | ChinaDomain | 872 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
 | CN_Additional | 44611 | 0 | 中国大陆域名补充 | [common/CN_Additional.arrs](./CN_Additional.arrs) |

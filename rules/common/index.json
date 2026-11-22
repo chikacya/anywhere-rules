@@ -1,13 +1,13 @@
 {
   "total_files": 41,
-  "total_rules": 153623,
+  "total_rules": 154422,
   "total_skipped": 74,
   "files": [
     {
       "name": "Reject",
       "description": "广告、恶意站点和跟踪拦截基础集合",
       "output_path": "common/Reject.arrs",
-      "rule_count": 6197,
+      "rule_count": 6656,
       "skipped_count": 1,
       "unsupported_types": {
         "AND": 1
@@ -78,7 +78,7 @@
       "name": "ProxyGFW",
       "description": "GFW 代理集合",
       "output_path": "common/ProxyGFW.arrs",
-      "rule_count": 7611,
+      "rule_count": 7950,
       "skipped_count": 1,
       "unsupported_types": {
         "USER-AGENT": 1
@@ -344,7 +344,7 @@
       "name": "Bilibili",
       "description": "Bilibili",
       "output_path": "common/Bilibili.arrs",
-      "rule_count": 20,
+      "rule_count": 21,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [

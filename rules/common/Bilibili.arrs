@@ -1,7 +1,7 @@
 # NAME: Bilibili
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Bilibili
-# RULES: 20
+# RULES: 21
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list
@@ -23,6 +23,7 @@ routing = 1
 2, bilibili.tv
 2, biligame.com
 2, biligame.net
+2, biliimg.com
 2, biliintl.co
 2, bilivideo.cn
 2, bilivideo.com
