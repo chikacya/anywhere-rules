@@ -2,8 +2,8 @@
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Geosite 中国大陆域名规则
 # GEOSITE-CODE: GEOLOCATION-CN
-# RULES: 5453
-# SOURCE-RULES: 5456
+# RULES: 5454
+# SOURCE-RULES: 5457
 # SKIPPED: 3
 # SKIPPED-TYPES: Regex=3
 # SOURCES:
@@ -2416,6 +2416,7 @@ routing = 1
 2, iboxpay.com
 2, ibuychem.com
 2, icaidao.com
+2, icc.link
 2, iceo.com.cn
 2, ichangtou.com
 2, iciba.com
