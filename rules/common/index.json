@@ -455,57 +455,6 @@
       ]
     },
     {
-      "name": "Emby",
-      "description": "Emby",
-      "output_path": "common/Emby.arrs",
-      "rule_count": 51,
-      "skipped_count": 1,
-      "unsupported_types": {
-        "PROCESS-NAME": 1
-      },
-      "sources": [
-        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list"
-      ]
-    },
-    {
-      "name": "CN_Accelerated",
-      "description": "中国大陆 DNS 加速域名补充",
-      "output_path": "common/CN_Accelerated.arrs",
-      "rule_count": 60275,
-      "skipped_count": 0,
-      "unsupported_types": {},
-      "sources": [
-        "https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf",
-        "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb",
-        "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
-        "https://raw.githubusercontent.com/NodePassProject/Anywhere/main/Shared/DataStore/Rules.db"
-      ]
-    },
-    {
-      "name": "GeoIP_CN",
-      "description": "GeoIP 中国大陆 IP CIDR",
-      "output_path": "common/GeoIP_CN.arrs",
-      "rule_count": 9869,
-      "skipped_count": 0,
-      "unsupported_types": {},
-      "sources": [
-        "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
-      ]
-    },
-    {
-      "name": "Geosite_CN",
-      "description": "Geosite 中国大陆域名规则",
-      "output_path": "common/Geosite_CN.arrs",
-      "rule_count": 5458,
-      "skipped_count": 3,
-      "unsupported_types": {
-        "Regex": 3
-      },
-      "sources": [
-        "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
-      ]
-    },
-    {
       "name": "ChatGPT",
       "description": "OpenAI / ChatGPT / Codex",
       "output_path": "common/ChatGPT.arrs",
@@ -603,6 +552,57 @@
       "unsupported_types": {},
       "sources": [
         "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cursor"
+      ]
+    },
+    {
+      "name": "Emby",
+      "description": "Emby",
+      "output_path": "common/Emby.arrs",
+      "rule_count": 51,
+      "skipped_count": 1,
+      "unsupported_types": {
+        "PROCESS-NAME": 1
+      },
+      "sources": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list"
+      ]
+    },
+    {
+      "name": "CN_Accelerated",
+      "description": "中国大陆 DNS 加速域名补充",
+      "output_path": "common/CN_Accelerated.arrs",
+      "rule_count": 60275,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf",
+        "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb",
+        "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat",
+        "https://raw.githubusercontent.com/NodePassProject/Anywhere/main/Shared/DataStore/Rules.db"
+      ]
+    },
+    {
+      "name": "GeoIP_CN",
+      "description": "GeoIP 中国大陆 IP CIDR",
+      "output_path": "common/GeoIP_CN.arrs",
+      "rule_count": 9869,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+      ]
+    },
+    {
+      "name": "Geosite_CN",
+      "description": "Geosite 中国大陆域名规则",
+      "output_path": "common/Geosite_CN.arrs",
+      "rule_count": 5458,
+      "skipped_count": 3,
+      "unsupported_types": {
+        "Regex": 3
+      },
+      "sources": [
+        "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
       ]
     }
   ]

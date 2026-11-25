@@ -41,10 +41,6 @@
 | Steam | 69 | 0 | Steam | [common/Steam.arrs](./Steam.arrs) |
 | PayPal | 247 | 1 | PayPal | [common/PayPal.arrs](./PayPal.arrs) |
 | Cloudflare | 65 | 0 | Cloudflare | [common/Cloudflare.arrs](./Cloudflare.arrs) |
-| Emby | 51 | 1 | Emby | [common/Emby.arrs](./Emby.arrs) |
-| CN_Accelerated | 60275 | 0 | 中国大陆 DNS 加速域名补充 | [common/CN_Accelerated.arrs](./CN_Accelerated.arrs) |
-| GeoIP_CN | 9869 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |
-| Geosite_CN | 5458 | 3 | Geosite 中国大陆域名规则 | [common/Geosite_CN.arrs](./Geosite_CN.arrs) |
 | ChatGPT | 50 | 2 | OpenAI / ChatGPT / Codex | [common/ChatGPT.arrs](./ChatGPT.arrs) |
 | Claude | 38 | 1 | Anthropic / Claude / Claude Code | [common/Claude.arrs](./Claude.arrs) |
 | Gemini | 51 | 0 | Google AI / Gemini / AI Studio / NotebookLM | [common/Gemini.arrs](./Gemini.arrs) |
@@ -53,3 +49,7 @@
 | Perplexity | 5 | 0 | Perplexity AI | [common/Perplexity.arrs](./Perplexity.arrs) |
 | Copilot | 37 | 2 | GitHub / Microsoft Copilot | [common/Copilot.arrs](./Copilot.arrs) |
 | Cursor | 6 | 0 | Cursor AI editor | [common/Cursor.arrs](./Cursor.arrs) |
+| Emby | 51 | 1 | Emby | [common/Emby.arrs](./Emby.arrs) |
+| CN_Accelerated | 60275 | 0 | 中国大陆 DNS 加速域名补充 | [common/CN_Accelerated.arrs](./CN_Accelerated.arrs) |
+| GeoIP_CN | 9869 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |
+| Geosite_CN | 5458 | 3 | Geosite 中国大陆域名规则 | [common/Geosite_CN.arrs](./Geosite_CN.arrs) |
