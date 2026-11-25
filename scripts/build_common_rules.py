@@ -9,9 +9,11 @@ import json
 import re
 import shutil
 from dataclasses import dataclass, field
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
 
+from ai_sources import AI_RULE_SETS
 from convert_blackmatrix7 import convert_line, fetch_bytes, split_rule_line
 
 
@@ -131,6 +133,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "AppleMusic",
         "description": "Apple Music",
+        "process_names": ["Music"],
         "sources": [
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list",
         ],
@@ -166,6 +169,7 @@ COMMON_RULE_SETS: list[dict[str, object]] = [
     {
         "name": "OneDrive",
         "description": "OneDrive",
+        "process_names": ["OneDrive", "OneDriveUpdater"],
         "sources": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list",
         ],
@@ -470,7 +474,9 @@ def normalize_rule_syntax(line: str) -> str | None:
     return f"{rule_type},{value}"
 
 
-def convert_lines(lines: Iterable[str]) -> tuple[list[tuple[int, str]], dict[str, int]]:
+def convert_lines(
+    lines: Iterable[str], *, process_names: bool = False, allowed_process_names: set[str] | None = None
+) -> tuple[list[tuple[int, str]], dict[str, int]]:
     seen: set[tuple[int, str]] = set()
     rules: list[tuple[int, str]] = []
     unsupported: dict[str, int] = {}
@@ -481,7 +487,22 @@ def convert_lines(lines: Iterable[str]) -> tuple[list[tuple[int, str]], dict[str
         normalized = normalize_rule_syntax(cleaned)
         if normalized is None:
             continue
-        converted, skipped_type = convert_line(normalized)
+        fields = split_rule_line(normalized)
+        if process_names and len(fields) >= 2 and fields[0].upper() == "PROCESS-NAME":
+            value = fields[1].strip()
+            # Anywhere on macOS matches executable names, not Windows paths.
+            normalized_name = value[:-4] if value.lower().endswith(".app") else value
+            if (
+                not normalized_name
+                or any(char in normalized_name for char in "/*?\\")
+                or normalized_name.lower().endswith(".exe")
+                or (allowed_process_names is not None and normalized_name.casefold() not in allowed_process_names)
+            ):
+                converted, skipped_type = None, "PROCESS-NAME"
+            else:
+                converted, skipped_type = (4, normalized_name.lower()), None
+        else:
+            converted, skipped_type = convert_line(normalized)
         if converted is not None and converted[1] in SOURCE_MARKER_DOMAINS:
             continue
         if converted is not None and converted not in seen:
@@ -498,7 +519,75 @@ def fetch_source_lines(source: str) -> list[str]:
         if not path.is_relative_to(REPOSITORY_ROOT):
             raise ValueError(f"Local source must stay inside the repository: {source}")
         return path.read_text(encoding="utf-8-sig").splitlines()
+    if source.startswith(("v2fly:", "v2fly-no-includes:")):
+        prefix, url = source.split(":", 1)
+        return fetch_v2fly_lines(url, follow_includes=prefix == "v2fly")
+    if source.startswith("html-yaml:"):
+        parser = YamlPanelParser()
+        try:
+            parser.feed(fetch_bytes(source.removeprefix("html-yaml:"), token=None).decode("utf-8"))
+            if not parser.lines:
+                raise ValueError(f"No YAML rule panel found in {source}")
+        except (RuntimeError, UnicodeError, ValueError) as exc:
+            if source != "html-yaml:https://ip.net.coffee/claude/site.html":
+                raise
+            print(f"Warning: Claude source unavailable ({exc}); using bundled snapshot.", flush=True)
+            return (REPOSITORY_ROOT / "scripts/sources/claude-netcoffee.list").read_text(encoding="utf-8").splitlines()
+        return "".join(parser.lines).splitlines()
     return fetch_bytes(source, token=None).decode("utf-8-sig", errors="replace").splitlines()
+
+
+class YamlPanelParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.in_panel = False
+        self.in_pre = False
+        self.lines: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag == "div" and dict(attrs).get("data-panel") == "yaml":
+            self.in_panel = True
+        elif tag == "pre" and self.in_panel:
+            self.in_pre = True
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag == "pre" and self.in_pre:
+            self.in_pre = False
+            self.in_panel = False
+
+    def handle_data(self, data: str) -> None:
+        if self.in_pre:
+            self.lines.append(data)
+
+
+def fetch_v2fly_lines(url: str, *, follow_includes: bool, seen: set[str] | None = None) -> list[str]:
+    """Convert v2fly domain-list-community entries to Surge-like rule lines."""
+    if seen is None:
+        seen = set()
+    if url in seen:
+        return []
+    seen.add(url)
+    result: list[str] = []
+    for raw in fetch_bytes(url, token=None).decode("utf-8-sig").splitlines():
+        line = raw.split("#", 1)[0].strip()
+        if not line:
+            continue
+        entry = line.split()[0]
+        if entry.startswith("include:"):
+            name = entry.removeprefix("include:")
+            if follow_includes:
+                if not re.fullmatch(r"[a-zA-Z0-9._-]+", name):
+                    raise ValueError(f"Invalid v2fly include: {name}")
+                result.extend(fetch_v2fly_lines(url.rsplit("/", 1)[0] + "/" + name, follow_includes=True, seen=seen))
+            continue
+        kind, sep, value = entry.partition(":")
+        if not sep:
+            result.append("DOMAIN-SUFFIX," + entry)
+        elif kind in {"full", "domain", "keyword", "regexp"}:
+            result.append({"full": "DOMAIN", "domain": "DOMAIN-SUFFIX", "keyword": "DOMAIN-KEYWORD", "regexp": "DOMAIN-REGEX"}[kind] + "," + value)
+        else:
+            raise ValueError(f"Unsupported v2fly entry: {entry}")
+    return result
 
 
 def write_rule_set_file(
@@ -622,8 +711,14 @@ def build_rule_set(
     for source in sources:
         all_lines.extend(fetch_source_lines(source))
         all_lines.append("")
+    all_lines.extend(str(line) for line in config.get("extra_rules", []))
 
-    rules, unsupported = convert_lines(all_lines)
+    process_allowlist = {str(value).casefold() for value in config.get("process_names", [])}
+    rules, unsupported = convert_lines(
+        all_lines,
+        process_names=config in AI_RULE_SETS or bool(process_allowlist),
+        allowed_process_names=process_allowlist if process_allowlist else None,
+    )
     excluded_values = {
         str(value).lower()
         for value in config.get("excluded_values", [])
@@ -635,7 +730,7 @@ def build_rule_set(
         description,
         rules,
         unsupported,
-        sources,
+        [source.removeprefix("v2fly:").removeprefix("v2fly-no-includes:").removeprefix("html-yaml:") for source in sources],
         output_dir,
         routing,
         preserved_icons,
@@ -660,7 +755,7 @@ def read_converted_rules(path: Path) -> tuple[list[tuple[int, str]], dict[str, i
                     continue
             continue
 
-        match = re.fullmatch(r"([0-3]),\s*(.+)", line)
+        match = re.fullmatch(r"([0-4]),\s*(.+)", line)
         if match:
             rules.append((int(match.group(1)), match.group(2)))
 
@@ -731,7 +826,7 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
 
     built: list[BuiltCommonRuleSet] = []
-    for config in COMMON_RULE_SETS:
+    for config in [*COMMON_RULE_SETS, *AI_RULE_SETS]:
         built.extend(build_rule_set(config, output_dir, preserved_icons))
     for config in COPIED_COMMON_RULE_SETS:
         built.extend(build_copied_rule_set(config, dist, output_dir, preserved_icons))

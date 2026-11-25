@@ -1,9 +1,9 @@
 # NAME: AppleMusic
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: Apple Music
-# RULES: 9
-# SKIPPED: 2
-# SKIPPED-TYPES: PROCESS-NAME=1, USER-AGENT=1
+# RULES: 10
+# SKIPPED: 1
+# SKIPPED-TYPES: USER-AGENT=1
 # SOURCES:
 # - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list
 
@@ -18,3 +18,4 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, applemusic.com
 2, blobstore.apple.com
 2, music.apple.com
+4, music

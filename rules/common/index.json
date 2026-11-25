@@ -1,7 +1,7 @@
 {
-  "total_files": 41,
-  "total_rules": 154427,
-  "total_skipped": 74,
+  "total_files": 49,
+  "total_rules": 154634,
+  "total_skipped": 76,
   "files": [
     {
       "name": "Reject",
@@ -166,11 +166,10 @@
       "name": "AppleMusic",
       "description": "Apple Music",
       "output_path": "common/AppleMusic.arrs",
-      "rule_count": 9,
-      "skipped_count": 2,
+      "rule_count": 10,
+      "skipped_count": 1,
       "unsupported_types": {
-        "USER-AGENT": 1,
-        "PROCESS-NAME": 1
+        "USER-AGENT": 1
       },
       "sources": [
         "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleMusic/AppleMusic.list"
@@ -224,11 +223,9 @@
       "name": "OneDrive",
       "description": "OneDrive",
       "output_path": "common/OneDrive.arrs",
-      "rule_count": 15,
-      "skipped_count": 2,
-      "unsupported_types": {
-        "PROCESS-NAME": 2
-      },
+      "rule_count": 17,
+      "skipped_count": 0,
+      "unsupported_types": {},
       "sources": [
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list"
       ]
@@ -506,6 +503,106 @@
       },
       "sources": [
         "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat"
+      ]
+    },
+    {
+      "name": "ChatGPT",
+      "description": "OpenAI / ChatGPT / Codex",
+      "output_path": "common/ChatGPT.arrs",
+      "rule_count": 50,
+      "skipped_count": 2,
+      "unsupported_types": {
+        "IP-ASN": 1,
+        "DOMAIN-REGEX": 1
+      },
+      "sources": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list",
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/openai"
+      ]
+    },
+    {
+      "name": "Claude",
+      "description": "Anthropic / Claude / Claude Code",
+      "output_path": "common/Claude.arrs",
+      "rule_count": 38,
+      "skipped_count": 1,
+      "unsupported_types": {
+        "IP-ASN": 1
+      },
+      "sources": [
+        "https://ip.net.coffee/claude/site.html",
+        "https://raw.githubusercontent.com/xiaolai/anthropic-claude-surge-rules-set/main/anthropic.list",
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic"
+      ]
+    },
+    {
+      "name": "Gemini",
+      "description": "Google AI / Gemini / AI Studio / NotebookLM",
+      "output_path": "common/Gemini.arrs",
+      "rule_count": 51,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list",
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-deepmind"
+      ]
+    },
+    {
+      "name": "Grok",
+      "description": "xAI / Grok",
+      "output_path": "common/Grok.arrs",
+      "rule_count": 5,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/xai"
+      ]
+    },
+    {
+      "name": "Muse",
+      "description": "Meta Muse / Meta AI",
+      "output_path": "common/Muse.arrs",
+      "rule_count": 12,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/meta"
+      ]
+    },
+    {
+      "name": "Perplexity",
+      "description": "Perplexity AI",
+      "output_path": "common/Perplexity.arrs",
+      "rule_count": 5,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity"
+      ]
+    },
+    {
+      "name": "Copilot",
+      "description": "GitHub / Microsoft Copilot",
+      "output_path": "common/Copilot.arrs",
+      "rule_count": 37,
+      "skipped_count": 2,
+      "unsupported_types": {
+        "IP-ASN": 2
+      },
+      "sources": [
+        "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Copilot/Copilot.list",
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot"
+      ]
+    },
+    {
+      "name": "Cursor",
+      "description": "Cursor AI editor",
+      "output_path": "common/Cursor.arrs",
+      "rule_count": 6,
+      "skipped_count": 0,
+      "unsupported_types": {},
+      "sources": [
+        "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cursor"
       ]
     }
   ]

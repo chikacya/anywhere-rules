@@ -16,12 +16,12 @@
 | AppleProxy | 39 | 6 | 需要代理的苹果服务 | [common/AppleProxy.arrs](./AppleProxy.arrs) |
 | Apple | 44 | 23 | 苹果基础服务 | [common/Apple.arrs](./Apple.arrs) |
 | AppleServices | 18 | 8 | 苹果系统服务 | [common/AppleServices.arrs](./AppleServices.arrs) |
-| AppleMusic | 9 | 2 | Apple Music | [common/AppleMusic.arrs](./AppleMusic.arrs) |
+| AppleMusic | 10 | 1 | Apple Music | [common/AppleMusic.arrs](./AppleMusic.arrs) |
 | Google | 25 | 0 | Google 服务 | [common/Google.arrs](./Google.arrs) |
 | YouTube | 14 | 0 | YouTube | [common/YouTube.arrs](./YouTube.arrs) |
 | Microsoft | 79 | 0 | Microsoft 服务 | [common/Microsoft.arrs](./Microsoft.arrs) |
 | GitHub | 6 | 0 | GitHub | [common/GitHub.arrs](./GitHub.arrs) |
-| OneDrive | 15 | 2 | OneDrive | [common/OneDrive.arrs](./OneDrive.arrs) |
+| OneDrive | 17 | 0 | OneDrive | [common/OneDrive.arrs](./OneDrive.arrs) |
 | Telegram | 46 | 5 | Telegram 域名与 IP | [common/Telegram.arrs](./Telegram.arrs) |
 | Telegram_NoIP | 30 | 0 | Telegram 域名，不含 IP | [common/Telegram_NoIP.arrs](./Telegram_NoIP.arrs) |
 | Twitter | 12 | 0 | X / Twitter | [common/Twitter.arrs](./Twitter.arrs) |
@@ -45,3 +45,11 @@
 | CN_Accelerated | 60275 | 0 | 中国大陆 DNS 加速域名补充 | [common/CN_Accelerated.arrs](./CN_Accelerated.arrs) |
 | GeoIP_CN | 9869 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |
 | Geosite_CN | 5458 | 3 | Geosite 中国大陆域名规则 | [common/Geosite_CN.arrs](./Geosite_CN.arrs) |
+| ChatGPT | 50 | 2 | OpenAI / ChatGPT / Codex | [common/ChatGPT.arrs](./ChatGPT.arrs) |
+| Claude | 38 | 1 | Anthropic / Claude / Claude Code | [common/Claude.arrs](./Claude.arrs) |
+| Gemini | 51 | 0 | Google AI / Gemini / AI Studio / NotebookLM | [common/Gemini.arrs](./Gemini.arrs) |
+| Grok | 5 | 0 | xAI / Grok | [common/Grok.arrs](./Grok.arrs) |
+| Muse | 12 | 0 | Meta Muse / Meta AI | [common/Muse.arrs](./Muse.arrs) |
+| Perplexity | 5 | 0 | Perplexity AI | [common/Perplexity.arrs](./Perplexity.arrs) |
+| Copilot | 37 | 2 | GitHub / Microsoft Copilot | [common/Copilot.arrs](./Copilot.arrs) |
+| Cursor | 6 | 0 | Cursor AI editor | [common/Cursor.arrs](./Cursor.arrs) |

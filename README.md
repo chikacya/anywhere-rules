@@ -46,6 +46,14 @@ Suggested targets are only a starting point. Pick the policy that matches your o
 | `Ads_AWAvenue` | 899 | `REJECT` | AWAvenue ad-blocking rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAds_AWAvenue.arrs) |
 | `PCDN` | 37 | `REJECT` | Blocks PCDN and P2P CDN domains. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FPCDN.arrs) |
 | `AI` | 49 | Proxy | Common AI services. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAI.arrs) |
+| `ChatGPT` | 50 | As needed | OpenAI / ChatGPT / Codex | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChatGPT.arrs) |
+| `Claude` | 38 | As needed | Anthropic / Claude | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FClaude.arrs) |
+| `Gemini` | 51 | As needed | Google AI / Gemini | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGemini.arrs) |
+| `Grok` | 5 | As needed | xAI / Grok | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGrok.arrs) |
+| `Muse` | 12 | As needed | Meta Muse / Meta AI | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FMuse.arrs) |
+| `Perplexity` | 5 | As needed | Perplexity AI | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FPerplexity.arrs) |
+| `Copilot` | 37 | As needed | GitHub / Microsoft Copilot | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCopilot.arrs) |
+| `Cursor` | 6 | As needed | Cursor AI | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCursor.arrs) |
 | `Proxy` | 1559 | Proxy | General proxy-domain collection. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FProxy.arrs) |
 | `ProxyGFW` | 7597 | Proxy | Broad GFW proxy collection. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FProxyGFW.arrs) |
 | `GFW` | 4253 | Proxy | GFW domain list. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGFW.arrs) |
@@ -54,12 +62,12 @@ Suggested targets are only a starting point. Pick the policy that matches your o
 | `AppleProxy` | 39 | Proxy | Apple services that usually need a proxy. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleProxy.arrs) |
 | `Apple` | 44 | As needed | Basic Apple service rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FApple.arrs) |
 | `AppleServices` | 17 | As needed | Apple system service rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleServices.arrs) |
-| `AppleMusic` | 9 | As needed | Apple Music rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleMusic.arrs) |
+| `AppleMusic` | 10 | As needed | Apple Music rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleMusic.arrs) |
 | `Google` | 25 | Proxy | Google services. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGoogle.arrs) |
 | `YouTube` | 14 | Proxy | YouTube rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FYouTube.arrs) |
 | `Microsoft` | 79 | As needed | Microsoft services. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FMicrosoft.arrs) |
 | `GitHub` | 6 | As needed | GitHub rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGitHub.arrs) |
-| `OneDrive` | 15 | As needed | OneDrive rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FOneDrive.arrs) |
+| `OneDrive` | 17 | As needed | OneDrive rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FOneDrive.arrs) |
 | `Telegram` | 45 | Proxy | Telegram domains and IP ranges. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTelegram.arrs) |
 | `Telegram_NoIP` | 30 | Proxy | Telegram domains only, without IP ranges. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTelegram_NoIP.arrs) |
 | `Twitter` | 12 | Proxy | X / Twitter rules. | [Import](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTwitter.arrs) |
@@ -94,7 +102,11 @@ GitHub Actions runs the regular rule generation workflow daily. Scheduled update
 
 ## Notes
 
-Anywhere routing rule sets currently support domain suffix, domain keyword, IPv4 CIDR, and IPv6 CIDR. Unsupported upstream rule types are skipped during conversion.
+Anywhere routing rule sets support domain suffix, domain keyword, IPv4 and IPv6 CIDR, and process names. The separate AI rule sets and selected common sets include process names for macOS; these rules do not match on iOS. Unsupported upstream rule types are skipped during conversion.
+
+The separate AI sets aggregate upstream sources selected with reference to [VPSDance/ai-proxy-rules](https://github.com/VPSDance/ai-proxy-rules); the existing `AI` set remains a general fallback. Some upstream sources contain shared domains and IP ranges. On macOS, process rules take priority over domain and IP routing; for domain and IP matches, Anywhere uses routing tiers and specificity, with list order resolving identical patterns within a tier. See the [routing documentation](https://github.com/NodePassProject/Anywhere/blob/main/Documentations/Routing.md) for details.
+
+The Claude source at Net.Coffee uses a bundled snapshot if the live page cannot be fetched. Anywhere has no exact-domain rule type, so upstream exact domains are converted to domain suffixes and also match subdomains.
 
 Each custom Anywhere rule set can contain at most 100,000 rules. This repository automatically splits larger generated rule sets into numbered parts.
 
