@@ -51,5 +51,5 @@
 | Cursor | 6 | 0 | Cursor AI editor | [common/Cursor.arrs](./Cursor.arrs) |
 | Emby | 51 | 1 | Emby | [common/Emby.arrs](./Emby.arrs) |
 | CN_Accelerated | 60275 | 0 | 中国大陆 DNS 加速域名补充 | [common/CN_Accelerated.arrs](./CN_Accelerated.arrs) |
-| GeoIP_CN | 9869 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |
+| GeoIP_CN | 9939 | 0 | GeoIP 中国大陆 IP CIDR | [common/GeoIP_CN.arrs](./GeoIP_CN.arrs) |
 | Geosite_CN | 5458 | 3 | Geosite 中国大陆域名规则 | [common/Geosite_CN.arrs](./Geosite_CN.arrs) |
