@@ -307,12 +307,12 @@
       "primary": "mitm/WangyiyunBlockADArg.amrs",
       "name": "网易云音乐去广告",
       "description": "来源：@ios151 ｜ 净化网易云音乐广告与推广，自定义首页及标签栏。 可配置标签显隐与名称，以及首页卡片和顶部入口。",
-      "sha256": "2ac1bb6a6933395e201e2c4aec085d51dcc5ad3e4742a5ab70147c9233c3712b",
+      "sha256": "056a04cb3775cf2d8c5006fe887af67ee038222a8f987b8dbe523953a07c3b9b",
       "sources": [
         "mitm/WangyiyunBlockADArg.amrs",
         "mitm/WangyiyunReject.arrs"
       ],
-      "encodedBytes": 46513
+      "encodedBytes": 51084
     },
     "pinduoduo": {
       "path": "modules/PinduoduoBlockAD.amod",
