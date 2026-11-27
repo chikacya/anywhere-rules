@@ -35,7 +35,7 @@
 | WeChat | 339 | 2 | WeChat | [common/WeChat.arrs](./WeChat.arrs) |
 | ChinaDomain | 872 | 4 | 中国大陆常见域名直连 | [common/ChinaDomain.arrs](./ChinaDomain.arrs) |
 | CN_Additional | 44611 | 0 | 中国大陆域名补充 | [common/CN_Additional.arrs](./CN_Additional.arrs) |
-| ChinaIP | 9665 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
+| ChinaIP | 9735 | 0 | 中国大陆 IP CIDR | [common/ChinaIP.arrs](./ChinaIP.arrs) |
 | Lan | 14 | 0 | 局域网和私有地址 | [common/Lan.arrs](./Lan.arrs) |
 | Game | 612 | 0 | 游戏平台集合 | [common/Game.arrs](./Game.arrs) |
 | Steam | 69 | 0 | Steam | [common/Steam.arrs](./Steam.arrs) |
