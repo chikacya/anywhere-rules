@@ -1,6 +1,6 @@
 {
   "total_files": 49,
-  "total_rules": 154774,
+  "total_rules": 154776,
   "total_skipped": 76,
   "files": [
     {
@@ -48,7 +48,7 @@
       "name": "AI",
       "description": "常见 AI 服务",
       "output_path": "common/AI.arrs",
-      "rule_count": 64,
+      "rule_count": 63,
       "skipped_count": 1,
       "unsupported_types": {
         "URL-REGEX": 1
@@ -92,7 +92,7 @@
       "name": "GFW",
       "description": "GFW 域名列表",
       "output_path": "common/GFW.arrs",
-      "rule_count": 4481,
+      "rule_count": 4484,
       "skipped_count": 0,
       "unsupported_types": {},
       "sources": [

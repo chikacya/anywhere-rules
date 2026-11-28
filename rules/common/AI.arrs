@@ -1,7 +1,7 @@
 # NAME: AI
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 常见 AI 服务
-# RULES: 64
+# RULES: 63
 # SKIPPED: 1
 # SKIPPED-TYPES: URL-REGEX=1
 # SOURCES:
@@ -54,7 +54,6 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, aistudio.google.com
 2, generativeai.google
 2, aicode.googleapis.com
-2, inference.codeium.com
 2, makersuite.google.com
 2, notebooklm.google.com
 2, antigravity-unleash.goog

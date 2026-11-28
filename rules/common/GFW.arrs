@@ -1,7 +1,7 @@
 # NAME: GFW
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: GFW 域名列表
-# RULES: 4481
+# RULES: 4484
 # SKIPPED: 0
 # SOURCES:
 # - https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/release/gfw.txt
@@ -143,6 +143,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, agro.hk
 2, ai.dev
 2, ai.studio
+2, aicu.cc
 2, aidc.com.tw
 2, aihub.top
 2, aiosearch.com
@@ -969,6 +970,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, daliulian.org
 2, danbooru.donmai.us
 2, danke4china.net
+2, danmakus.com
 2, darmau.co
 2, darpa.mil
 2, darrenliuwei.com
@@ -3427,6 +3429,7 @@ icon-light = iVBORw0KGgoAAAANSUhEUgAAAJAAAACQCAYAAADnRuK4AAAAAXNSR0IArs4c6QAAAAl
 2, southnews.com.tw
 2, southpark.cc.com
 2, sowers.org.hk
+2, spacedesk.net
 2, spaceforce.mil
 2, spaces.hightail.com
 2, spacex.com
