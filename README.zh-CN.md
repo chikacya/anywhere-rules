@@ -1,6 +1,6 @@
 # Anywhere Rules
 
-适用于 [Anywhere](https://github.com/NodePassProject/Anywhere) 的规则库，基于公开规则源转换为可导入的 `.arrs` 和 `.amrs` 文件。
+适用于 [Anywhere](https://github.com/NodePassProject/Anywhere) 的路由规则、MITM 规则和模块，基于公开来源维护与转换。
 
 [English](README.md)
 
@@ -10,105 +10,26 @@
 
 ## 内容
 
-- `rules/common/`：常用路由规则集。
-- `rules/all/`：blackmatrix7 全量转换路由规则集，超过 100,000 条的规则会自动切片。
-- `mitm/`：实验性 MITM 规则集及相关 Reject 规则集。
+- [`rules/common/`](rules/common/)：面向常用服务和场景的路由规则集（`.arrs`）。
+- [`rules/all/`](rules/all/)：从 blackmatrix7 转换的路由规则集（`.arrs`）；大型规则集会拆成编号分片。
+- [`mitm/`](mitm/)：独立的 MITM 规则集（`.amrs`）及配套路由规则集（`.arrs`）。
+- [`modules/`](modules/)：整合 MITM 规则及配套路由规则的模块（`.amod`）。
+- [`hub/`](hub/)：供 Anywhere Hub 使用的目录元数据。
+- [`scripts/`](scripts/)：规则转换与目录生成脚本。
 
 ## 使用
 
-### 路由规则
+前往 [Anywhere Hub](https://anywhere-hub.chikacya.indevs.in/) 浏览路由规则和 MITM 模块，并导入 Anywhere。服务相关信息可查看 [Anywhere Hub 仓库](https://github.com/chikacya/anywhere-hub)。
 
-点击导入链接会先打开一个 HTTPS 跳转页，再通过 `anywhere://add-rule-set` deep link 唤起 Anywhere。
+导入路由规则后，请根据自己的配置选择策略。部分规则集会指定初始路由策略，其他规则集需要在 Anywhere 中分配策略。
 
-```text
-https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAI.arrs
-```
-
-部分规则集带有 `routing` header，导入后 Anywhere 会自动分配初始策略。其他规则集仍保持 Default，需要在 App 内选择 `DIRECT`、`REJECT` 或代理策略。
-
-GitHub README 不会保留可点击的自定义 `anywhere://` 链接，所以下方表格使用 `https://chikacya.github.io/anywhere-rules/import.html` 作为可点击入口。
-
-### MITM 规则
-
-MITM 规则为实验性内容，仅供学习交流。
-
-将 `.amrs` 文件导入 Anywhere 的 MITM 规则集。部分 MITM 规则还需要搭配 Reject 规则，例如将 `mitm/DomainReject.arrs` 作为路由规则集导入，并分配给 `REJECT`。
-
-请只在你有权检查的流量上启用 MITM。
-
-## 常用规则
-
-推荐策略只是起点，请按自己的代理配置调整。
-
-| 规则 | 数量 | 建议策略 | 用途 | 导入 |
-| --- | ---: | --- | --- | --- |
-| `Reject` | 6204 | `REJECT` | 广告、恶意站点和跟踪拦截基础集合。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FReject.arrs) |
-| `Ads_AWAvenue` | 899 | `REJECT` | 秋风广告规则 AWAvenue。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAds_AWAvenue.arrs) |
-| `PCDN` | 37 | `REJECT` | PCDN 与 P2P CDN 域名拦截。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FPCDN.arrs) |
-| `AI` | 49 | 代理 | 常见 AI 服务。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAI.arrs) |
-| `ChatGPT` | 50 | 按需 | OpenAI / ChatGPT / Codex | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChatGPT.arrs) |
-| `Claude` | 38 | 按需 | Anthropic / Claude | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FClaude.arrs) |
-| `Gemini` | 51 | 按需 | Google AI / Gemini | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGemini.arrs) |
-| `Grok` | 5 | 按需 | xAI / Grok | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGrok.arrs) |
-| `Muse` | 12 | 按需 | Meta Muse / Meta AI | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FMuse.arrs) |
-| `Perplexity` | 5 | 按需 | Perplexity AI | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FPerplexity.arrs) |
-| `Copilot` | 37 | 按需 | GitHub / Microsoft Copilot | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCopilot.arrs) |
-| `Cursor` | 6 | 按需 | Cursor AI | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCursor.arrs) |
-| `Proxy` | 1559 | 代理 | 常用代理域名集合。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FProxy.arrs) |
-| `ProxyGFW` | 7597 | 代理 | GFW 代理集合。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FProxyGFW.arrs) |
-| `GFW` | 4253 | 代理 | GFW 域名列表。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGFW.arrs) |
-| `Direct` | 36 | `DIRECT` | 常用直连补充。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FDirect.arrs) |
-| `AppleCN` | 9 | `DIRECT` | 苹果中国和苹果 CDN 直连。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleCN.arrs) |
-| `AppleProxy` | 39 | 代理 | 通常需要代理的苹果服务。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleProxy.arrs) |
-| `Apple` | 44 | 按需 | 苹果基础服务。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FApple.arrs) |
-| `AppleServices` | 17 | 按需 | 苹果系统服务。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleServices.arrs) |
-| `AppleMusic` | 10 | 按需 | Apple Music。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FAppleMusic.arrs) |
-| `Google` | 25 | 代理 | Google 服务。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGoogle.arrs) |
-| `YouTube` | 14 | 代理 | YouTube。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FYouTube.arrs) |
-| `Microsoft` | 79 | 按需 | Microsoft 服务。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FMicrosoft.arrs) |
-| `GitHub` | 6 | 按需 | GitHub。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGitHub.arrs) |
-| `OneDrive` | 17 | 按需 | OneDrive。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FOneDrive.arrs) |
-| `Telegram` | 45 | 代理 | Telegram 域名与 IP。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTelegram.arrs) |
-| `Telegram_NoIP` | 30 | 代理 | Telegram 域名，不含 IP。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTelegram_NoIP.arrs) |
-| `Twitter` | 12 | 代理 | X / Twitter。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTwitter.arrs) |
-| `Instagram` | 4 | 代理 | Instagram。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FInstagram.arrs) |
-| `Facebook` | 21 | 代理 | Facebook。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FFacebook.arrs) |
-| `Netflix` | 40 | 代理 | Netflix。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FNetflix.arrs) |
-| `Disney` | 172 | 代理 | Disney+。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FDisney.arrs) |
-| `Spotify` | 29 | 代理 | Spotify。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FSpotify.arrs) |
-| `TikTok` | 81 | 代理 | TikTok。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FTikTok.arrs) |
-| `Bilibili` | 20 | `DIRECT` | Bilibili。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FBilibili.arrs) |
-| `Emby` | 51 | 按需 | 从 blackmatrix7 转换的 Emby 规则。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FEmby.arrs) |
-| `WeChat` | 339 | `DIRECT` | WeChat。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FWeChat.arrs) |
-| `ChinaDomain` | 857 | `DIRECT` | 中国大陆常见域名直连。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChinaDomain.arrs) |
-| `CN_Additional` | 43245 | `DIRECT` | 中国大陆域名补充。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCN_Additional.arrs) |
-| `Geosite_CN` | 4733 | `DIRECT` | 从 geosite.dat 的 `GEOLOCATION-CN` 提取的中国大陆域名。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGeosite_CN.arrs) |
-| `CN_Accelerated` | 63338 | `DIRECT` | 基于 dnsmasq-china-list 并经 DNS 验证的中国大陆域名补充。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCN_Accelerated.arrs) |
-| `ChinaIP` | 5711 | `DIRECT` | 中国大陆 IP CIDR。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FChinaIP.arrs) |
-| `GeoIP_CN` | 5946 | `DIRECT` | 从 Country.mmdb 提取的中国大陆 IP CIDR。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGeoIP_CN.arrs) |
-| `Lan` | 8 | `DIRECT` | 局域网和私有地址。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FLan.arrs) |
-| `Game` | 597 | 按需 | 游戏平台集合。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FGame.arrs) |
-| `Steam` | 54 | 按需 | Steam。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FSteam.arrs) |
-| `PayPal` | 247 | 按需 | PayPal。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FPayPal.arrs) |
-| `Cloudflare` | 65 | 按需 | Cloudflare。 | [导入](https://chikacya.github.io/anywhere-rules/import.html?link=https%3A%2F%2Fraw.githubusercontent.com%2Fchikacya%2Fanywhere-rules%2Fmain%2Frules%2Fcommon%2FCloudflare.arrs) |
-
-## CN_Accelerated
-
-`CN_Accelerated` 基于 dnsmasq-china-list 的 `accelerated-domains.china.conf` 生成，并再次通过中国 DNS 与 Country.mmdb 验证解析结果是否落在中国大陆 IP。生成时会排除 Anywhere 内置 CN 规则、`Geosite_CN` 和 geosite.dat 的 `GEOLOCATION-!CN`，用于在不重复主要 CN 规则集的前提下，补充 Anywhere no-resolve 路由下 GeoIP CN 无法接住的域名，尤其适合需要访问非高频中国域名的用户。
-
-## 更新
-
-GitHub Actions 每天定时运行常规规则生成任务。由于目前无法取得最新版 Anywhere 内置规则数据库，`CN_Accelerated` 已暂停定期更新；现有规则仍可使用。
+MITM 模块可以同时包含 MITM 规则及配套路由规则。如果此前已单独导入相同规则，请停用旧副本，避免重复匹配。MITM 规则为实验性内容，仅供学习交流；请只在有权检查的流量上启用。
 
 ## 说明
 
-Anywhere 路由规则集支持域名后缀、域名关键词、IPv4/IPv6 CIDR 和进程名。独立 AI 规则集和部分 Common Rules 包含 macOS 进程名规则；进程名在 iOS 上不会匹配。上游不支持的规则类型会在转换时跳过。
+Anywhere 路由规则支持域名后缀、域名关键词、IPv4/IPv6 CIDR 和进程名；进程名规则仅在 macOS 匹配。无法用 Anywhere 等价表达的上游规则类型会在转换时跳过；精确域名会转换为后缀规则，也会匹配子域名。匹配方式详见 [Anywhere 路由文档](https://github.com/NodePassProject/Anywhere/blob/main/Documentations/Routing.md)。
 
-独立 AI 规则集参考 [VPSDance/ai-proxy-rules](https://github.com/VPSDance/ai-proxy-rules) 选择并整合原始上游；现有 `AI` 规则集继续作为综合兜底。部分来源包含多个服务共享的域名或 IP。在 macOS 上，进程规则优先于域名和 IP；域名及 IP 规则按 Anywhere 的层级和匹配精度决定，同层完全相同的规则再由列表顺序决定。详见 [Anywhere 路由文档](https://github.com/NodePassProject/Anywhere/blob/main/Documentations/Routing.md)。
-
-Claude 的 Net.Coffee 来源无法获取时，生成器会使用仓库内的快照。Anywhere 没有精确域名规则类型，上游精确域名会转换为域名后缀，也会匹配子域名。
-
-Anywhere 单个自定义规则集最多 100,000 条规则。本仓库会自动将超限规则集拆成编号分片。
+单个自定义路由规则集最多包含 100,000 条规则；超过限制的生成规则集会拆成编号分片。
 
 ## 致谢
 
